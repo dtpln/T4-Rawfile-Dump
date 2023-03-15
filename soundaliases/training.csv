@@ -1,0 +1,60 @@
+name,platform,file,sequence,vol_min,vol_max,dist_min,dist_max,limit_count,limit_type,entity_limit_count,entity_limit_type,bus,volume_min_falloff_curve,volumefalloffcurve,reverb_send,dist_reverb_max,reverb_min_falloff_curve,reverb_falloff_curve,pitch_min,pitch_max,randomize_type,spatialized,type,probability,loop,masterslave,loadspec,subtitle,compression,secondaryaliasname,chainaliasname,startdelay,speakermap,lfe percentage,center percentage,envelop_min,envelop_max,envelop percentage,headset capable,min_priority,max_priority,min_priority_threshold,max_priority_threshold
+
+# Background Tracks,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+bgt_wind,,Stream\Backgrounds\Wind\light_wind\light_wind.wav,,0.25,,,,,,,,ambient,,,,,,,,,,2d,streamed,,looping,,,,,,,,music,,,,,,,100,100,0.25,1
+#bgt_wind_interior,,Stream/Level/Pel2/bunker/BG_Bunker.wav,,0.55,,,,,,,,ambient,,,,,,,,,,2d,streamed,,looping,,,,,,,,music,,,,,,,100,100,0.25,1
+MX_Cave_Stinger,,Stream/Music/Mission/L_Battlefield/cave_stinger.wav,,0.85,,,,,,,,music,,,,,,,,,,2d,streamed,,,,,,,,,500,music,,,,,,,,,,
+Miss_Annabelle,,SFX/Amb/Global/Phonograph/Miss_Annabelle_Lee_filter.wav,,0.15,0.15,1,1400,,,,,auto,,curve4,,1800,,curve3,1,1,,3d,,,looping,,,,,,,,,,,,,,,,,,
+
+
+# Ambient SFX - Static,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ocean_left,,Stream\Level\training\ocean\ocean_waves_00.wav,,0.45,0.55,10,3000,,,,,auto,,,,,,,0.9,1.1,,3d,streamed,,looping,,,,,,,,,,,,,,,100,100,0.25,1
+ocean_right,,Stream\Level\training\ocean\ocean_waves_01.wav,,0.45,0.55,10,3000,,,,,auto,,,,,,,0.9,1.1,,3d,streamed,,looping,,,,,,,,,,,,,,,100,100,0.25,1
+ocean_oneshot,,SFX\Levels\training\ocean_oneshots_##,,0.25,0.45,10,3250,,,,,auto,,,,,,,0.9,1.1,,3d,,,,,,,,,,,,,,,,,,10,60,0.25,0.8
+ocean_steady_l,,SFX\Levels\training\ocean_left_channel.wav,,0.25,0.35,10,4000,,,,,auto,,,,,,,0.9,1.1,,3d,streamed,,looping,,,,,,,,,,,,,,,100,100,0.25,1
+ocean_steady_r,,SFX\Levels\training\ocean_right_channel.wav,,0.25,0.35,10,4000,,,,,auto,,,,,,,0.9,1.1,,3d,streamed,,looping,,,,,,,,,,,,,,,100,100,0.25,1
+
+#mono_wind,,SFX/Levels/Peleliu_2/wind_bunker/wind_bunker_loop.wav,,0.85,0.85,100,150,,,,,auto,,,,,,,0.9,1.1,,3d,,,looping,,,,,,,,,,,,,,,10,50,0.25,0.8
+wind_gust_tree,,SFX/Amb/Wind/leaves_##,,0.4,0.65,100,1000,,,,,auto,,,,2250,,curve2,0.9,1.1,,3d,,,,,,,,bird_tree,,,,,,,,,,10,50,0.25,0.8
+
+#cave_wind_static,,SFX\Amb\Wind\gusts\thrugrass\thrugrass_06.wav,,0.45,0.45,10,1500,,,,,auto,,,,,,,0.9,0.9,,3d,streamed,,looping,,,,,,,,,,,,,,,100,100,0.25,1
+wind_cave,,SFX\Amb\Wind\gusts\thrugrass\thrugrass_06.wav,,0.75,0.75,10,1000,,,,,auto,,curve2,,,,,1,1,,3d,streamed,,looping,,,,,,,,,,,50,100,0.25,,100,100,0.25,1
+quiet_stream,,SFX\Amb\water\stream\quiet_stream.wav,,1,1,10,1000,,,,,auto,,,,2000,,curve2,0.9,1.1,,3d,streamed,,looping,,,,,,,,,,,100,500,0.5,,100,100,0.25,1
+
+# Ambient SFX - Spawned,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# Day Package,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+amb_bugs_cicada,,SFX/Amb/animals/cicada_##,,0.1,0.15,1,150,,,,,auto,,,,,,,0.9,1.1,,3d,,,,,,,,,,,,,,,,,,5,10,0.25,1
+amb_flies,,SFX/Amb/animals/flies_##,,0.15,0.25,1,400,,,,,auto,,curve2,,,,,0.9,1.05,,3d,,,,,,,,,,,,,,,,,,5,10,0.25,1
+amb_bugs_other,,SFX/Amb/animals/misc_bug_##,,0.15,0.25,250,2500,,,,,auto,,,,,,,0.9,1.1,,3d,,,,,,,,,,,,,,,,,,5,10,0.25,1
+amb_rodents,,SFX/Amb/animals/Rodents_##,,0.9,1,250,2500,,,,,auto,,,,,,,0.9,1.1,,3d,,,,,,,,,,,,,,,,,,5,10,0.25,1
+amb_raven,,SFX/Amb/animals/raven_##,,0.5,0.8,10,1000,,,,,auto,,,,,,,0.9,1.1,,3d,,,,,,,,,,,,,,,,,,5,10,0.25,1
+amb_bird,,SFX/Amb/animals/Old/Bird_Wren.wav,1,0.2,0.4,10,1000,,,,,auto,,,,,,,0.9,1.1,,3d,,,,,,,,,,,,,,,,,,5,10,0.25,1
+amb_bird,,SFX/Amb/animals/Old/Bird_Finch.wav,2,0.2,0.4,10,1000,,,,,auto,,,,,,,0.9,1.1,,3d,,,,,,,,,,,,,,,,,,5,10,0.25,1
+amb_bird,,SFX/Amb/animals/Old/Bird_Generic.wav,3,0.2,0.4,10,1000,,,,,auto,,,,,,,0.9,1.1,,3d,,,,,,,,,,,,,,,,,,5,10,0.25,1
+amb_bird,,SFX/Amb/animals/Old/Bird_Sparrow.wav,4,0.2,0.4,10,1000,,,,,auto,,,,,,,0.9,1.1,,3d,,,,,,,,,,,,,,,,,,5,10,0.25,1
+amb_mosquito,,SFX/Amb/animals/mosquito_mn/mosquito_mn_00.wav,,0.5,0.8,10,1000,,,,,auto,,,,,,,0.9,1.1,,3d,,,,,,,,,,,,,,,,,,5,10,0.25,1
+amb_seagull,,SFX/Amb/animals/seagull_##,,0.35,0.58,1,1500,,,,,auto,,,,,,,0.9,1.1,,3d,,,,,,,,,,,,,,,,,,5,10,0.25,1
+amb_crickets,,SFX\Amb\animals\insects_##,,0.1,0.35,10,800,,,,,auto,,,,,,,0.9,1.1,,3d,,,,,,,,,,,,,,,,,,5,10,0.25,1
+amb_odd_bug,,SFX/Amb/animals/Odd_Bug_##,,0.1,0.2,10,700,,,,,auto,,,,,,,0.9,1.1,,3d,,,,,,,,,,,,,,,,,,5,10,0.25,1
+
+bird_tree,,SFX\Amb\birds\random_##,,0.15,0.35,10,1200,,,,,auto,,curve2,,3000,,curve1,0.92,1.04,,3d,,,,,,,,,,250,,,,,,,,5,10,0.25,1
+flag_pole,,SFX\Levels\training\flagpole_##,,0.9,1,1,800,,,,,special,,curve2,,,,,0.9,1.05,,3d,,,,,,,,,,,,,,,,,,5,10,0.25,1
+flag_wave,,SFX\Levels\training\flagwave_##,,0.9,1,1,1000,,,,,special,,curve2,,,,,0.9,1.05,,3d,,,,,,,,,,,,,,,,,,5,10,0.25,1
+
+amb_mosquito_placed,,SFX\Amb\animals\mosquito_mn\mosquito_mn_00.wav,1,0.8,1,200,900,,,,,special,,curve1,,,,,0.9,1.1,,3d,,,,,,,,,,,,,,,,,,5,10,0.25,1
+amb_mosquito_placed,,SFX\Amb\animals\mosquito_mn\mosquito_mn_01.wav,2,0.8,1,200,900,,,,,special,,curve1,,,,,0.9,1.1,,3d,,,,,,,,,,,,,,,,,,5,10,0.25,1
+amb_mosquito_placed,,SFX\Amb\animals\mosquito_mn\mosquito_mn_02.wav,3,0.8,1,200,900,,,,,special,,curve1,,,,,0.9,1.1,,3d,,,,,,,,,,,,,,,,,,5,10,0.25,1
+amb_mosquito_placed,,SFX\Amb\animals\mosquito_mn\mosquito_mn_01.wav,4,0,0,200,900,,,,,auto,,curve1,,,,,0.9,1.1,,3d,,,,,,,,,,,,,,,,,,5,10,0.25,1
+amb_mosquito_placed,,SFX\Amb\animals\mosquito_mn\mosquito_mn_00.wav,5,0,0,200,900,,,,,auto,,curve1,,,,,0.9,1.1,,3d,,,,,,,,,,,,,,,,,,5,10,0.25,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ship_horn,,SFX\Amb\ship\horn\ship_horn.wav,,0.4,0.4,150,10000,,,,,auto,,,,20000,,curve2,1,1,,3d,streamed,,,,,,,,,,,,,,,,,5,10,0.25,1
+amb_water_drip,,SFX\Amb\water_drips_v2_##,,0.6,0.6,10,250,,,,,auto,,,,,,,0.98,1.02,,3d,,,,,,,,,,,,,,,,,,10,50,0.25,0.75
+
+# Interior Package,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+amb_wood_creak,,SFX/Amb/wood_creak_##,,0.4,0.8,10,150,,,,,auto,,,,,,,0.9,1.1,,3d,,,,,,,,,,,,,,,,,,5,10,0.25,1
+
+drill_sgt_loop,,voiceovers\training\drill_sgt\vo_ig_drill_dist.wav,,0.6,0.6,100,3500,,,,,auto,,,,,,,1,1,,3d,streamed,,looping,,,,,,,,,,,,,,,10,50,0.25,0.8
+intro_plane1,,SFX/Levels/Peleliu_1/Evt_Naplam/planes/ARPL_P47_By13.wav,,0.4,0.4,10,25000,,,,,vehicle,,curve0,,,,,1,1,,3d,streamed,,,,,,,,,,,,,,,,,100,100,0.25,1
+intro_plane2,,SFX/Levels/Peleliu_1/Evt_Naplam/planes/ARPL_P47_By04.wav,,0.4,0.4,10,25000,,,,,vehicle,,curve0,,,,,1,1,,3d,streamed,,,,,,,,,,,,,,,,,100,100,0.25,1
+intro_plane3,,SFX/Levels/Peleliu_1/Evt_Naplam/planes/ARPL_P47_By13.wav,,0.4,0.4,10,25000,,,,,vehicle,,curve0,,,,,1,1,,3d,streamed,,,,,,,,,,,,,,,,,100,100,0.25,1
+intro_plane4,,SFX/Levels/Peleliu_1/Evt_Naplam/planes/ARPL_P47_By04.wav,,0.4,0.4,10,25000,,,,,vehicle,,curve0,,,,,1,1,,3d,streamed,,,,,,,,,,,,,,,,,100,100,0.25,1

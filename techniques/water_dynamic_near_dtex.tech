@@ -1,0 +1,41 @@
+{
+	stateMap "stencil_test";
+
+	vertexShader 3.0 "water_dynamic_near_dtex.hlsl"
+	{
+		waterParams = material.waterParams;
+		oceanFoamValues = material.oceanFoamValues;
+		oceanShoreValues = material.oceanShoreValues;
+	}
+
+	pixelShader 3.0 "water_dynamic_near.hlsl"
+	{
+		colorMapSampler = material.colorMap;
+		normalMapSampler = material.normalMap;
+		refractSampler = sampler.resolvedPostSun;
+		lightsSampler = sampler.postEffectSrc;
+
+		waterColor = material.waterColor;
+		waterParams = material.waterParams;
+		waterScroll0 = material.waterScroll0;
+		waterScroll1 = material.waterScroll1;
+		waterScroll2 = material.waterScroll2;
+		waterSkyColor = material.waterSkyColor;
+		waterGroundColor = material.waterGroundColor;
+		waterSunValues = material.waterSunValues;
+
+		oceanFoamValues = material.oceanFoamValues;
+		oceanShoreValues = material.oceanShoreValues;
+		oceanBumpValues = material.oceanBumpValues;
+
+		envMapParms = material.envMapParms; 
+	}
+
+	vertex.position = code.position;
+	vertex.normal = code.normal;
+	vertex.color[0] = code.color;
+	vertex.texcoord[0] = code.texcoord[0];
+	vertex.texcoord[1] = code.texcoord[1];
+	vertex.texcoord[2] = code.normalTransform[0];
+
+}

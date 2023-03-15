@@ -1,0 +1,20 @@
+{
+	stateMap "blend";
+
+	vertexShader 3.0 "lm_hsm_omni_tc0_fade_nc_sm3_sco.hlsl"
+	{
+	}
+
+	pixelShader 3.0 "lm_hsm_spot_t0c0_fade_nc_sm3_sco.hlsl"
+	{
+		colorMapSampler = material.colorMap;
+
+	}
+
+	vertex.position = code.position;
+	vertex.normal = code.normal;
+	vertex.texcoord[0] = code.texcoord[0];
+
+	vertex.blendweight = code.blendweight;
+
+}

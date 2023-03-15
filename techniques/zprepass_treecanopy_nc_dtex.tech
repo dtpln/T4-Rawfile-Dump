@@ -1,0 +1,21 @@
+{
+	stateMap "tree_zprepass";
+
+	vertexShader 2.0 "treecanopy_sm_prepassv_nc_dtex.hlsl"
+	{
+		treeCanopyMinimumSway = material.treeCanopyMinimumSway;
+		treeCanopyScaleRotationAngles = material.treeCanopyScaleRotationAngles;
+		treeCanopyAmbientOcclusion = material.treeCanopyAmbientOcclusion;
+	}
+
+	pixelShader 2.0 "treecanopy_sm_prepassp_nc.hlsl"
+	{
+		colorMapSampler = material.colorMap;
+	}
+
+	vertex.position = code.position;
+	//vertex.normal = code.normal;
+	vertex.color[0] = code.color;
+	vertex.texcoord[0] = code.texcoord[0];
+
+}

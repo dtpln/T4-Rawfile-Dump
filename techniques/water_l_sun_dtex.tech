@@ -1,0 +1,28 @@
+{
+	stateMap "default";
+
+	vertexShader 2.0 "water_l_sun_dtex.hlsl"
+	{
+		waterParams = material.waterParams;
+	}
+
+	pixelShader 2.0 "water_l_sun.hlsl"
+	{
+		waterColor = material.waterColor;
+		waterParams = material.waterParams;
+		waterScroll0 = material.waterScroll0;
+		waterScroll1 = material.waterScroll1;
+		waterScroll2 = material.waterScroll2;
+		waterSkyColor = material.waterSkyColor;
+		waterGroundColor = material.waterGroundColor;
+		waterSunValues = material.waterSunValues;
+		envMapParms = material.envMapParms;
+		normalMapSampler = material.normalMap;
+		refractSampler = sampler.resolvedPostSun;
+	}
+
+	vertex.position = code.position;
+	vertex.texcoord[0] = code.texcoord[0];
+	vertex.color[0] = code.color;
+
+}

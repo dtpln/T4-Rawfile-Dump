@@ -1,0 +1,35 @@
+{
+
+	stateMap "default";
+
+	vertexShader 3.0 "lp_hsm_sun_tc0_dtex_sm3_clrdtl_specdtl_clothwet1.hlsl"
+	{
+	}
+
+	pixelShader 3.0 "lp_hsm_sun_t0c0d0_sm3_clrdtl_specdtl_clothwet1.hlsl"
+	{
+		colorMapSampler = material.colorMap;
+		detailMapSampler = material.detailMap;
+		detailScale = material.detailScale;
+
+		cwWetColor = material.cwWetColor;
+		cwWaterLevelHeight = material.cwWaterLevelHeight;
+		cwWetSpecularity = material.cwWetSpecularity;
+		cwEnvMapParms = material.cwEnvMapParms;
+		cwWetnessInvert = material.cwWetnessInvert;
+
+		cwWetnessMap_Sampler = material.cwWetnessMap;
+		cwWetCosineMap_Sampler = material.cwWetCosineMap;
+		colorDetailScale = material.colorDetailScale;
+		colorDetailMapSampler = material.colorDetailMap;
+
+		specDetailScale = material.specDetailScale;
+		specDetailMapSampler = material.specularDetailMap;
+	}
+
+	vertex.position = code.position;
+	vertex.normal = code.normal;
+	vertex.color[0] = code.color;
+	vertex.texcoord[0] = code.texcoord[0];
+
+}

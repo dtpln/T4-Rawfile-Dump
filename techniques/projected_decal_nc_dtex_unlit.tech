@@ -1,0 +1,15 @@
+{
+	stateMap "default";
+
+	vertexShader 2.0 "projected_decal_unlit_nc_dtex.hlsl"
+	{
+	}
+
+	pixelShader 2.0 "projected_decal_unlit_nc.hlsl"
+	{
+		colorMapSampler = material.colorMap;
+	}
+
+	vertex.position = code.position;
+
+}

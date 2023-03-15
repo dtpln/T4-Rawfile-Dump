@@ -1,0 +1,21 @@
+{
+	stateMap "additive";
+
+	vertexShader 2.0 "l_point_scroll_dfoliage_tc0_nc_dtex.hlsl"
+	{
+		dynamicFoliageFlexibility = material.dynamicFoliageFlexibility;
+	}
+
+	pixelShader 2.0 "l_omni_dfoliage_t0c0_nc.hlsl"
+	{
+		fogColor = float4( 0, 0, 0, 0 );
+		colorMapSampler = material.colorMap;
+
+	}
+
+	vertex.position = code.position;
+	vertex.normal = code.normal;
+	vertex.color[0] = code.color;
+	vertex.texcoord[0] = code.texcoord[0];
+
+}

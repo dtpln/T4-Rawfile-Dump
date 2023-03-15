@@ -1,0 +1,627 @@
+iwfx 2
+
+{
+	name "fronds_static_center";
+	editorFlags useRandColor useRandVel0 useRandVel1 absVel1;
+	flags spawnRelative spawnOffsetNone runRelToEffect useCollision;
+	spawnRange 0 3500;
+	fadeInRange 0 0;
+	fadeOutRange 0 0;
+	spawnFrustumCullRadius 1000;
+	spawnLooping 1 0;
+	spawnOneShot 1 0;
+	spawnDelayMsec 0 0;
+	lifeSpanMsec 12000 0;
+	spawnOrgX 256 0;
+	spawnOrgY -60 0;
+	spawnOrgZ -25 0;
+	spawnOffsetRadius 0 20;
+	spawnOffsetHeight 0 0;
+	spawnAnglePitch 0 0;
+	spawnAngleYaw -60 0;
+	spawnAngleRoll -90 0;
+	angleVelPitch -20 60;
+	angleVelYaw 220 60;
+	angleVelRoll -60 -100;
+	initialRot -220 440;
+	gravity 5 2;
+	elasticity 0.05 0.05;
+	windinfluence 0;
+	atlasBehavior startFixed;
+	atlasIndex 2;
+	atlasFps 0;
+	atlasLoopCount 0;
+	atlasColIndexBits 0;
+	atlasRowIndexBits 0;
+	atlasEntryCount 0;
+	velGraph0X 900
+	{
+		{
+			0 0.26555
+			0.0465116 -0.069378
+			0.142442 -0.184211
+			0.34593 -0.232057
+			1 -0.342105
+		}
+		{
+			0 0.0119617
+			0.296512 -0.0454545
+			1 -0.380383
+		}
+	};
+	velGraph0Y -600
+	{
+		{
+			0 0.5
+			0.0436046 0.260766
+			0.107558 0.12201
+			0.247093 0.0837321
+			1 0.0406699
+		}
+		{
+			0 0.342105
+			0.0348837 0.0837321
+			0.119186 0.0311005
+			1 0.00717705
+		}
+	};
+	velGraph0Z -350
+	{
+		{
+			0 0.5
+			0.0639535 0.308612
+			0.229651 0.212919
+			0.5 0.165072
+			0.627907 0.0598086
+			1 0.0119617
+		}
+		{
+			0 -0.5
+			0.0348837 -0.251196
+			0.218023 -0.11244
+			1 -0.0406699
+		}
+	};
+	velGraph1X 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph1Y 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph1Z 300
+	{
+		{
+			0 0.0741627
+			0.0174419 0.5
+			0.0843023 0.126794
+			0.223837 -0.12201
+			1 -0.299043
+		}
+		{
+			0 -0.00239235
+			0.0145349 0.227273
+			0.148256 -0.0502392
+			1 -0.102871
+		}
+	};
+	rotGraph 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	sizeGraph0 832
+	{
+		{
+			0 0.62987
+			1 0.928571
+		}
+		{
+			0 1
+			1 1
+		}
+	};
+	sizeGraph1 533.4
+	{
+		{
+			0 1
+			1 0.75
+		}
+		{
+			0 0
+			1 1
+		}
+	};
+	scaleGraph 1.2
+	{
+		{
+			0 1
+			1 1
+		}
+		{
+			0 1
+			1 0
+		}
+	};
+	colorGraph 1
+	{
+		{
+			0 0.568627 0.490196 0.376471
+			0.543605 0.47451 0.470588 0.423529
+			1 0.694118 0.639216 0.545098
+		}
+		{
+			0 1 1 1
+			0.636628 0.568627 0.564706 0.471503
+			1 0.160622 0.145078 0.150259
+		}
+	};
+	alphaGraph 1
+	{
+		{
+			0 1
+			1 0
+		}
+		{
+			0 1
+			1 0
+		}
+	};
+	lightingFrac 0;
+	collOffset 0 0 0;
+	collRadius 0;
+	fxOnImpact "";
+	fxOnDeath "";
+	sortOrder 8;
+	efPriority 0;
+	emission "";
+	emitDist 25 0;
+	emitDistVariance 0 20;
+	trailSplitDist 0;
+	trailScrollTime 0;
+	trailRepeatDist 0;
+	model
+	{
+		"foliage_pacific_palms_frond"
+	};
+}
+{
+	name "fronds_static_left";
+	editorFlags useRandColor useRandVel0 useRandVel1 absVel1;
+	flags spawnRelative spawnOffsetNone runRelToEffect useCollision;
+	spawnRange 0 3500;
+	fadeInRange 0 0;
+	fadeOutRange 0 0;
+	spawnFrustumCullRadius 1000;
+	spawnLooping 1 0;
+	spawnOneShot 1 0;
+	spawnDelayMsec 0 0;
+	lifeSpanMsec 10000 2500;
+	spawnOrgX 246 0;
+	spawnOrgY -48 0;
+	spawnOrgZ 10 0;
+	spawnOffsetRadius 0 20;
+	spawnOffsetHeight 0 0;
+	spawnAnglePitch -50 0;
+	spawnAngleYaw -70 0;
+	spawnAngleRoll -110 0;
+	angleVelPitch -12 -73;
+	angleVelYaw -100 265;
+	angleVelRoll 160 50;
+	initialRot -220 440;
+	gravity 5 2;
+	elasticity 0.05 0.05;
+	windinfluence 0;
+	atlasBehavior startFixed;
+	atlasIndex 2;
+	atlasFps 0;
+	atlasLoopCount 0;
+	atlasColIndexBits 0;
+	atlasRowIndexBits 0;
+	atlasEntryCount 0;
+	velGraph0X 900
+	{
+		{
+			0 0.26555
+			0.0465116 -0.069378
+			0.142442 -0.184211
+			0.34593 -0.232057
+			1 -0.342105
+		}
+		{
+			0 0.0119617
+			0.296512 -0.0454545
+			1 -0.380383
+		}
+	};
+	velGraph0Y -480
+	{
+		{
+			0 0.5
+			0.0348837 0.12201
+			0.177326 0.0502392
+			1 0.0119617
+		}
+		{
+			0 0.5
+			0.0145349 0.0358852
+			1 0.00717705
+		}
+	};
+	velGraph0Z 320
+	{
+		{
+			0 0.5
+			0.116279 0.461722
+			0.229651 0.212919
+			0.363372 0.107656
+			0.627907 0.0598086
+			0.848837 0.0741627
+			1 0.141148
+		}
+		{
+			0 -0.155502
+			0.0261628 -0.0119617
+			0.0930233 0.0358852
+			1 0.0263158
+		}
+	};
+	velGraph1X 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph1Y 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph1Z 300
+	{
+		{
+			0 0.241627
+			0.0174419 0.5
+			0.0465116 0.136364
+			0.0988372 -0.0598086
+			0.235465 -0.169856
+			1 -0.299043
+		}
+		{
+			0 -0.00239235
+			0.0145349 0.227273
+			0.0319767 -0.184211
+			0.0813954 -0.409091
+			0.337209 -0.5
+			1 -0.5
+		}
+	};
+	rotGraph 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	sizeGraph0 832
+	{
+		{
+			0 0.62987
+			1 0.928571
+		}
+		{
+			0 1
+			1 1
+		}
+	};
+	sizeGraph1 533.4
+	{
+		{
+			0 1
+			1 0.75
+		}
+		{
+			0 0
+			1 1
+		}
+	};
+	scaleGraph 1.3
+	{
+		{
+			0 1
+			1 1
+		}
+		{
+			0 0.681818
+			1 0.792208
+		}
+	};
+	colorGraph 1
+	{
+		{
+			0 0.568627 0.490196 0.376471
+			0.543605 0.47451 0.470588 0.423529
+			1 0.694118 0.639216 0.545098
+		}
+		{
+			0 1 1 1
+			0.636628 0.568627 0.564706 0.471503
+			1 0.160622 0.145078 0.150259
+		}
+	};
+	alphaGraph 1
+	{
+		{
+			0 1
+			1 0
+		}
+		{
+			0 1
+			1 0
+		}
+	};
+	lightingFrac 0;
+	collOffset 0 0 0;
+	collRadius 0;
+	fxOnImpact "";
+	fxOnDeath "";
+	sortOrder 8;
+	efPriority 0;
+	emission "";
+	emitDist 25 0;
+	emitDistVariance 0 20;
+	trailSplitDist 0;
+	trailScrollTime 0;
+	trailRepeatDist 0;
+	model
+	{
+		"foliage_pacific_palms_frond"
+	};
+}
+{
+	name "fronds_static_right";
+	editorFlags useRandColor useRandVel0 useRandVel1 absVel1;
+	flags spawnRelative spawnOffsetNone runRelToEffect useCollision;
+	spawnRange 0 3500;
+	fadeInRange 0 0;
+	fadeOutRange 0 0;
+	spawnFrustumCullRadius 1000;
+	spawnLooping 1 0;
+	spawnOneShot 1 0;
+	spawnDelayMsec 0 0;
+	lifeSpanMsec 11250 0;
+	spawnOrgX 246 0;
+	spawnOrgY -58 0;
+	spawnOrgZ -52 0;
+	spawnOffsetRadius 0 20;
+	spawnOffsetHeight 0 0;
+	spawnAnglePitch 34 0;
+	spawnAngleYaw -68 0;
+	spawnAngleRoll -70 0;
+	angleVelPitch 124 116;
+	angleVelYaw -112 -88;
+	angleVelRoll -46 134;
+	initialRot -220 440;
+	gravity 5 2;
+	elasticity 0.05 0.05;
+	windinfluence 0;
+	atlasBehavior startFixed;
+	atlasIndex 2;
+	atlasFps 0;
+	atlasLoopCount 0;
+	atlasColIndexBits 0;
+	atlasRowIndexBits 0;
+	atlasEntryCount 0;
+	velGraph0X 1000
+	{
+		{
+			0 0.26555
+			0.0465116 -0.069378
+			0.142442 -0.184211
+			0.34593 -0.232057
+			1 -0.342105
+		}
+		{
+			0 -0.0311005
+			0.296512 -0.0454545
+			1 -0.380383
+		}
+	};
+	velGraph0Y -770
+	{
+		{
+			0 0.5
+			0.0145349 0.241627
+			0.0406977 0.0406699
+			0.0988372 -0.0645933
+			0.223837 0.0263158
+			1 0.00717705
+		}
+		{
+			0 0.399522
+			0.0145349 0.069378
+			0.0872093 -0.00239235
+			0.459302 -0.0741627
+			1 0.0598086
+		}
+	};
+	velGraph0Z -550
+	{
+		{
+			0 0.5
+			0.0145349 0.198565
+			0.0784884 0.0933014
+			0.383721 -0.0358852
+			0.590116 0.0741627
+			1 0.0119617
+		}
+		{
+			0 0.126794
+			0.0610465 -0.0550239
+			0.110465 0.11244
+			0.270349 0.0454546
+			1 0.0311005
+		}
+	};
+	velGraph1X 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph1Y 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph1Z 300
+	{
+		{
+			0 0.0741627
+			0.0203488 0.251196
+			0.0465116 0.0311005
+			0.125 -0.102871
+			1 -0.299043
+		}
+		{
+			0 -0.00239235
+			0.0203488 0.0837321
+			0.0436046 -0.485646
+			0.0901163 -0.102871
+			0.328488 -0.0550239
+			1 -0.102871
+		}
+	};
+	rotGraph 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	sizeGraph0 832
+	{
+		{
+			0 0.62987
+			1 0.928571
+		}
+		{
+			0 1
+			1 1
+		}
+	};
+	sizeGraph1 533.4
+	{
+		{
+			0 1
+			1 0.75
+		}
+		{
+			0 0
+			1 1
+		}
+	};
+	scaleGraph 1.12
+	{
+		{
+			0 1
+			1 1
+		}
+		{
+			0 1
+			1 1
+		}
+	};
+	colorGraph 1
+	{
+		{
+			0 0.568627 0.490196 0.376471
+			0.543605 0.47451 0.470588 0.423529
+			1 0.694118 0.639216 0.545098
+		}
+		{
+			0 1 1 1
+			0.636628 0.568627 0.564706 0.471503
+			1 0.160622 0.145078 0.150259
+		}
+	};
+	alphaGraph 1
+	{
+		{
+			0 1
+			1 0
+		}
+		{
+			0 1
+			1 0
+		}
+	};
+	lightingFrac 0;
+	collOffset 0 0 0;
+	collRadius 0;
+	fxOnImpact "";
+	fxOnDeath "";
+	sortOrder 8;
+	efPriority 0;
+	emission "";
+	emitDist 25 0;
+	emitDistVariance 0 20;
+	trailSplitDist 0;
+	trailScrollTime 0;
+	trailRepeatDist 0;
+	model
+	{
+		"foliage_pacific_palms_frond"
+	};
+}

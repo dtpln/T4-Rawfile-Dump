@@ -1,0 +1,20 @@
+{
+
+	stateMap "default";
+
+	vertexShader 3.0 "lp_amb_tc0_nc_dtex_sm3_dfoliage_sco.hlsl"
+	{
+		dynamicFoliageFlexibility = material.dynamicFoliageFlexibility;
+	}
+
+	pixelShader 3.0 "lp_amb_r0c0_nc_sm3_dfoliage_sco.hlsl"
+	{
+		colorMapSampler = material.colorMap;
+
+	}
+
+	vertex.position = code.position;
+	vertex.color[0] = code.color;
+	vertex.texcoord[0] = code.texcoord[0];
+
+}

@@ -1,0 +1,380 @@
+iwfx 2
+
+{
+	name "blood_spill_decal";
+	editorFlags useRandSize0 useRandScale useRandVel0 useBackCompatVel absVel1;
+	flags isMatureContent spawnRelative spawnFrustumCull spawnOffsetNone runRelToWorld;
+	spawnRange 0 1700;
+	fadeInRange 0 0;
+	fadeOutRange 0 0;
+	spawnFrustumCullRadius 250;
+	spawnLooping 40 2;
+	spawnOneShot 3 2;
+	spawnDelayMsec 0 150;
+	lifeSpanMsec 600 200;
+	spawnOrgX 0 0;
+	spawnOrgY 0 0;
+	spawnOrgZ 0 0;
+	spawnOffsetRadius -2 3;
+	spawnOffsetHeight -2 2;
+	spawnAnglePitch 0 360;
+	spawnAngleYaw 0 360;
+	spawnAngleRoll 0 360;
+	angleVelPitch -100 200;
+	angleVelYaw -100 200;
+	angleVelRoll -100 200;
+	initialRot -360 720;
+	gravity 45 5;
+	elasticity 0.1 0;
+	windinfluence 0;
+	atlasBehavior startRandom;
+	atlasIndex 4;
+	atlasFps 0;
+	atlasLoopCount 0;
+	atlasColIndexBits 0;
+	atlasRowIndexBits 0;
+	atlasEntryCount 0;
+	velGraph0X 0
+	{
+		{
+			0 0.380383
+			1 0.0167464
+		}
+		{
+			0 0.5
+			1 0.260766
+		}
+	};
+	velGraph0Y 0
+	{
+		{
+			0 0.34689
+			1 0.0358852
+		}
+		{
+			0 0.5
+			1 0.5
+		}
+	};
+	velGraph0Z 0
+	{
+		{
+			0 0.12201
+			1 0.0119617
+		}
+		{
+			0 -0.188995
+			1 -0.188995
+		}
+	};
+	velGraph1X 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph1Y 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph1Z 0
+	{
+		{
+			0 0.5
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	rotGraph 0
+	{
+		{
+			0 -0.5
+			1 -0.5
+		}
+		{
+			0 0.5
+			1 0.5
+		}
+	};
+	sizeGraph0 20
+	{
+		{
+			0 0.24026
+			0.276471 0.707792
+			0.608824 0.928571
+			1 1
+		}
+		{
+			0 0.11039
+			0.297059 0.474026
+			0.611765 0.753247
+			1 1
+		}
+	};
+	sizeGraph1 1
+	{
+		{
+			0 1
+			1 0
+		}
+		{
+			0 1
+			1 0
+		}
+	};
+	scaleGraph 2
+	{
+		{
+			0 1
+			1 1
+		}
+		{
+			0 0.623377
+			1 0.623377
+		}
+	};
+	colorGraph 1
+	{
+		{
+			0 0.509804 0.133333 0.133333
+			1 0.509804 0.133333 0.133333
+		}
+		{
+			0 0.4863 0.4157 0.3137
+			1 0.4863 0.4157 0.3137
+		}
+	};
+	alphaGraph 1
+	{
+		{
+			0 0
+			0.0348837 0.736842
+			0.171512 1
+			0.840116 1
+			0.982558 0.62201
+			1 0
+		}
+		{
+			0 1
+			1 0
+		}
+	};
+	lightingFrac 0;
+	collOffset 0 0 0;
+	collRadius 0;
+	fxOnImpact "";
+	fxOnDeath "";
+	sortOrder 5;
+	efPriority 115;
+	emission "";
+	emitDist 3 0;
+	emitDistVariance 1 0;
+	trailSplitDist 0;
+	trailScrollTime 0;
+	trailRepeatDist 0;
+	billboardSprite
+	{
+		"gfx_fxt_bio_blooddrops"
+	};
+}
+{
+	name "blood_spill_decal 2";
+	editorFlags useRandSize0 useRandScale useRandVel0 useBackCompatVel absVel1 playOnTouch;
+	flags isMatureContent spawnRelative spawnFrustumCull spawnOffsetSphere runRelToWorld useCollision dieOnTouch;
+	spawnRange 0 1700;
+	fadeInRange 0 0;
+	fadeOutRange 0 0;
+	spawnFrustumCullRadius 200;
+	spawnLooping 40 2;
+	spawnOneShot 1 0;
+	spawnDelayMsec 150 0;
+	lifeSpanMsec 800 200;
+	spawnOrgX 0 0;
+	spawnOrgY 0 0;
+	spawnOrgZ 0 0;
+	spawnOffsetRadius -2 4;
+	spawnOffsetHeight 0 0;
+	spawnAnglePitch 0 360;
+	spawnAngleYaw 0 360;
+	spawnAngleRoll 0 360;
+	angleVelPitch -100 200;
+	angleVelYaw -100 200;
+	angleVelRoll -100 200;
+	initialRot -360 720;
+	gravity 45 5;
+	elasticity 0.1 0;
+	windinfluence 0;
+	atlasBehavior startRandom;
+	atlasIndex 4;
+	atlasFps 0;
+	atlasLoopCount 0;
+	atlasColIndexBits 0;
+	atlasRowIndexBits 0;
+	atlasEntryCount 0;
+	velGraph0X 0
+	{
+		{
+			0 0.380383
+			1 0.0167464
+		}
+		{
+			0 0.5
+			1 0.260766
+		}
+	};
+	velGraph0Y 0
+	{
+		{
+			0 0.34689
+			1 0.0358852
+		}
+		{
+			0 0.5
+			1 0.5
+		}
+	};
+	velGraph0Z 0
+	{
+		{
+			0 0.12201
+			1 0.0119617
+		}
+		{
+			0 -0.188995
+			1 -0.188995
+		}
+	};
+	velGraph1X 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph1Y 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph1Z 0
+	{
+		{
+			0 0.5
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	rotGraph 0
+	{
+		{
+			0 -0.5
+			1 -0.5
+		}
+		{
+			0 0.5
+			1 0.5
+		}
+	};
+	sizeGraph0 20
+	{
+		{
+			0 0.123377
+			0.508824 0.675325
+			0.770588 0.928571
+			1 1
+		}
+		{
+			0 0.227273
+			1 1
+		}
+	};
+	sizeGraph1 1
+	{
+		{
+			0 1
+			1 0
+		}
+		{
+			0 1
+			1 0
+		}
+	};
+	scaleGraph 2
+	{
+		{
+			0 1
+			1 1
+		}
+		{
+			0 0.623377
+			1 0.623377
+		}
+	};
+	colorGraph 1
+	{
+		{
+			0 0.360784 0.0941176 0.0941176
+			1 0.360784 0.0941176 0.0941176
+		}
+		{
+			0 0.4863 0.4157 0.3137
+			1 0.4863 0.4157 0.3137
+		}
+	};
+	alphaGraph 1
+	{
+		{
+			0 1
+			1 1
+		}
+		{
+			0 1
+			1 0
+		}
+	};
+	lightingFrac 0;
+	collOffset 0 0 0;
+	collRadius 0;
+	fxOnImpact "impacts/flesh_hit_splat";
+	fxOnDeath "";
+	sortOrder 5;
+	efPriority 115;
+	emission "";
+	emitDist 3 0;
+	emitDistVariance 1 0;
+	trailSplitDist 0;
+	trailScrollTime 0;
+	trailRepeatDist 0;
+	billboardSprite
+	{
+		"gfx_fxt_bio_blooddrops"
+	};
+}

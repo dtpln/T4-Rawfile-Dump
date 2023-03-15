@@ -1,0 +1,207 @@
+iwfx 2
+
+{
+	name "water_spray";
+	editorFlags useRandSize0 useRandRotDelta modColorByAlpha useRandVel0;
+	flags spawnRelative spawnOffsetNone runRelToEffect;
+	spawnRange 0 0;
+	fadeInRange 0 0;
+	fadeOutRange 0 0;
+	spawnFrustumCullRadius 0;
+	spawnLooping 200 0;
+	spawnOneShot 3 2;
+	spawnDelayMsec 0 0;
+	lifeSpanMsec 500 500;
+	spawnOrgX -50 100;
+	spawnOrgY -50 100;
+	spawnOrgZ -40 80;
+	spawnOffsetRadius 0 0;
+	spawnOffsetHeight 0 0;
+	spawnAnglePitch 0 0;
+	spawnAngleYaw 0 0;
+	spawnAngleRoll 0 0;
+	angleVelPitch 0 0;
+	angleVelYaw 0 0;
+	angleVelRoll 0 0;
+	initialRot -180 360;
+	gravity 100 50;
+	elasticity 0 0;
+	windinfluence 0;
+	atlasBehavior startFixed;
+	atlasIndex 0;
+	atlasFps 0;
+	atlasLoopCount 0;
+	atlasColIndexBits 0;
+	atlasRowIndexBits 0;
+	atlasEntryCount 0;
+	velGraph0X 2400
+	{
+		{
+			0 0.5
+			0.133721 0.385167
+			0.497093 0.232057
+			1 0.107656
+		}
+		{
+			0 0.251196
+			0.104651 0.174641
+			0.40407 0.0837321
+			1 0.0454546
+		}
+	};
+	velGraph0Y 600
+	{
+		{
+			0 0.5
+			1 0.0885168
+		}
+		{
+			0 -0.5
+			1 -0.131579
+		}
+	};
+	velGraph0Z 1200
+	{
+		{
+			0 0.5
+			1 0.26555
+		}
+		{
+			0 0.174641
+			1 0.0311005
+		}
+	};
+	velGraph1X 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph1Y 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph1Z 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	rotGraph 2500
+	{
+		{
+			0 0.5
+			0.0523256 0.300926
+			0.136628 0.157407
+			0.287791 0.0740741
+			0.561047 0.0509259
+			1 0.0231481
+		}
+		{
+			0 0.217593
+			0.0639535 0.101852
+			0.174419 0.0555556
+			0.354651 0.0277778
+			1 0.00925928
+		}
+	};
+	sizeGraph0 540
+	{
+		{
+			0 0.272727
+			0.0382353 0.383117
+			0.208824 0.603896
+			0.523529 0.824675
+			1 1
+		}
+		{
+			0 0.11039
+			0.0647059 0.233766
+			0.185294 0.376623
+			0.370588 0.493506
+			0.673529 0.616883
+			1 0.707792
+		}
+	};
+	sizeGraph1 0
+	{
+		{
+			0 1
+			1 0
+		}
+		{
+			0 1
+			1 0
+		}
+	};
+	scaleGraph 0
+	{
+		{
+			0 1
+			1 0
+		}
+		{
+			0 1
+			1 0
+		}
+	};
+	colorGraph 1
+	{
+		{
+			0 1 1 1
+			1 0 0 0
+		}
+		{
+			0 1 1 1
+			1 1 1 1
+		}
+	};
+	alphaGraph 1
+	{
+		{
+			0 1
+			0.255814 1
+			0.511628 0.837321
+			0.787791 0.444976
+			1 0
+		}
+		{
+			0 1
+			1 0
+		}
+	};
+	lightingFrac 0;
+	collOffset 0 0 0;
+	collRadius 0;
+	fxOnImpact "";
+	fxOnDeath "";
+	sortOrder 0;
+	efPriority 15;
+	emission "";
+	emitDist 0 0;
+	emitDistVariance 0 0;
+	trailSplitDist 100;
+	trailScrollTime 0;
+	trailRepeatDist 10;
+	billboardSprite
+	{
+		"gfx_fxt_env_water_droplets_add"
+	};
+}

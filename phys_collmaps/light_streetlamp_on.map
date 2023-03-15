@@ -1,0 +1,31 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+  {
+    physics_cylinder
+    {
+      0.000000 -0.000000 1.000000 0.102349 0.102435 78.750000 157.500000 2.755051
+    }
+  }
+// brush 1
+{
+ ( 36.5 3 125 ) ( 3.5 3 125 ) ( 3.5 -2.5 125 ) clip_vehicle 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3.5 -2.5 157.5 ) ( 3.5 3 157.5 ) ( 36.5 3 157.5 ) clip_vehicle 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3.5 -2 157.5 ) ( 36.5 -2 157.5 ) ( 36.5 -2 125 ) clip_vehicle 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36.5 -2.5 157.5 ) ( 36.5 3 157.5 ) ( 36.5 3 125 ) clip_vehicle 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 35.5 2 157.5 ) ( 2.5 2 157.5 ) ( 2.5 2 125 ) clip_vehicle 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2.5 3 157.5 ) ( 2.5 -2.5 157.5 ) ( 2.5 -2.5 125 ) clip_vehicle 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1
+{
+"modelscale" "1.000000"
+"classname" "misc_model"
+"model" "lights_streetlamp_off"
+"origin" "0.0 0.0 0.0"
+"angles" "0 0 0"
+}

@@ -1,0 +1,208 @@
+iwfx 2
+
+{
+	name "flame_licks";
+	editorFlags useRandAlpha useRandSize0 useRandRotDelta modColorByAlpha useRandVel0 useRandVel1 absVel1;
+	flags spawnRelative spawnFrustumCull spawnOffsetNone runRelToSpawn hasReflection;
+	spawnRange 0 30000;
+	fadeInRange 25000 7000;
+	fadeOutRange 0 0;
+	spawnFrustumCullRadius 500;
+	spawnLooping 40 0;
+	spawnOneShot 1 0;
+	spawnDelayMsec 0 0;
+	lifeSpanMsec 620 320;
+	spawnOrgX 20 20;
+	spawnOrgY -20 40;
+	spawnOrgZ -20 40;
+	spawnOffsetRadius 0 3;
+	spawnOffsetHeight 1 0;
+	spawnAnglePitch 0 0;
+	spawnAngleYaw 0 0;
+	spawnAngleRoll 0 0;
+	angleVelPitch 0 0;
+	angleVelYaw 0 0;
+	angleVelRoll 0 0;
+	initialRot -90 180;
+	gravity -10 -10;
+	elasticity 1 0;
+	windinfluence 0;
+	atlasBehavior startFixed playOverLife;
+	atlasIndex 0;
+	atlasFps 30;
+	atlasLoopCount 0;
+	atlasColIndexBits 0;
+	atlasRowIndexBits 0;
+	atlasEntryCount 0;
+	velGraph0X -3000
+	{
+		{
+			0 0.394737
+			1 0.5
+		}
+		{
+			0 0.294258
+			1 0.413876
+		}
+	};
+	velGraph0Y 800
+	{
+		{
+			0 0.5
+			1 0.184211
+		}
+		{
+			0 -0.5
+			1 -0.179426
+		}
+	};
+	velGraph0Z 800
+	{
+		{
+			0 0.5
+			1 0.174641
+		}
+		{
+			0 -0.5
+			1 -0.179426
+		}
+	};
+	velGraph1X 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph1Y 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph1Z 600
+	{
+		{
+			0 -0.198565
+			0.159884 -0.184211
+			0.325581 -0.102871
+			0.526163 0.188995
+			0.77907 0.404306
+			1 0.5
+		}
+		{
+			0 0.5
+			0.142442 0.375598
+			0.27907 0.476077
+			0.430233 0.380383
+			0.642442 0.0406699
+			0.883721 0.0358852
+			1 0.12201
+		}
+	};
+	rotGraph 1600
+	{
+		{
+			0 0.5
+			0.107558 0.236111
+			0.395349 0.0648148
+			1 0.0324074
+		}
+		{
+			0 -0.5
+			0.0813954 -0.287037
+			0.238372 -0.0787037
+			1 -0.0462963
+		}
+	};
+	sizeGraph0 340
+	{
+		{
+			0 0.162338
+			0.0235294 0.5
+			0.1 0.649351
+			0.361765 0.753247
+			1 0.512987
+		}
+		{
+			0 0.318182
+			0.0147059 0.545455
+			0.0705882 0.727273
+			0.241176 0.909091
+			1 1
+		}
+	};
+	sizeGraph1 0
+	{
+		{
+			0 1
+			1 0
+		}
+		{
+			0 1
+			1 0
+		}
+	};
+	scaleGraph 0
+	{
+		{
+			0 1
+			1 0
+		}
+		{
+			0 1
+			1 0
+		}
+	};
+	colorGraph 1
+	{
+		{
+			0 0.996078 0.87451 0.619608
+			1 0.992157 0.92549 0.690196
+		}
+		{
+			0 1 1 1
+			1 0 0 0
+		}
+	};
+	alphaGraph 1
+	{
+		{
+			0 0.397129
+			0.136628 0.77512
+			1 1
+		}
+		{
+			0 1
+			0.30814 0.947368
+			1 0.449761
+		}
+	};
+	lightingFrac 0;
+	collOffset 0 0 0;
+	collRadius 0;
+	fxOnImpact "";
+	fxOnDeath "";
+	sortOrder 3;
+	efPriority 50;
+	emission "";
+	emitDist 1 0;
+	emitDistVariance 0 0;
+	trailSplitDist 0;
+	trailScrollTime 0;
+	trailRepeatDist 0;
+	billboardSprite
+	{
+		"gfx_fxt_fire_flame_base_01"
+		"gfx_fxt_fire_flame_base_02"
+	};
+}

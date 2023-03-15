@@ -1,0 +1,27 @@
+{
+	stateMap "additive";
+
+	vertexShader 2.0 "l_point_shad_clothcharr_tc0_dtex.hlsl"
+	{
+	}
+
+	pixelShader 2.0 "l_spot_shad_clothcharr_b0c0.hlsl"
+	{
+		fogColor = float4( 0, 0, 0, 0 );
+		colorMapSampler = material.colorMap;
+
+		clothcharrMaskMapScale = material.clothcharrMaskMapScale;
+		clothcharrColorMapScale = material.clothcharrColorMapScale;
+		clothcharrEmberColorAndBrightness = material.clothcharrEmberColorAndBrightness;
+
+		clothcharrMaskMap_Sampler = material.clothcharrMaskMap;
+		clothcharrColorMap_Sampler = material.clothcharrColorMap;
+		clothcharrNormalMap_Sampler = material.clothcharrNormalMap;
+	}
+
+	vertex.position = code.position;
+	vertex.normal = code.normal;
+	vertex.color[0] = code.color;
+	vertex.texcoord[0] = code.texcoord[0];
+
+}

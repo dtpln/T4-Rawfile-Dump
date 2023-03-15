@@ -1,0 +1,206 @@
+iwfx 2
+
+{
+	name "fire_near";
+	editorFlags useRandAlpha useRandSize0 useRandSize1 useRandRotDelta modColorByAlpha useBackCompatVel;
+	flags spawnFrustumCull spawnOffsetNone runRelToWorld nonUniformScale;
+	spawnRange 0 2500;
+	fadeInRange 1800 700;
+	fadeOutRange 0 0;
+	spawnFrustumCullRadius 150;
+	spawnLooping 800 15;
+	spawnOneShot 1 0;
+	spawnDelayMsec 0 15;
+	lifeSpanMsec 14000 6000;
+	spawnOrgX -5 10;
+	spawnOrgY -5 10;
+	spawnOrgZ 0 0;
+	spawnOffsetRadius 0 12;
+	spawnOffsetHeight -4 12;
+	spawnAnglePitch 0 0;
+	spawnAngleYaw 0 0;
+	spawnAngleRoll 0 0;
+	angleVelPitch 0 0;
+	angleVelYaw 0 0;
+	angleVelRoll 0 0;
+	initialRot -20 40;
+	gravity 0 0;
+	elasticity 1 0;
+	windinfluence 0;
+	atlasBehavior startRandom;
+	atlasIndex 0;
+	atlasFps 30;
+	atlasLoopCount 0;
+	atlasColIndexBits 0;
+	atlasRowIndexBits 0;
+	atlasEntryCount 0;
+	velGraph0X 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph0Y 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph0Z 7
+	{
+		{
+			0 0.5
+			0.18314 0.5
+			0.241279 0.00239235
+			0.633721 0
+			0.75 -0.5
+			1 -0.5
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph1X 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph1Y 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph1Z 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	rotGraph 0
+	{
+		{
+			0 0.5
+			1 0.5
+		}
+		{
+			0 -0.5
+			1 -0.5
+		}
+	};
+	sizeGraph0 34
+	{
+		{
+			0 1
+			0.561765 1
+			1 0.350649
+		}
+		{
+			0 0.597403
+			0.588235 0.597403
+			1 0.155844
+		}
+	};
+	sizeGraph1 60
+	{
+		{
+			0 0.246753
+			0.0176471 0.876623
+			0.223529 1
+			0.608824 1
+			0.75 0.837662
+			1 0.00649351
+		}
+		{
+			0 0.12987
+			0.0176471 0.681818
+			0.223529 0.805195
+			0.623529 0.75974
+			0.773529 0.564935
+			1 0
+		}
+	};
+	scaleGraph 0
+	{
+		{
+			0 1
+			1 0
+		}
+		{
+			0 1
+			1 0
+		}
+	};
+	colorGraph 1
+	{
+		{
+			0 1 1 1
+			1 1 1 1
+		}
+		{
+			0 1 1 1
+			1 0 0 0
+		}
+	};
+	alphaGraph 1
+	{
+		{
+			0 0
+			0.0145349 0.602871
+			0.77907 0.583732
+			0.93314 0.315789
+			1 0
+		}
+		{
+			0 0
+			0.0261628 0.942584
+			0.863372 0.899522
+			0.953488 0.69378
+			1 0.253588
+		}
+	};
+	lightingFrac 0;
+	collOffset 0 0 0;
+	collRadius 0;
+	fxOnImpact "";
+	fxOnDeath "";
+	sortOrder 4;
+	efPriority 50;
+	emission "";
+	emitDist 1 0;
+	emitDistVariance 0 0;
+	trailSplitDist 0;
+	trailScrollTime 0;
+	trailRepeatDist 0;
+	billboardSprite
+	{
+		"gfx_fxt_fire_anim_sm_add_z3"
+	};
+}

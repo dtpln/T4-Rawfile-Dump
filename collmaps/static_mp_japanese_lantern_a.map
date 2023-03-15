@@ -1,0 +1,31 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+ ( -10 -14 0 ) ( 10 -14 0 ) ( 14 0 0 ) clip_player 64 64 0 20 0 0 lightmap_gray 16384 16384 0 20 0 0
+ ( -14 0 60 ) ( 14 0 60 ) ( 10 -14 60 ) clip_player 64 64 0 20 0 0 lightmap_gray 16384 16384 0 20 0 0
+ ( -10 -13 0 ) ( -10 -13 60 ) ( 10 -13 60 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 13 0 0 ) ( 9 -14 0 ) ( 9 -14 60 ) clip_player 64 64 -20 0 0 0 lightmap_gray 16384 16384 -20 0 0 0
+ ( 14 0 0 ) ( 14 0 60 ) ( -14 0 60 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -13 0 60 ) ( -9 -14 60 ) ( -9 -14 0 ) clip_player 64 64 -20 0 0 0 lightmap_gray 16384 16384 -20 0 0 0
+}
+// brush 1
+{
+ ( -9 14 0 ) ( -14 0 0 ) ( 14 0 0 ) clip_player 64 -64 0 -20 0 0 lightmap_gray 16384 -16384 0 -20 0 0
+ ( 9 14 60 ) ( 14 0 60 ) ( -14 0 60 ) clip_player 64 -64 0 -20 0 0 lightmap_gray 16384 -16384 0 -20 0 0
+ ( 9 13 0 ) ( 9 13 60 ) ( -9 13 60 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 13 0 0 ) ( 13 0 60 ) ( 8 14 60 ) clip_player 64 -64 -20 0 180 0 lightmap_gray 16384 -16384 -20 0 180 0
+ ( -14 0 0 ) ( -14 0 60 ) ( 14 0 60 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -8 14 0 ) ( -8 14 60 ) ( -13 0 60 ) clip_player 64 -64 -20 0 180 0 lightmap_gray 16384 -16384 -20 0 180 0
+}
+}
+// entity 1
+{
+"origin" "0.0 0.0 0.0"
+"classname" "misc_model"
+"model" "static_mp_japanese_lantern_a"
+}

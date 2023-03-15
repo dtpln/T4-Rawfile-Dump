@@ -1,0 +1,31 @@
+{
+	stateMap "multiply";
+
+	vertexShader 1.1 "water_dynamic_editor.hlsl"
+	{
+	}
+
+	pixelShader 1.1 "water_dynamic_editor.hlsl"
+	{
+	}
+
+	vertex.position = code.position;
+	vertex.color[0] = code.color;
+
+}
+
+{
+	stateMap "blend";
+
+	vertexShader 1.1 "water_editor_dynamic_vs_nc.hlsl"
+	{
+	}
+
+	pixelShader 1.1 "water_editor_dynamic_vp_nc.hlsl"
+	{
+	}
+
+	vertex.position = code.position;
+	vertex.color[0] = code.color;
+
+}

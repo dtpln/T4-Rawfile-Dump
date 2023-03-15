@@ -1,0 +1,29 @@
+{
+	stateMap "default";
+
+	vertexShader 3.0 "lm_omni_tc0n0_sm3_sco_sls.hlsl"
+	{
+	}
+
+	pixelShader 3.0 "lm_omni_t0c0n0_sm3_sco_sls.hlsl"
+	{
+		colorMapSampler = material.colorMap;
+		normalMapSampler = material.normalMap;
+
+		subLayerMultiplySampler = material.subLayerMultiplyTexture;
+		subLayerBaseSampler = material.subLayerBaseTexture;
+
+		uvSubLayerMultiplyScroll = material.subLayerMultiplyScroll;
+		uvSubLayerBaseScroll = material.subLayerBaseScroll;
+
+	}
+
+	vertex.position = code.position;
+	vertex.normal = code.normal;
+	vertex.color[0] = code.color;
+	vertex.texcoord[0] = code.texcoord[0];
+	vertex.texcoord[2] = code.tangent;
+
+	vertex.blendweight = code.blendweight;
+
+}

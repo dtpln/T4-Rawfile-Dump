@@ -1,0 +1,17 @@
+{
+	stateMap "build_floatz";
+
+	vertexShader 2.0 "floatz_build_atest_nc_sco.hlsl"
+	{
+
+	}
+
+	pixelShader 2.0 "floatz_build_atest_nc_sco.hlsl"
+	{
+		colorMapSampler = material.colorMap;
+	}
+
+	vertex.position = code.position;
+	vertex.texcoord[0] = code.texcoord[0];
+
+}

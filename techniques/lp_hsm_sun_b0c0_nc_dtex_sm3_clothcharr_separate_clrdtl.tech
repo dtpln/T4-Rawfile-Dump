@@ -1,0 +1,31 @@
+{
+
+	stateMap "premulalpha";
+
+	vertexShader 3.0 "lp_hsm_sun_tc0_nc_dtex_sm3_clothcharr1_clrdtl.hlsl"
+	{
+	}
+
+	pixelShader 3.0 "lp_hsm_sun_b0c0_nc_sm3_clothcharr1_clrdtl.hlsl"
+	{
+		colorMapSampler = material.colorMap;
+
+		clothcharrMaskMapScale = material.clothcharrMaskMapScale;
+		clothcharrMaskMap_Sampler = material.clothcharrMaskMap;
+
+		clothcharrColorMapScale = material.clothcharrColorMapScale;
+		clothcharrEmberColorAndBrightness = material.clothcharrEmberColorAndBrightness;
+
+		clothcharrColorMap_Sampler = material.clothcharrColorMap;
+		clothcharrNormalMap_Sampler = material.clothcharrNormalMap;
+
+		colorDetailScale = material.colorDetailScale;
+		colorDetailMapSampler = material.colorDetailMap;
+
+	}
+
+	vertex.position = code.position;
+	vertex.normal = code.normal;
+	vertex.texcoord[0] = code.texcoord[0];
+
+}

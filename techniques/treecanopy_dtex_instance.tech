@@ -1,0 +1,27 @@
+// the actual render pass
+{
+	stateMap "tree_colorpass";
+
+	vertexShader 2.0 "treecanopy_smv_dtex.hlsl"
+	{
+		treeCanopyMinimumSway = material.treeCanopyMinimumSway;
+		treeCanopyScaleRotationAngles = material.treeCanopyScaleRotationAngles;
+		treeCanopyAmbientOcclusion = material.treeCanopyAmbientOcclusion;
+	}
+
+	pixelShader 2.0 "treecanopy_smp.hlsl"
+	{
+		colorMapSampler = material.colorMap;
+		normalMapSampler = material.normalMap;
+		specularMapSampler = material.specularMap;
+		treeCanopyScatterColor = material.treeCanopyScatterColor;
+		treeCanopyLightingAmount = material.treeCanopyLightingAmount;
+	}
+
+	vertex.position = code.position;
+	vertex.normal = code.normal;
+	vertex.texcoord[1] = code.tangent;
+	vertex.color[0] = code.color;
+	vertex.texcoord[0] = code.texcoord[0];
+
+}

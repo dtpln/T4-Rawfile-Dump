@@ -1,0 +1,26 @@
+{
+
+	stateMap "premulalpha";
+
+	vertexShader 3.0 "lp_sm_i_omni_tc0_nc_dtex_sm3_sco_sls.hlsl"
+	{
+	}
+
+	pixelShader 3.0 "lp_sm_i_omni_b0c0_nc_sm3_sco_sls.hlsl"
+	{
+		colorMapSampler = material.colorMap;
+
+		subLayerMultiplySampler = material.subLayerMultiplyTexture;
+		subLayerBaseSampler = material.subLayerBaseTexture;
+
+		uvSubLayerMultiplyScroll = material.subLayerMultiplyScroll;
+		uvSubLayerBaseScroll = material.subLayerBaseScroll;
+
+	}
+
+	vertex.position = code.position;
+	vertex.normal = code.normal;
+	vertex.texcoord[0] = code.texcoord[0];
+	vertex.texcoord[3] = code.texcoord[1];
+
+}

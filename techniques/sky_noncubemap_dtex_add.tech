@@ -1,0 +1,18 @@
+{
+	stateMap "skybox";
+
+	vertexShader 1.1 "sky_noncubemap_dtex_add.hlsl"
+	{
+		uvScroll = material.uvScroll;
+	}
+
+	pixelShader 2.0 "sky_noncubemap_add.hlsl"
+	{
+		colorMapSampler = material.colorMap;
+	}
+
+	vertex.position = code.position;
+	vertex.color[0] = code.color;
+	vertex.texcoord[0] = code.texcoord[0];
+
+}

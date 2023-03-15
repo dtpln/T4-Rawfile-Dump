@@ -1,0 +1,26 @@
+{
+	stateMap "default";
+
+	vertexShader 3.0 "cooktorrance_hsm_i_sun_dtex.hlsl"
+	{
+	}
+
+	pixelShader 3.0 "cooktorrance_hsm_i_sun.hlsl"
+	{
+		colorMapSampler = material.colorMap;
+		colorTint = material.colorTint;
+		detailMapSampler = material.detailMap;
+		detailScale = material.detailScale;
+		normalMapSampler = material.normalMap;
+		specularMapSampler = material.specularMap;
+		envMapParms = material.envMapParms;
+	}
+
+	vertex.position = code.position;
+	vertex.normal = code.normal;
+	vertex.color[0] = code.color;
+	vertex.texcoord[0] = code.texcoord[0];
+	vertex.texcoord[2] = code.tangent;
+	vertex.texcoord[3] = code.texcoord[1];
+
+}

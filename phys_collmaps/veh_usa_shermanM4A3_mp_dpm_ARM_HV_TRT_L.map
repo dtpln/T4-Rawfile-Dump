@@ -1,0 +1,27 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+ ( 31 51 -30 ) ( -34 51 -30 ) ( -34 34 -30 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -32 34 -2 ) ( -32 51 -2 ) ( 33 51 -2 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -32 42 -1 ) ( 33 42 -1 ) ( 33 42 -32 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 32 34 -1 ) ( 32 51 -1 ) ( 32 51 -32 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 33 51 -1 ) ( -32 51 -1 ) ( -32 51 -32 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -31 51 -1 ) ( -31 34 -1 ) ( -31 34 -32 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1
+{
+"origin" "0.0 0.0 0.0"
+"targetname" "sherman"
+"angles" "0 0 0"
+"model" "veh_usa_shermanm4a3_mp_dpm_ARM_HV_TRT_L"
+"vehicletype" "sherman_mp"
+"health" "10000"
+"spawnflags" "1"
+"classname" "script_vehicle"
+}

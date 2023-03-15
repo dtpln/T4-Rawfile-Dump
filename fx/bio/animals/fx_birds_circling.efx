@@ -1,0 +1,476 @@
+iwfx 2
+
+{
+	name "birds_far";
+	editorFlags looping useRandAlpha useRandSize0 useRandRotDelta useRandVel0 useBackCompatVel absVel1;
+	flags spawnRelative spawnOffsetCylinder runRelToOffset;
+	spawnRange 0 9000;
+	fadeInRange 5000 5000;
+	fadeOutRange 0 0;
+	spawnFrustumCullRadius 1600;
+	spawnLooping 1000 0;
+	spawnOneShot 0 2;
+	spawnDelayMsec 1 120;
+	lifeSpanMsec 5600 2000;
+	spawnOrgX 0 0;
+	spawnOrgY 0 0;
+	spawnOrgZ 0 0;
+	spawnOffsetRadius 500 1620;
+	spawnOffsetHeight 0 300;
+	spawnAnglePitch 0 0;
+	spawnAngleYaw 0 0;
+	spawnAngleRoll 0 0;
+	angleVelPitch 0 0;
+	angleVelYaw 0 0;
+	angleVelRoll 0 0;
+	initialRot -60 50;
+	gravity 0 0;
+	elasticity 1 0;
+	windinfluence 0;
+	atlasBehavior startRandom;
+	atlasIndex 0;
+	atlasFps 20;
+	atlasLoopCount 0;
+	atlasColIndexBits 0;
+	atlasRowIndexBits 0;
+	atlasEntryCount 0;
+	velGraph0X 1000.5
+	{
+		{
+			0 0.5
+			0.244186 -0.208134
+			0.386628 -0.452153
+			0.4943 -0.5
+			0.587209 -0.466507
+			0.723837 -0.303828
+			1 0.5
+		}
+		{
+			0 -0.5
+			0.354651 0.0502392
+			0.517442 0.141148
+			0.668605 0.0789474
+			1 -0.255981
+		}
+	};
+	velGraph0Y 1000.5
+	{
+		{
+			0 -0.5
+			0.104651 0.0885168
+			0.19186 0.179426
+			0.319767 0.131579
+			0.674419 -0.380383
+			0.776163 -0.404306
+			0.851744 -0.270335
+			1 0.5
+		}
+		{
+			0 -0.5
+			0.0988372 -0.366029
+			0.200581 -0.11244
+			0.290698 0.251196
+			0.421512 0.461722
+			0.5029 0.5
+			0.59593 0.466507
+			0.735465 0.227273
+			1 -0.5
+		}
+	};
+	velGraph0Z 412.5
+	{
+		{
+			0 0.0167464
+			0.281977 -0.26555
+			0.354651 -0.289474
+			0.418605 -0.251196
+			0.514535 -0.069378
+			0.616279 0.361244
+			0.668605 0.476077
+			0.723837 0.5
+			0.77907 0.466507
+			0.857558 0.27512
+			1 -0.5
+		}
+		{
+			0 -0.00717703
+			0.0930233 0.337321
+			0.165698 0.404306
+			0.238372 0.366029
+			0.377907 -0.366029
+			0.4885 -0.5
+			0.55814 -0.476077
+			0.659884 0.00239235
+			0.723837 0.150718
+			0.799419 0.188995
+			1 -0.251196
+		}
+	};
+	velGraph1X 7.5
+	{
+		{
+			0 0
+			0.313953 0.5
+			0.659884 -0.452153
+			1 0
+		}
+		{
+			0 -0.5
+			1 0.5
+		}
+	};
+	velGraph1Y 7.5
+	{
+		{
+			0 0
+			0.302326 -0.5
+			0.712209 0.303828
+			1 0.00239235
+		}
+		{
+			0 -0.5
+			1 0.5
+		}
+	};
+	velGraph1Z 7.5
+	{
+		{
+			0 0.5
+			1 -0.141148
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	rotGraph 30
+	{
+		{
+			0 0
+			0.130814 0.5
+			0.258721 -0.5
+			0.517442 0.5
+			0.793605 -0.5
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	sizeGraph0 55
+	{
+		{
+			0 0.766234
+			0.717647 0.62987
+			0.879412 0.409091
+			1 0
+		}
+		{
+			0 1
+			0.676471 0.967532
+			0.823529 0.74026
+			1 0
+		}
+	};
+	sizeGraph1 0
+	{
+		{
+			0 1
+			1 0
+		}
+		{
+			0 1
+			1 0
+		}
+	};
+	scaleGraph 1
+	{
+		{
+			0 1
+			1 0
+		}
+		{
+			0 1
+			1 0
+		}
+	};
+	colorGraph 1
+	{
+		{
+			0 0.34902 0.34902 0.34902
+			1 0.372549 0.372549 0.372549
+		}
+		{
+			0 1 1 1
+			1 0 0 0
+		}
+	};
+	alphaGraph 1
+	{
+		{
+			0 0
+			0.145349 1
+			0.811047 1
+			1 0
+		}
+		{
+			0 0
+			0.15407 1
+			0.831395 1
+			1 0
+		}
+	};
+	lightingFrac 0;
+	collOffset 0 0 0;
+	collRadius 0;
+	fxOnImpact "";
+	fxOnDeath "";
+	sortOrder 5;
+	efPriority 40;
+	emission "";
+	emitDist 1 0;
+	emitDistVariance 0 0;
+	trailSplitDist 0;
+	trailScrollTime 0;
+	trailRepeatDist 0;
+	tail
+	{
+		"gfx_fxt_bio_pigeon"
+	};
+}
+{
+	name "birds_near";
+	editorFlags looping useRandAlpha useRandSize0 useRandRotDelta useRandVel0 useRandVel1 useBackCompatVel absVel1;
+	flags spawnRelative spawnFrustumCull spawnOffsetCylinder runRelToOffset;
+	spawnRange 0 6000;
+	fadeInRange 5000 1000;
+	fadeOutRange 0 0;
+	spawnFrustumCullRadius 1600;
+	spawnLooping 700 0;
+	spawnOneShot 0 2;
+	spawnDelayMsec 0 260;
+	lifeSpanMsec 5600 2000;
+	spawnOrgX 0 0;
+	spawnOrgY 0 0;
+	spawnOrgZ 0 0;
+	spawnOffsetRadius 500 1220;
+	spawnOffsetHeight 0 300;
+	spawnAnglePitch 0 0;
+	spawnAngleYaw 0 0;
+	spawnAngleRoll 0 0;
+	angleVelPitch 0 0;
+	angleVelYaw 0 0;
+	angleVelRoll 0 0;
+	initialRot -60 50;
+	gravity 0 0;
+	elasticity 1 0;
+	windinfluence 0;
+	atlasBehavior startRandom;
+	atlasIndex 0;
+	atlasFps 20;
+	atlasLoopCount 0;
+	atlasColIndexBits 0;
+	atlasRowIndexBits 0;
+	atlasEntryCount 0;
+	velGraph0X 1000.5
+	{
+		{
+			0 0.5
+			0.244186 -0.208134
+			0.386628 -0.452153
+			0.4943 -0.5
+			0.587209 -0.466507
+			0.723837 -0.303828
+			1 0.5
+		}
+		{
+			0 -0.5
+			0.354651 0.0502392
+			0.517442 0.141148
+			0.668605 0.0789474
+			1 -0.255981
+		}
+	};
+	velGraph0Y 1000.5
+	{
+		{
+			0 -0.5
+			0.104651 0.0885168
+			0.19186 0.179426
+			0.319767 0.131579
+			0.674419 -0.380383
+			0.776163 -0.404306
+			0.851744 -0.270335
+			1 0.5
+		}
+		{
+			0 -0.5
+			0.0988372 -0.366029
+			0.200581 -0.11244
+			0.290698 0.251196
+			0.421512 0.461722
+			0.5029 0.5
+			0.59593 0.466507
+			0.735465 0.227273
+			1 -0.5
+		}
+	};
+	velGraph0Z 412.5
+	{
+		{
+			0 0.0167464
+			0.281977 -0.26555
+			0.354651 -0.289474
+			0.418605 -0.251196
+			0.514535 -0.069378
+			0.616279 0.361244
+			0.668605 0.476077
+			0.723837 0.5
+			0.77907 0.466507
+			0.857558 0.27512
+			1 -0.5
+		}
+		{
+			0 -0.00717703
+			0.0930233 0.337321
+			0.165698 0.404306
+			0.238372 0.366029
+			0.377907 -0.366029
+			0.4885 -0.5
+			0.55814 -0.476077
+			0.659884 0.00239235
+			0.723837 0.150718
+			0.799419 0.188995
+			1 -0.251196
+		}
+	};
+	velGraph1X 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph1Y 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph1Z 400
+	{
+		{
+			0 0.160287
+			1 0.5
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	rotGraph 30
+	{
+		{
+			0 0
+			0.130814 0.5
+			0.258721 -0.5
+			0.517442 0.5
+			0.793605 -0.5
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	sizeGraph0 45
+	{
+		{
+			0 0.766234
+			0.717647 0.62987
+			0.879412 0.409091
+			1 0
+		}
+		{
+			0 1
+			0.676471 0.967532
+			0.823529 0.74026
+			1 0
+		}
+	};
+	sizeGraph1 0
+	{
+		{
+			0 1
+			1 0
+		}
+		{
+			0 1
+			1 0
+		}
+	};
+	scaleGraph 1
+	{
+		{
+			0 1
+			1 0
+		}
+		{
+			0 1
+			1 0
+		}
+	};
+	colorGraph 1
+	{
+		{
+			0 0.34902 0.34902 0.34902
+			1 0.372549 0.372549 0.372549
+		}
+		{
+			0 1 1 1
+			1 0 0 0
+		}
+	};
+	alphaGraph 1
+	{
+		{
+			0 0
+			0.145349 1
+			0.811047 1
+			1 0
+		}
+		{
+			0 0
+			0.15407 1
+			0.831395 1
+			1 0
+		}
+	};
+	lightingFrac 0;
+	collOffset 0 0 0;
+	collRadius 0;
+	fxOnImpact "";
+	fxOnDeath "";
+	sortOrder 5;
+	efPriority 40;
+	emission "";
+	emitDist 1 0;
+	emitDistVariance 0 0;
+	trailSplitDist 0;
+	trailScrollTime 0;
+	trailRepeatDist 0;
+	tail
+	{
+		"gfx_fxt_bio_pigeon"
+	};
+}

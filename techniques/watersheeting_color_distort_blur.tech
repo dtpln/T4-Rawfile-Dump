@@ -1,0 +1,27 @@
+{
+	stateMap "default2d";
+
+	vertexShader 1.1 "watersheeting_color_distort_blur.hlsl"
+	{
+//$if USE_DISTORTION
+//		distortionScale = material.distortionScale;
+//$endif
+	}
+
+	pixelShader 3.0 "watersheeting_color_distort_blur.hlsl"
+	{
+		colorMapSampler = sampler.feedback;
+		normalMapSampler = material.detailMap;
+
+//  use BLUR or BLOOM, same sampler defined.
+		colorMapSampler2 = sampler.postEffect0;
+
+	}
+	vertex.position = code.position;
+	vertex.texcoord[0] = code.texcoord[0];
+
+	declTypes
+	{
+		generic
+	}
+}

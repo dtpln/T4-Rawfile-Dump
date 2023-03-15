@@ -1,0 +1,17 @@
+{
+	stateMap "default2d";
+
+	vertexShader 1.1 "textured_simple.hlsl"
+	{
+	}
+
+	pixelShader 2.0 "motionblurframebased.hlsl"
+	{
+		colorMapSampler = sampler.resolvedScene;
+		colorMapSampler1 = sampler.feedback;
+	}
+
+	vertex.position = code.position;
+	vertex.texcoord[0] = code.texcoord[0];
+
+}

@@ -1,0 +1,19 @@
+{
+	stateMap "passthrough";
+
+	vertexShader 2.0 "water_particle.hlsl"
+	{
+	}
+
+	pixelShader 2.0 "water_particle.hlsl"
+	{
+		colorMapSampler = material.colorMap;
+	}
+
+	vertex.position = code.position;
+	vertex.normal = code.normal;
+	vertex.texcoord[0] = code.texcoord[0];
+	vertex.texcoord[1] = code.tangent;
+	vertex.color[0] = code.color;
+
+}

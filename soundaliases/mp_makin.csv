@@ -1,0 +1,63 @@
+name,sequence,file,platform,vol_min,vol_max,pitch_min,pitch_max,dist_min,dist_max,dist_reverb_max,limit_count,limit_type,entity_limit_count,entity_limit_type,bus,priority,spatialized,type,probability,loop,masterslave,loadspec,reverb_falloff_curve,subtitle,compression,randomize_type,secondaryaliasname,chainaliasname,volumefalloffcurve,probability,startdelay,speakermap,reverb_send,lfe percentage,center percentage,platform,envelop_min,envelop_max,envelop percentage,occlusion_level,real_delay,distance_lpf,min_priority,max_priority,min_priority_threshold,max_priority_threshold
+# Ambient SFX - Static,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#bgt_base,,Stream\Backgrounds\Wind\light_wind\light_wind.wav,!wii,0.2,0.2,,,,,,,,,,ambience,90,2d,streamed,,looping,,,,,,,,,,,,ambience,,,,,,,,,,,100,100,0.25,1
+#none,,null.wav,,0.2,0.2,,,,,,,,,,ambience,90,2d,streamed,,looping,,,,,,,,,,,,ambience,,,,,,,,,,,100,100,0.25,1
+#bgt_bunker,,SFX/Amb/Pacific/Room_Tones/pac_night_calm_bunker.wav,!wii,0,0,,,,,,,,,,ambience,90,2d,streamed,,looping,,,,,,,,,,,,ambience,,,,,,,,,,,100,100,0.25,1
+
+ocean_calm_l,,Stream\Level\training\ocean\ocean_waves_00.wav,!wii,0.6,0.6,0.9,1,500,1800,2200,,,,,ambience,50,3d,,,looping,,,curve3,,,pitch,,,curve2,,,,0.35,,,,10,400,0.25,0.1,no,no,50,80,0.25,1
+ocean_calm_r,,Stream\Level\training\ocean\ocean_waves_00.wav,!wii,0.6,0.6,0.9,1,500,1800,2200,,,,,ambience,50,3d,,,looping,,,curve3,,,pitch,,,curve2,,150,,0.35,,,,10,400,0.25,0.1,no,no,50,80,0.25,1
+
+
+#ocean_distant,,SFX/Amb/Pacific/ocean/Surf2.L.wav,!wii,0.6,1,0.6,0.7,250,8000,,,,,,ambience,50,3d,,,looping,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+dist_ocean_L,,SFX\Levels\training\ocean_left_channel.wav,!wii,0.65,0.65,1,1.1,500,3000,4000,,,,,ambience,,3d,,,looping,,,curve4,,,pitch,,,curve2,,,,0.35,,,,,,,0,no,no,20,50,0.25,1
+dist_ocean_R,,SFX\Levels\training\ocean_right_channel.wav,!wii,0.65,0.65,1,1.1,500,3000,4000,,,,,ambience,,3d,,,looping,,,curve4,,,pitch,,,curve2,,,,0.35,,,,,,,0,no,no,20,50,0.25,1
+#wind_on_hill_L,,Stream\Level\mak\line_wind\wind_on_hill_L.wav,!wii,0.75,0.75,1,1,150,1200,,,,,,ambience,,3d,streamed,,looping,,,,,,,,,curve2,,,,,,,,250,400,0.5,0,no,no,20,50,0.25,1
+#wind_on_hill_R,,Stream\Level\mak\line_wind\wind_on_hill_R.wav,!wii,0.75,0.75,1,1,150,1200,,,,,,ambience,,3d,streamed,,looping,,,,,,,,,curve2,,,,,,,,250,400,0.5,0,no,no,20,50,0.25,1
+ocean_oneshot,,SFX\Levels\training\ocean_oneshots_##,!wii,0.5,0.5,0.9,1.05,10,2200,,,,,,ambience,,3d,,,,,,,,,,,,curve2,,,,0.5,,,,,,,0.2,no,no,20,50,0.25,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Shrine,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+amb_shrinebells,,SFX\Levels\Makin\shrine\bells_##,!wii,0.65,0.85,0.95,1.1,10,1750,3000,,,,,ambience,,3d,,,,,,curve2,,,,,,curve2,,,,1,,,,100,250,1,0.5,no,yes,30,50,0.1,1
+amb_wind_trees_shrine,,SFX/Amb/Wind/leaves_##,!wii,0.55,0.55,0.95,1.05,10,385,500,,,,,ambience,,3d,,,,,,curve1,,,pitch,,,curve2,0.15,,,,,,,,,,0.2,,no,30,50,0.1,1
+amb_low_hum,,SFX\Levels\Makin\shrine\whisper_##,!wii,0.25,0.45,0.95,1.1,10,800,1000,,,,,ambience,,3d,,,,,,,,,pitch,,,curve2,,,,,,,,,,,0,no,no,30,50,0.1,1
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# Ambient SFX - Spawned,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# Base Package,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#amb_seagull,,SFX/Amb/animals/seagull_##,!wii,0.2,0.4,0.9,1.1,10,5000,,,,,,ambience,30,3d,,,,,,,,,,,,,,,,,,,,,,,,,,30,50,0.1,1
+#amb_twigsnap,,SFX/Amb/TwigSnap_##,!wii,0.2,0.4,0.9,1.1,10,5000,,,,,,ambience,30,3d,,,,,,,,,,,,,,,,,,,,,,,,,,30,50,0.1,1
+#amb_shortbugs,,SFX/Amb/animals/wall_of_bugs/Short_Bugs_##,!wii,0.2,0.4,0.9,1.1,10,5000,,,,,,ambience,30,3d,,,,,,,,,,,,,,,,,,,,,,,,,,30,50,0.1,1
+
+# Loopers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+amb_wall_of_bugs,1,SFX/Amb/animals/wall_of_bugs/wall_of_bugs_00.wav,!wii,0.1,0.1,1,1,10,1700,2000,,,,,ambience,30,3d,,,looping,,,,,,pitch,,,,,,,,,,,,,,0,,no,30,50,0.1,1
+amb_wall_of_bugs,2,SFX/Amb/animals/wall_of_bugs/wall_of_bugs_01.wav,!wii,0.1,0.1,1,1,10,1700,2000,,,,,ambience,30,3d,,,looping,,,,,,pitch,,,,,,,,,,,,,,0,,no,30,50,0.1,1
+amb_wall_of_bugs,3,SFX/Amb/animals/wall_of_bugs/wall_of_bugs_02.wav,!wii,0.1,0.1,1,1,10,1700,2000,,,,,ambience,30,3d,,,looping,,,,,,pitch,,,,,,,,,,,,,,0,,no,30,50,0.1,1
+amb_wall_of_bugs,4,SFX/Amb/animals/wall_of_bugs/wall_of_bugs_03.wav,!wii,0.1,0.1,1,1,10,1700,2000,,,,,ambience,30,3d,,,looping,,,,,,pitch,,,,,,,,,,,,,,0,,no,30,50,0.1,1
+#amb_wall_of_bugs,,SFX/Amb/animals/wall_of_bugs/wall_of_bugs_04.wav,!wii,0.1,0.1,1,1,10,1700,2000,,,,,ambience,30,3d,,,looping,,,,,,pitch,,,,,,,,,,,,,,0,,no,30,50,0.1,1
+#amb_wall_of_bugs_05,,SFX/Amb/animals/wall_of_bugs/wall_of_bugs_05.wav,!wii,0.25,0.25,1,1,10,1700,2000,,,,,ambience,30,3d,,,looping,,,,,,pitch,,,,,,,,,,,,,,0,,no,30,50,0.1,1
+#amb_wall_of_bugs_06,,SFX/Amb/animals/wall_of_bugs/wall_of_bugs_06.wav,!wii,0.25,0.25,1,1,10,1700,2000,,,,,ambience,30,3d,,,looping,,,,,,pitch,,,,,,,,,,,,,,0,,no,30,50,0.1,1
+
+amb_water_vs_pier_00,1,SFX/Amb/Pacific/ocean/water_vs_pier_calm_00.wav,!wii,0.5,0.55,0.8,1.1,200,1200,2400,,,,,ambience,60,3d,,,looping,,,curve3,,,pitch,,,curve2,,,,,,,,,,,0,,no,30,50,0.1,1
+amb_water_vs_pier_00,2,SFX/Amb/Pacific/ocean/water_vs_pier_calm_01.wav,!wii,0.5,0.55,0.8,1.1,200,1200,2400,,,,,ambience,60,3d,,,looping,,,curve3,,,pitch,,,curve2,,,,,,,,,,,0,,no,30,50,0.1,1
+water_vs_boat_calm_00,1,SFX/Amb/Pacific/ocean/water_vs_pier_calm_00.wav,!wii,0.5,0.55,0.8,1.1,200,1200,2400,,,,,ambience,60,3d,,,looping,,,curve3,,,pitch,,,curve2,,,,,,,,,,,0,,no,30,50,0.1,1
+water_vs_boat_calm_00,2,SFX/Amb/Pacific/ocean/water_vs_pier_calm_01.wav,!wii,0.5,0.55,0.8,1.1,200,1200,2400,,,,,ambience,60,3d,,,looping,,,curve3,,,pitch,,,curve2,,,,,,,,,,,0,,no,30,50,0.1,1
+
+creek_a,,SFX\Levels\Makin\creek\creek_00.wav,!wii,0.5,0.5,0.9,1.05,500,1000,1200,,,,,ambience,,3d,,,looping,,,curve3,,,pitch,,,curve3,,,,,,,,250,800,0.5,,,no,30,50,0.1,1
+creek_b,,SFX\Levels\Makin\creek\creek_01.wav,!wii,0.5,0.5,0.9,1.05,500,1000,1200,,,,,ambience,,3d,,,looping,,,curve3,,,pitch,,,curve3,,,,,,,,250,800,0.5,,,no,30,50,0.1,1
+creek_calm,,SFX\Levels\Makin\creek\creek_calm_00.wav,!wii,0.6,0.6,0.9,1.05,500,1000,1200,,,,,ambience,,3d,,,looping,,,curve3,,,pitch,,,curve3,,,,,,,,250,800,0.5,,,no,30,50,0.1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+amb_wind_trees,,SFX/Amb/Wind/leaves_##,!wii,0.75,0.85,0.95,1.2,250,1500,2500,,,,,ambience,50,3d,,,,,,curve1,,,pitch,,,curve2,,,,,,,,,,,0.2,,no,30,50,0.1,1,
+amb_crickets,,SFX\Amb\animals\insects_##,!wii,0.1,0.35,1,1,10,800,800,,,,,ambience,,3d,,,,,,,,,pitch,amb_frogs_linked,,curve2,,,,,,,,,,,0.2,,no,5,10,0.25,1,
+frogs,,SFX\Amb\animals\frogs_pac_##,!wii,0.05,0.15,1,1,10,650,800,,,,,ambience,,3d,,,,,,,,,pitch,,,curve2,,,,,,,,,,,0.1,,no,5,10,0.25,1,
+amb_frogs_linked,,SFX\Amb\animals\frogs_pac_##,!wii,0.1,0.15,1,1,10,500,,,,,,ambience,,3d,,,,,,,,,,,,curve2,0.05,,,,,,,,,,0.1,,no,5,10,0.25,1,
+creek_frogs,,SFX\Levels\Makin\creek_frogs_##,!wii,0.05,0.25,1,1,125,800,1000,,,,,ambience,,3d,,,,,,,,,pitch,,,curve2,,,,,,,,,,,0.1,,no,5,10,0.25,1,
+#amb_mosquito,,SFX\Amb\animals\mosquito_mn_##,!wii,0.35,0.45,1,1,10,500,,,,,,ambience,,3d,,,,,,,,,pitch,,,curve2,,,,,,,,,,,,,no,5,10,0.25,1,
+
+light,,SFX\Amb\lightbulbs\light_humming_00.wav,!wii,0.35,0.45,0.85,1.05,50,800,1000,,,,,ambience,,3d,,,looping,,,curve2,,,pitch,,,curve2,,,,,,,,,,,0.25,no,no,30,50,0.1,1,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# For Wii,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#courtyard_indoor,,sfx/levles/mp_castle_indoor.wav,wii,1,1,,,,,,,,,,ambience,,2d,streamed,,looping,,,,,,,,,,,,,,,,,,,,,,,,60,60,,
+#courtyard_outdoor,,sfx/levles/mp_castle_outdoor.wav,wii,1,1,,,,,,,,,,ambience,,2d,streamed,,looping,,,,,,,,,,,,,,,,,,,,,,,,60,60,,
+
+creek,,null.wav,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,47 @@
+name,sequence,file,platform,vol_min,vol_max,pitch_min,pitch_max,dist_min,dist_max,dist_reverb_max,limit_count,limit_type,entity_limit_count,entity_limit_type,bus,priority,spatialized,type,probability,loop,masterslave,loadspec,reverb_falloff_curve,subtitle,compression,randomize_type,secondaryaliasname,chainaliasname,volumefalloffcurve,startdelay,speakermap,reverb_send,lfe percentage,center percentage,platform,envelop_min,envelop_max,envelop percentage,move_type,move_time,occlusion_level,min_priority,max_priority,min_priority_threshold,max_priority_threshold
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# Ambient SFX - Static,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#outdoors_room,,SFX/amb/wind/line_loop/light/light_00.wav,!wii,0.1,0.2,0.9,1.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+underground_tone,,Stream\backgrounds\room_tones\ber3b_partial_low_00.wav,!wii,0.7,0.7,1,1,,,,,,,,ambience,,2d,streamed,,looping,,all_mp,curve2,,,,,,curve3,,ambience,,,,,,,,,,,20,50,0.25,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# Ambient SFX - Spawned,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+window_wind,,SFX/levels/oki3/wind_window_##,!wii,0.8,0.9,0.9,1.1,200,600,900,,,,,ambience,,3d,,,looping,,all_mp,curve3,,,,,,curve3,,,0.5,,,,,,,,,0.2,20,50,0.25,1
+
+grass_wind,,SFX/amb/wind/gusts/thrugrass_##,!wii,0.4,0.6,0.9,1.1,150,800,1100,10,reject,,,ambience,,3d,,,,,all_mp,curve3,,,,,,curve3,,,,,,,,,,,,0.5,20,50,0.25,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+tree_wind,,SFX/amb/wind/leaves_##,!wii,0.4,0.8,0.9,1.1,200,1200,1600,12,reject,,,ambience,,3d,,,,,all_mp,curve3,,,,,,curve3,,,,,,,,,,,,0.4,20,50,0.25,1
+
+amb_cicada,,SFX/amb/animals/cicada_##,!wii,0.15,0.3,0.8,1.2,200,1100,1600,,,,,ambience,,3d,,,looping,,all_mp,curve3,,,,,,curve3,,,,,,,,,,,,0.4,20,50,0.25,1
+
+amb_crow,,SFX/amb/animals/raven_##,!wii,0.3,0.6,0.9,1.1,200,1000,1300,,,,,ambience,,3d,,,,,all_mp,curve3,,,,,,curve3,,,,,,,,,,,,0.5,20,50,0.25,1
+
+amb_mos,,SFX/amb/animals/mosquito_mn_##,!wii,1,1,0.9,1.1,250,750,1000,8,reject,,,ambience,,3d,,,,,all_mp,curve3,,,,,,curve3,,,,,,,,,,,,0.5,20,50,0.25,1
+
+bugs_wall,1,SFX/amb/animals/wall_of_bugs/wall_of_bugs_00.wav,!wii,0.15,0.2,0.9,1.1,200,1000,1400,,,,,ambience,,3d,,,looping,,all_mp,curve3,,,,,,curve3,,,,,,,,,,,,0.3,20,50,0.25,1
+bugs_wall,2,SFX/amb/animals/wall_of_bugs/wall_of_bugs_02.wav,!wii,0.15,0.2,0.9,1.1,200,1000,1400,,,,,ambience,,3d,,,looping,,all_mp,curve3,,,,,,curve3,,,,,,,,,,,,0.3,20,50,0.25,1
+bugs_wall,3,SFX/amb/animals/wall_of_bugs/wall_of_bugs_03.wav,!wii,0.15,0.2,0.9,1.1,200,1000,1400,,,,,ambience,,3d,,,looping,,all_mp,curve3,,,,,,curve3,,,,,,,,,,,,0.3,20,50,0.25,1
+bugs_wall,4,SFX/amb/animals/wall_of_bugs/wall_of_bugs_04.wav,!wii,0.15,0.2,0.9,1.1,200,1000,1400,,,,,ambience,,3d,,,looping,,all_mp,curve3,,,,,,curve3,,,,,,,,,,,,0.3,20,50,0.25,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+amb_birds,1,SFX/amb/animals/old/bird_finch.wav,!wii,0.4,0.6,0.9,1.1,200,1000,1300,,,,,ambience,,3d,,,,,all_mp,curve3,,,,,,curve3,,,,,,,,,,,,0.5,20,50,0.25,1
+amb_birds,2,SFX/amb/animals/old/bird_generic.wav,!wii,0.4,0.6,0.9,1.1,200,1000,1300,,,,,ambience,,3d,,,,,all_mp,curve3,,,,,,curve3,,,,,,,,,,,,0.5,20,50,0.25,1
+amb_birds,3,SFX/amb/animals/old/bird_sparrow.wav,!wii,0.4,0.6,0.9,1.1,200,1000,1300,,,,,ambience,,3d,,,,,all_mp,curve3,,,,,,curve3,,,,,,,,,,,,0.5,20,50,0.25,1
+amb_birds,4,SFX/amb/animals/old/bird_wren.wav,!wii,0.4,0.6,0.9,1.1,200,1000,1300,,,,,ambience,,3d,,,,,all_mp,curve3,,,,,,curve3,,,,,,,,,,,,0.5,20,50,0.25,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+twig_snap,,SFX/amb/twigsnap_##,!wii,0.9,1,0.9,1.2,200,750,1000,,,,,ambience,,3d,,,,,all_mp,curve3,,,,,,curve3,,,0.5,,,,,,,,,0.5,10,50,0.25,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+amb_flies,,SFX/amb/animals/flies_##,!wii,0.6,0.7,0.9,1.1,200,700,1000,,,,,ambience,,3d,,,,,all_mp,curve3,,,,,,curve3,,,,,,,,,,,,0.6,10,50,0.25,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+wood_creak,,SFX/amb/wood_creak_##,!wii,0.4,0.7,0.9,1.1,150,800,1200,,,,,ambience,,3d,,,,,all_mp,curve3,,,,,,curve3,,,0.6,,,,,,,,,0.5,20,50,0.25,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+building_fire,,SFX/destruction/fires/bldg_fire/med/med_00.wav,!wii,1,1,1,1,175,1300,1500,,,,,ambience,,3d,,,looping,,all_mp,curve3,,,,,,curve3,,,0.7,,,,,,,,,0.4,20,60,0.25,1
+small_fire,1,SFX/destruction/fires/small/small_07.wav,!wii,0.9,1,0.9,1.1,100,600,700,,,,,ambience,,3d,,,looping,,all_mp,curve3,,,,fire_rumble,,curve3,,,0.7,,,,,,,,,0.2,20,60,0.25,1
+small_fire,2,SFX\Destruction\fires\dynamic\dyn_fire_03.wav,!wii,0.9,1,0.9,1.1,100,600,700,,,,,ambience,,3d,,,looping,,all_mp,curve3,,,,fire_rumble,,curve3,,,0.7,,,,,,,,,0.2,20,60,0.25,1
+small_fire,3,SFX\Destruction\fires\dynamic\dyn_fire_01.wav,!wii,0.9,1,0.9,1.1,100,600,700,,,,,ambience,,3d,,,looping,,all_mp,curve3,,,,fire_rumble,,curve3,,,0.7,,,,,,,,,0.2,20,60,0.25,1
+fire_rumble,,SFX\Levels\Peleliu_2\rumble\rumble.wav,!wii,0.8,0.8,1,1,100,500,600,,,,,ambience,,3d,,,looping,,all_mp,curve3,,,,,,curve3,,,,,,,,,,,,,20,50,0.25,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# For Wii,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#courtyard_indoor,,sfx/levles/mp_castle_indoor.wav,wii,1,1,,,,,,,,,,ambience,,2d,streamed,,looping,,,,,,,,,,,,,,,,,,,,,,,,60,60
+#courtyard_outdoor,,sfx/levles/mp_castle_outdoor.wav,wii,1,1,,,,,,,,,,ambience,,2d,streamed,,looping,,,,,,,,,,,,,,,,,,,,,,,,60,60

@@ -1,0 +1,196 @@
+iwfx 2
+
+{
+	name "tracers_Ctr";
+	editorFlags looping useRandColor useRandAlpha useRandSize0 useRandSize1 useRandRotDelta modColorByAlpha useRandVel0 useRandVel1 useBackCompatVel;
+	flags spawnRelative spawnFrustumCull spawnOffsetNone runRelToEffect dieOnTouch nonUniformScale;
+	spawnRange 0 25000;
+	fadeInRange 20000 7000;
+	fadeOutRange 0 0;
+	spawnFrustumCullRadius 3000;
+	spawnLooping 461 0;
+	spawnOneShot 1 0;
+	spawnDelayMsec 0 2121;
+	lifeSpanMsec 800 1400;
+	spawnOrgX 0 0;
+	spawnOrgY -100 200;
+	spawnOrgZ -100 200;
+	spawnOffsetRadius 100 300;
+	spawnOffsetHeight 0 150;
+	spawnAnglePitch 0 0;
+	spawnAngleYaw 0 0;
+	spawnAngleRoll 0 0;
+	angleVelPitch 0 0;
+	angleVelYaw 0 0;
+	angleVelRoll 0 0;
+	initialRot 0 0;
+	gravity 0 0;
+	elasticity 1 0;
+	windinfluence 0;
+	atlasBehavior startRandom;
+	atlasIndex 0;
+	atlasFps 0;
+	atlasLoopCount 0;
+	atlasColIndexBits 0;
+	atlasRowIndexBits 0;
+	atlasEntryCount 0;
+	velGraph0X 10000
+	{
+		{
+			0 0.5
+			1 0.5
+		}
+		{
+			0 0.5
+			1 0.5
+		}
+	};
+	velGraph0Y 1000
+	{
+		{
+			0 0.246411
+			1 0.5
+		}
+		{
+			0 -0.222488
+			1 -0.5
+		}
+	};
+	velGraph0Z 1000
+	{
+		{
+			0 0.5
+			1 0.5
+		}
+		{
+			0 -0.5
+			1 -0.5
+		}
+	};
+	velGraph1X 2000
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 -0.5
+		}
+	};
+	velGraph1Y 2000
+	{
+		{
+			0 0
+			0.418605 0.0502392
+			0.828488 0.26555
+			1 0.5
+		}
+		{
+			0 0
+			0.235465 -0.0263158
+			0.616279 -0.131579
+			1 -0.5
+		}
+	};
+	velGraph1Z 2000
+	{
+		{
+			0 0
+			0.255814 0.0502392
+			0.738372 0.217703
+			1 0.5
+		}
+		{
+			0 0
+			0.31686 -0.0645933
+			0.747093 -0.27512
+			1 -0.5
+		}
+	};
+	rotGraph 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	sizeGraph0 20
+	{
+		{
+			0 1
+			1 1
+		}
+		{
+			0 0.558442
+			1 0.558442
+		}
+	};
+	sizeGraph1 300
+	{
+		{
+			0 1
+			1 1
+		}
+		{
+			0 0.493506
+			1 0.493506
+		}
+	};
+	scaleGraph 1
+	{
+		{
+			0 1
+			1 0
+		}
+		{
+			0 1
+			1 0
+		}
+	};
+	colorGraph 1
+	{
+		{
+			0 0.906736 0.88601 0.880829
+			1 0.843137 0.654902 0.666667
+		}
+		{
+			0 0.952941 0.854902 0.796078
+			1 0.901961 0.6 0.301961
+		}
+	};
+	alphaGraph 1
+	{
+		{
+			0 1
+			0.715116 1
+			1 0.282297
+		}
+		{
+			0 0.851675
+			0.659884 0.813397
+			1 0
+		}
+	};
+	lightingFrac 0;
+	collOffset 0 0 0;
+	collRadius 0;
+	fxOnImpact "";
+	fxOnDeath "";
+	sortOrder 5;
+	efPriority 60;
+	emission "";
+	emitDist 1 0;
+	emitDistVariance 0 0;
+	trailSplitDist 0;
+	trailScrollTime 0;
+	trailRepeatDist 0;
+	line
+	{
+		"gfx_fxt_muz_vert_gen"
+	};
+}

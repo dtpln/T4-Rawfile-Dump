@@ -1,0 +1,31 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+ ( -6 -8 0 ) ( 8 -8 0 ) ( 8 6 0 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -7 10 480 ) ( 4 10 480 ) ( 4 1 480 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -6 -8 0 ) ( -7 1 480 ) ( 4 1 480 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 8 6 0 ) ( 8 -8 0 ) ( 4 1 480 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 8 6 0 ) ( 4 10 480 ) ( -7 10 480 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -7 10 480 ) ( -7 1 480 ) ( -6 -8 0 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 1
+{
+ ( -6 -8 0 ) ( 8 -8 0 ) ( 8 6 0 ) clip_ai 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -7 10 480 ) ( 4 10 480 ) ( 4 1 480 ) clip_ai 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -6 -8 0 ) ( -7 1 480 ) ( 4 1 480 ) clip_ai 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 8 6 0 ) ( 8 -8 0 ) ( 4 1 480 ) clip_ai 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 8 6 0 ) ( 4 10 480 ) ( -7 10 480 ) clip_ai 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -7 10 480 ) ( -7 1 480 ) ( -6 -8 0 ) clip_ai 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1
+{
+"model" "prefab_berlin_railpost"
+"origin" "0.0 0.0 0.0"
+"classname" "misc_model"
+}

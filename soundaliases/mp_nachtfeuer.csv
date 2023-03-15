@@ -1,0 +1,47 @@
+name,sequence,file,platform,vol_min,vol_max,pitch_min,pitch_max,dist_min,dist_max,dist_reverb_max,limit_count,limit_type,entity_limit_count,entity_limit_type,bus,priority,spatialized,type,probability,loop,masterslave,loadspec,reverb_falloff_curve,subtitle,compression,randomize_type,secondaryaliasname,chainaliasname,volumefalloffcurve,startdelay,speakermap,reverb_send,lfe percentage,center percentage,platform,envelop_min,envelop_max,envelop percentage,move_type,move_time,occlusion_level,min_priority,max_priority,min_priority_threshold,max_priority_threshold
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# Ambient SFX - Static,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ghost_wind_l_00,,sfx/levels/mp_nachtfeuer/ghost_wind_l_00.wav,!wii,0.6,0.6,1,1,100,1200,1500,,,,,ambience,,3d,streamed,,looping,,,curve3,,,,,,curve3,,,,,,,250,400,0.5,,,0.2,20,50,0.25,1
+ghost_wind_r_00,,sfx/levels/mp_nachtfeuer/ghost_wind_r_00.wav,!wii,0.6,0.6,1,1,100,1200,1500,,,,,ambience,,3d,streamed,,looping,,,curve3,,,,,,curve3,,,,,,,250,400,0.5,,,0.2,20,50,0.25,1
+
+ghost_wind_l_01,,sfx/levels/mp_nachtfeuer/ghost_wind_l_01.wav,!wii,0.6,0.6,1,1,100,1200,1500,,,,,ambience,,3d,,,looping,,,curve3,,,,,,curve3,,,,,,,250,400,0.5,,,0.2,20,50,0.25,1
+ghost_wind_r_01,,sfx/levels/mp_nachtfeuer/ghost_wind_r_01.wav,!wii,0.6,0.6,1,1,100,1200,1500,,,,,ambience,,3d,,,looping,,,curve3,,,,,,curve3,,,,,,,250,400,0.5,,,0.2,20,50,0.25,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# Ambient SFX - Spawned,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+lightbulb_loop,,SFX\Amb\lightbulbs\light_humming_00.wav,!wii,0.25,0.3,0.95,1.05,50,300,500,,,,,ambience,,3d,,,looping,,,curve2,,,pitch,,,curve2,,,,,,,,,,,,0.25,30,50,0.1,1
+lightbulb_loop_minispot,,SFX\Amb\lightbulbs\light_humming_00.wav,!wii,0.35,0.35,0.8,0.8,50,300,500,,,,,ambience,,3d,,,looping,,,curve2,,,pitch,,,curve2,,,,,,,,,,,,0.25,30,50,0.1,1
+lightbulb_loop_spot,,SFX\Amb\lightbulbs\light_humming_00.wav,!wii,0.45,0.5,0.6,0.6,50,300,500,,,,,ambience,,3d,,,looping,,,curve2,,,pitch,,,curve2,,,,,,,,,,,,0.25,30,50,0.1,1
+
+speech_1,,voiceovers\vfx\speech\speech_01.wav,!wii,0.85,0.85,,,500,10000,,,,,,ambience,60,3d,,,looping,,,curve3,,,,,,curve3,,,,,,,,,,,,0.2,100,100,0.25,1
+speech_2,,voiceovers\vfx\speech\speech_01.wav,!wii,0.75,0.75,,,500,7500,,,,,,ambience,60,3d,,,looping,,,curve3,,,,,,curve3,500,,,,,,,,,,,0.2,100,100,0.25,1
+speech_3,,voiceovers\vfx\speech\speech_01.wav,!wii,0.75,0.75,,,500,7500,,,,,,ambience,60,3d,,,looping,,,curve3,,,,,,curve3,700,,,,,,,,,,,0.2,100,100,0.25,1
+
+dog,,sfx/amb/animals/dog_##,!wii,0.3,0.4,,,50,1000,1200,,,,,ambience,60,3d,,0.8,,,,curve3,,,,,,curve3,,,,,,,,,,,,0.7,20,40,0.25,1
+
+german_radio_loop,,sfx/levels/mp_nachtfeuer/german_radio_loop.wav,!wii,0.5,0.5,,,100,1200,1400,,,,,ambience,60,3d,streamed,,looping,,,curve3,,,,,,curve3,,,,,,,,,,,,0,100,100,0.25,1
+
+dist_imp,,sfx/amb/distant_impacts/imp_artillery_##,!wii,0.4,0.8,0.9,1,50,3500,4000,,,,,ambience,60,3d,,0.5,,,,curve3,,,,,,curve3,,,,,,,,,,,,0.2,20,40,0.25,1
+
+small_fire,1,SFX/Destruction/fires/small/small_00.wav,!wii,0.25,0.35,0.8,1.05,120,800,1000,,,,,ambience,100,3d,,,looping,,,curve3,,,pitch,,,curve2,,,,,,,20,400,0.5,,,0.3,20,40,0.15,0.85
+small_fire,2,SFX/Destruction/fires/small/small_07.wav,!wii,0.25,0.35,0.8,1.05,120,800,1000,,,,,ambience,100,3d,,,looping,,,curve3,,,pitch,,,curve2,,,,,,,20,400,0.5,,,0.3,20,40,0.15,0.85
+small_fire,3,SFX/Destruction/fires/small/small_01.wav,!wii,0.25,0.35,0.8,1.05,120,800,1000,,,,,ambience,100,3d,,,looping,,,curve3,,,pitch,,,curve2,,,,,,,20,400,0.5,,,0.3,20,40,0.15,0.85
+small_fire,4,SFX/Destruction/fires/small/small_03.wav,!wii,0.25,0.35,0.8,1.05,120,800,1000,,,,,ambience,100,3d,,,looping,,,curve3,,,pitch,,,curve2,,,,,,,20,400,0.5,,,0.3,20,40,0.15,0.85
+small_fire,5,SFX/Destruction/fires/small/small_04.wav,!wii,0.25,0.35,0.8,1.05,120,800,1000,,,,,ambience,100,3d,,,looping,,,curve3,,,pitch,,,curve2,,,,,,,20,400,0.5,,,0.3,20,40,0.15,0.85
+small_fire,6,SFX/Destruction/fires/small/small_05.wav,!wii,0.25,0.35,0.8,1.05,120,800,1000,,,,,ambience,100,3d,,,looping,,,curve3,,,pitch,,,curve2,,,,,,,20,400,0.5,,,0.3,20,40,0.15,0.85
+
+large_fire,,SFX\Levels\Makin\hut_fire_##,!wii,0.35,0.35,0.8,1.05,300,1800,2000,,,,,ambience,100,3d,,,looping,,,curve3,,,pitch,,,,,,,,,,100,400,0.5,,,0.2,20,40,0.15,0.85
+fire_wind,1,sfx/levels/mp_nachtfeuer/fire_wind_##,!wii,0.2,0.3,0.8,1.05,100,700,1000,,,,,ambience,100,3d,,0.7,,,,curve3,,,pitch,,,,,,,,,,,,,left_player,10,0.5,20,40,0.15,0.85
+fire_wind,2,sfx/levels/mp_nachtfeuer/fire_wind_##,!wii,0.2,0.3,0.8,1.05,100,700,1000,,,,,ambience,100,3d,,0.7,,,,curve3,,,pitch,,,,,,,,,,,,,right_player,10,0.5,20,40,0.15,0.85
+
+ember,,sfx/amb/debris/ember_##,!wii,0.2,0.2,0.85,1.05,25,200,300,,,,,ambience,100,3d,,,,,,curve3,,,pitch,,,curve2,,,,,,,20,400,0.5,,,0.3,20,40,0.15,0.8
+
+flak_burst,,null.wav,!wii,0.8,0.8,1,1,50,800,1400,,,,,ambience,60,3d,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+air_conditioner,,sfx/levels/mp_nachtfeuer/aircond.wav,!wii,0.7,0.7,1,1,100,250,400,,,,,ambience,60,3d,,,looping,,,curve3,,,,,,curve2,,,,,,,,,,,,0.4,20,60,0.15,0.85
+
+wood_creak,,sfx/Amb/wood_creak_##,!wii,0.4,0.6,0.9,1.1,50,450,800,,,,,ambience,60,3d,,0.8,,,,curve3,,,,,,curve3,,,,,,,,,,,,0.5,20,60,0.2,1
+
+# For Wii,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#courtyard_indoor,,sfx/levles/mp_castle_indoor.wav,wii,1,1,,,,,,,,,,ambience,,2d,streamed,,looping,,,,,,,,,,,,,,,,,,,,,,,,60,60
+#courtyard_outdoor,,sfx/levles/mp_castle_outdoor.wav,wii,1,1,,,,,,,,,,ambience,,2d,streamed,,looping,,,,,,,,,,,,,,,,,,,,,,,,60,60

@@ -1,0 +1,15 @@
+{
+	stateMap "default";
+
+	vertexShader 2.0 "projected_decal.hlsl"
+	{
+	}
+
+	pixelShader 2.0 "projected_decal.hlsl"
+	{
+		colorMapSampler = material.colorMap;
+	}
+
+	vertex.position = code.position;
+
+}

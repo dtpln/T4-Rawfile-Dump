@@ -1,0 +1,43 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"skyboxmodel" "skybox_pel1"
+"northyaw" "225"
+"radiosityscale" "1"
+"sunradiosity" "2.5"
+"contrastgain" "0.15"
+"diffusefraction" "0.2"
+"_color" "1 1 1"
+"sunlight" "1"
+"sundirection" "270 95 0"
+"sundiffusecolor" "1 1 1"
+"suncolor" "1 1 1"
+"ambient" "0.2"
+"bouncefraction" ".3"
+"classname" "worldspawn"
+// brush 0
+{
+ ( 40 56 96 ) ( 40 -20 96 ) ( -36 -20 96 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 -20 -12 ) ( 40 -20 -12 ) ( 40 56 -12 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 40 18 -12 ) ( 40 18 92 ) ( 40 56 92 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 35 37 -12 ) ( 35 37 92 ) ( 16 70 92 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 21 51 -12 ) ( 21 51 92 ) ( -12 70 92 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2 56 -12 ) ( 2 56 92 ) ( -36 56 92 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -17 51 -12 ) ( -17 51 92 ) ( -50 32 92 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -31 37 -12 ) ( -31 37 92 ) ( -50 4 92 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 18 -12 ) ( -36 18 92 ) ( -36 -20 92 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -31 -1 -12 ) ( -31 -1 92 ) ( -12 -34 92 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -17 -15 -12 ) ( -17 -15 92 ) ( 16 -34 92 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2 -20 -12 ) ( 2 -20 92 ) ( 40 -20 92 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 21 -15 -12 ) ( 21 -15 92 ) ( 54 4 92 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 35 -1 -12 ) ( 35 -1 92 ) ( 54 32 92 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1
+{
+"origin" "0.0 0.0 0.0"
+"model" "peleliu_underwater_obstacle_d"
+"classname" "misc_model"
+}

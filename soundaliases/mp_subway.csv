@@ -1,0 +1,31 @@
+name,sequence,file,vol_min,vol_max,pitch_min,pitch_max,dist_min,dist_max,dist_reverb_max,bus,priority,spatialized,type,probability,loop,masterslave,loadspec,reverb_falloff_curve,subtitle,compression,randomize_type,secondaryaliasname,chainaliasname,volumefalloffcurve,probability,startdelay,speakermap,reverb,lfe percentage,center percentage,platform,envelop_min,envelop_max,envelop percentage,occlusion_level,headset capable,min_priority,max_priority,min_priority_threshold,max_priority_threshold
+
+
+# Ambient SFX - Static,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ind_wind_L,,sfx\levels\mp_subway\wind\int_wind_02_L.wav,0.6,0.6,,,10,1000,1500,ambience,90,3d,,,looping,,all_mp,,,,,,,curve2,,,,,,,,,,,0.1,,60,70,0.25,1
+ind_wind_R,,sfx\levels\mp_subway\wind\int_wind_02_R.wav,0.6,0.6,,,10,1000,1500,ambience,90,3d,,,looping,,all_mp,,,,,,,curve2,,,,,,,,,,,0.1,,60,70,0.25,1
+low_wind,,sfx\levels\mp_subway\wind\subway_ind_wind.wav,0.7,0.7,,,10,800,,ambience,90,3d,,,looping,,all_mp,,,,,,,curve2,,,,,,,,,,,,,20,80,0.25,1
+out_wind_L,,sfx\levels\mp_subway\wind\out_wind_L.wav,0.8,0.8,,,10,1100,1200,ambience,90,3d,streamed,,looping,,all_mp,,,,,,,curve2,,,,,,,,,,,0.4,,20,70,0.25,1
+out_wind_R,,sfx\levels\mp_subway\wind\out_wind_R.wav,0.8,0.8,,,10,1100,1200,ambience,90,3d,streamed,,looping,,all_mp,,,,,,,curve2,,,,,,,,,,,0.4,,20,70,0.25,1
+lower_tunnel,,sfx\levels\mp_subway\wind\lower_tunnel_wind.wav,0.6,0.6,,,10,600,800,ambience,90,3d,,,looping,,all_mp,,,,,,,curve2,,,,,,,,,,,,,20,90,0.25,1
+
+
+# Ambient SFX - Spawned,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+train_squeak,,sfx\levels\mp_subway\train\squeak_##,0.6,0.9,0.5,1,10,450,,ambience,0,3d,,,,,all_mp,,,,,train_creak,,curve3,0.8,,,,,,,,,,0.7,,30,70,0.25,1
+train_creak,,sfx\levels\mp_subway\train\creak_##,0.4,0.8,0.5,1,10,400,,ambience,0,3d,,,,,all_mp,,,,,,,curve3,0.8,,,,,,,,,,0.7,,30,70,0.25,1
+creaks,,sfx\levels\mp_subway\creaks_##,0.3,0.9,0.5,1,10,700,,ambience,0,3d,,,,,all_mp,,,,,,,curve3,0.7,,,,,,,,,,,,30,70,0.25,1
+pipe,,sfx\levels\ber3b\pipes\water_loop.wav,0.05,0.05,,,10,250,350,ambience,0,3d,,,looping,,all_mp,,,,,,,curve4,,,,,,,,,,,0.3,,30,70,0.25,1
+steam_pipe,,sfx\levels\ber3b\pipes\steam_loop.wav,0.08,0.08,,,10,400,550,ambience,0,3d,,,looping,,all_mp,,,,,pipe,,curve3,,,,,,,,,,,0.3,,30,90,0.25,1
+rodents,,sfx\amb\animals\rodents_##,0.1,0.4,0.85,1.15,10,450,400,ambience,0,3d,,,,,all_mp,,,,,,,curve3,0.8,,,,,,,,,,,,30,70,0.25,1
+drips,,sfx\amb\water_drips_v2_##,0.4,0.7,0.85,1.15,10,550,400,ambience,0,3d,,,,,all_mp,,,,,,,curve3,0.8,,,,,,,,,,,,30,70,0.25,1
+
+imp_high,,sfx\amb\distant_impacts\imp_artillery_##,0.4,0.6,,,10,900,,ambience,0,3d,,,,,all_mp,,,,,,,curve3,0.7,,,,,,,,,,0.7,,,,,
+imp_low,,sfx\amb\bomb_far_##,0.4,0.7,,,10,1500,,ambience,0,3d,,,,,all_mp,,,,,imp_high,,curve4,0.8,,,,,,,,,,,,,,,
+
+win_rattle,,sfx\levels\mp_subway\window_rattle_##,0.5,0.7,0.85,1.2,10,500,600,ambience,0,3d,,,,,all_MP,,,,,wind_gusts,,curve3,0.4,,,,,,,,,,,,,,,
+metal_rattle,,sfx\levels\mp_subway\metal_rattle_##,0.5,0.7,0.85,1.2,10,500,600,ambience,1,3d,,,,,all_MP,,,,,wind_gusts,,curve4,0.4,,,,,,,,,,,,,,,
+
+wind_gusts,,SFX\Amb\Wind\gusts\2d_##,0.4,0.7,,,5,600,800,ambience,0,3d,,,,,all_mp,,,,,,,curve3,,,,,,,,,,,,,,,,
+wind_howl,,sfx\levels\mp_subway\wind\wind_howl_##,0.5,0.6,0.9,1.1,5,250,400,ambience,0,3d,,,,,all_mp,,,,,,,curve3,,,,,,,,,,,,,,,,
+
+car_idle,,sfx\vehicles\jeep\mp_jeep_engine_idle.wav,0.5,0.5,,,5,300,350,ambience,0,3d,,,looping,,all_mp,,,,,,,curve3,0.1,,,,,,,,,,,,,,,

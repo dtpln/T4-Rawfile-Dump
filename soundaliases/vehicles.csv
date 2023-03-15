@@ -1,0 +1,195 @@
+name,platform,file,sequence,vol_min,vol_max,dist_min,dist_max,limit_count,limit_type,entity_limit_count,entity_limit_type,bus,volume_min_falloff_curve,volumefalloffcurve,reverb_send,dist_reverb_max,reverb_min_falloff_curve,reverb_falloff_curve,pitch_min,pitch_max,randomize_type,spatialized,type,probability,loop,masterslave,loadspec,subtitle,compression,secondaryaliasname,chainaliasname,startdelay,speakermap,lfe percentage,center percentage,envelop_min,envelop_max,envelop percentage,occlusion_level,occlusion_wet_dry,real_delay,distance_lpf,move_type,move_time,min_priority,max_priority,min_priority_threshold,max_priority_threshold
+
+# Tanks,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Sherman,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+sherman_idle_low,,SFX/Vehicles/Tanks/Sherman/VH_Sherman_Idle_00.wav,,0.75,0.75,35,500,,,,,vehicle,,,,,,,1,1,,3d,,,looping,0.7,!pel1b pel2 pel1 oki2 oki3,,,,,,,,,,,,,,,,,,,,,
+#sherman_idle_high,,SFX/Vehicles/Tanks/Sherman/VH_Sherman_Idle_00.wav,,0.75,0.75,35,1000,,,,,vehicle,,,,,,,1,1,,3d,,,looping,0.7,!pel1b pel2 pel1 oki2 oki3,,,,,,,,,,,,,,,,,,,,,
+#sherman_engine_low,,SFX/Vehicles/Tanks/Sherman/VH_Sherman_loop_00.wav,,0.75,0.75,35,1000,,,,,vehicle,,,,,,,1,1,,3d,,,looping,0.7,!pel1b pel2 pel1 oki2 oki3,,,,,,,,,,,,,,,,,,,,,
+sherman_engine_high,,SFX/Vehicles/Tanks/Sherman/VH_Sherman_loop_00.wav,,0.75,0.75,35,1000,,,,,vehicle,,,,,,,1,1,,3d,,,looping,0.7,!pel1b pel2 pel1 oki2 oki3,,,,,,,,,,,,,,,,,,,,,
+
+sherman_turret_spin,,SFX/Vehicles/Tanks/Turret/VH_Turret_Loop.wav,,1,1,260,1000,,,,,vehicle,,,,,,,1,1,,3d,,,looping,0.7,!pel1b pel2 pel1 oki2 oki3,,,,,,,,,,,,,,,,,,,,,
+sherman_turret_stop,,SFX/Vehicles/Tanks/Turret/VH_Turret_End.wav,,1,1,260,1000,,,,,vehicle,,,,,,,1,1,,3d,,,,0.7,!pel1b pel2 pel1 oki2 oki3,,,,,,,,,,,,,,,,,,,,,
+
+"#Generic tank audio for new, Certain Affinity dynamic tank audio system",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+tank_engine_loop_noload,!wii,SFX/Vehicles/Tanks/All_MP/engine_noload_3P_panzeriv_mp.wav,,0.75,0.75,300,6000,,,,,vehicle_mp,,,,2500,,,1,1,,3d,,,looping,0.7,all_mp see2,,,,,,,,,,,,,,,,,,,,,
+tank_engine_loop_noload_plyr,!wii,SFX/Vehicles/Tanks/All_MP/engine_noload_1P_panzeriv_mp.wav,,0.75,0.75,300,6000,,,,,vehicle_mp,,,,2500,,,1,1,,2d,,,looping,0.7,all_mp see2,,,,,,wpn_all,,,,,,,,,,,,,,,
+tank_engine_loop_load,!wii,SFX/Vehicles/Tanks/All_MP/engine_load_3P_panzeriv_mp.wav,,0.75,0.75,300,6000,,,,,vehicle_mp,,,,2500,,,1,1,,3d,,,looping,0.7,all_mp see2,,,,,,,,,,,,,,,,,,,,,
+tank_engine_loop_load_plyr,!wii,SFX/Vehicles/Tanks/All_MP/engine_load_1P_panzeriv_mp.wav,,0.75,0.75,300,6000,,,,,vehicle_mp,,,,2500,,,1,1,,2d,,,looping,0.7,all_mp see2,,,,,,wpn_all
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+tank_turret_loop,,SFX/Vehicles/Tanks/Sherman/turret_shermanm4a3_mp.wav,,0.75,0.75,300,1000,,,,,vehicle_mp,,,,2500,,,1,1,,3d,,,looping,0.7,all_mp see2,,,,,,
+tank_main_rotate_panzer,,SFX/Vehicles/Tanks/Sherman/turret_shermanm4a3_mp.wav,,0.75,0.75,300,1000,,,,,vehicle_mp,,,,2500,,,1.05,1.05,,3d,,,looping,0.7,all_mp see2,,,,,,
+tank_main_rotate_t34,,SFX/Vehicles/Tanks/Sherman/turret_shermanm4a3_mp.wav,,0.75,0.75,300,1000,,,,,vehicle_mp,,,,2500,,,0.95,0.95,,3d,,,looping,0.7,all_mp see2,,,,,,
+tank_coax_turn_loop_1p,,SFX/Vehicles/Tanks/All_MP/coax_rotate_1p.wav,,0.75,0.75,300,1000,,,,,vehicle_mp,,,,2500,,,1,1,,2d,,,looping,0.7,all_mp see2,,,,,,wpn_all
+tank_coax_turn_loop_3p,!wii,SFX/Vehicles/Tanks/All_MP/coax_rotate_3p.wav,,0.75,0.75,300,1000,,,,,vehicle_mp,,,,2500,,,1,1,,3d,,,looping,0.7,all_mp see2,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+tank_startup_sfx,,SFX/Vehicles/Tanks/Engine/starter_good_shermanm4a3_mp.wav,,0.75,0.75,300,5000,,,,,vehicle_mp,,,,2500,,,1,1,,3d,,,,0.7,all_mp see2,,,,,,
+tank_shutdown_sfx,,SFX/Vehicles/Tanks/Engine/stop_good_shermanm4a3_mp.wav,,0.75,0.75,300,5000,,,,,vehicle_mp,,,,2500,,,1,1,,3d,,,,0.7,all_mp see2,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+tank_grinding_loop_left,,SFX/Vehicles/Tanks/All_MP/track_grinding_nodamage_left.wav,,0.75,0.75,300,6000,,,,,vehicle_mp,,,,2500,,,1,1,,3d,,,looping,0.7,all_mp see2,,,,,,
+tank_grinding_loop_right,,SFX/Vehicles/Tanks/All_MP/track_grinding_nodamage_right.wav,,0.75,0.75,300,6000,,,,,vehicle_mp,,,,2500,,,1,1,,3d,,,looping,0.7,all_mp see2,,,,,,
+tank_grinding_loop_dmg_left,,SFX/Vehicles/Tanks/All_MP/track_grinding_damage_left.wav,,0.75,0.75,300,6000,,,,,vehicle_mp,,,,2500,,,1,1,,3d,,,looping,0.7,all_mp see2,,,,,,
+tank_grinding_loop_dmg_right,,SFX/Vehicles/Tanks/All_MP/track_grinding_damage_right.wav,,0.75,0.75,300,6000,,,,,vehicle_mp,,,,2500,,,1,1,,3d,,,looping,0.7,all_mp see2,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+tank_trackclack_soft_1,!wii,SFX/Vehicles/Tanks/Tracks/Soft/track01.wav,,1,1,300,6000,,,,,full_vol,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp see2
+tank_trackclack_soft_2,!wii,SFX/Vehicles/Tanks/Tracks/Soft/track02.wav,,1,1,300,6000,,,,,full_vol,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp see2
+tank_trackclack_soft_3,!wii,SFX/Vehicles/Tanks/Tracks/Soft/track03.wav,,1,1,300,6000,,,,,full_vol,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp see2
+tank_trackclack_soft_4,!wii,SFX/Vehicles/Tanks/Tracks/Soft/track04.wav,,1,1,300,6000,,,,,full_vol,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp see2
+tank_trackclack_soft_5,!wii,SFX/Vehicles/Tanks/Tracks/Soft/track05.wav,,1,1,300,6000,,,,,full_vol,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp see2
+tank_trackclack_soft_6,!wii,SFX/Vehicles/Tanks/Tracks/Soft/track06.wav,,1,1,300,6000,,,,,full_vol,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp see2
+tank_trackclack_soft_7,!wii,SFX/Vehicles/Tanks/Tracks/Soft/track07.wav,,1,1,300,6000,,,,,full_vol,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp see2
+tank_trackclack_soft_8,!wii,SFX/Vehicles/Tanks/Tracks/Soft/track08.wav,,1,1,300,6000,,,,,full_vol,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp see2
+tank_trackclack_soft_9,!wii,SFX/Vehicles/Tanks/Tracks/Soft/track09.wav,,1,1,300,6000,,,,,full_vol,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp see2
+tank_trackclack_soft_10,!wii,SFX/Vehicles/Tanks/Tracks/Soft/track10.wav,,1,1,300,6000,,,,,full_vol,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp see2
+tank_trackclack_soft_11,!wii,SFX/Vehicles/Tanks/Tracks/Soft/track11.wav,,1,1,300,6000,,,,,full_vol,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp see2
+tank_trackclack_soft_12,!wii,SFX/Vehicles/Tanks/Tracks/Soft/track12.wav,,1,1,300,6000,,,,,full_vol,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp see2
+tank_trackclack_soft_13,!wii,SFX/Vehicles/Tanks/Tracks/Soft/track13.wav,,1,1,300,6000,,,,,full_vol,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp see2
+tank_trackclack_soft_14,!wii,SFX/Vehicles/Tanks/Tracks/Soft/track14.wav,,1,1,300,6000,,,,,full_vol,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp see2
+tank_trackclack_soft_15,!wii,SFX/Vehicles/Tanks/Tracks/Soft/track15.wav,,1,1,300,6000,,,,,full_vol,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp see2
+tank_trackclack_soft_16,!wii,SFX/Vehicles/Tanks/Tracks/Soft/track16.wav,,1,1,300,6000,,,,,full_vol,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp see2
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+tank_trackclack_hard_1,!wii,SFX/Vehicles/Tanks/Tracks/Hard/track01.wav,,1,1,300,6000,,,,,full_vol,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp see2
+tank_trackclack_hard_2,!wii,SFX/Vehicles/Tanks/Tracks/Hard/track02.wav,,1,1,300,6000,,,,,full_vol,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp see2
+tank_trackclack_hard_3,!wii,SFX/Vehicles/Tanks/Tracks/Hard/track03.wav,,1,1,300,6000,,,,,full_vol,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp see2
+tank_trackclack_hard_4,!wii,SFX/Vehicles/Tanks/Tracks/Hard/track04.wav,,1,1,300,6000,,,,,full_vol,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp see2
+tank_trackclack_hard_5,!wii,SFX/Vehicles/Tanks/Tracks/Hard/track05.wav,,1,1,300,6000,,,,,full_vol,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp see2
+tank_trackclack_hard_6,!wii,SFX/Vehicles/Tanks/Tracks/Hard/track06.wav,,1,1,300,6000,,,,,full_vol,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp see2
+tank_trackclack_hard_7,!wii,SFX/Vehicles/Tanks/Tracks/Hard/track07.wav,,1,1,300,6000,,,,,full_vol,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp see2
+tank_trackclack_hard_8,!wii,SFX/Vehicles/Tanks/Tracks/Hard/track08.wav,,1,1,300,6000,,,,,full_vol,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp see2
+tank_trackclack_hard_9,!wii,SFX/Vehicles/Tanks/Tracks/Hard/track09.wav,,1,1,300,6000,,,,,full_vol,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp see2
+tank_trackclack_hard_10,!wii,SFX/Vehicles/Tanks/Tracks/Hard/track10.wav,,1,1,300,6000,,,,,full_vol,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp see2
+tank_trackclack_hard_11,!wii,SFX/Vehicles/Tanks/Tracks/Hard/track11.wav,,1,1,300,6000,,,,,full_vol,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp see2
+tank_trackclack_hard_12,!wii,SFX/Vehicles/Tanks/Tracks/Hard/track12.wav,,1,1,300,6000,,,,,full_vol,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp see2
+tank_trackclack_hard_13,!wii,SFX/Vehicles/Tanks/Tracks/Hard/track13.wav,,1,1,300,6000,,,,,full_vol,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp see2
+tank_trackclack_hard_14,!wii,SFX/Vehicles/Tanks/Tracks/Hard/track14.wav,,1,1,300,6000,,,,,full_vol,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp see2
+tank_trackclack_hard_15,!wii,SFX/Vehicles/Tanks/Tracks/Hard/track15.wav,,1,1,300,6000,,,,,full_vol,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp see2
+tank_trackclack_hard_16,!wii,SFX/Vehicles/Tanks/Tracks/Hard/track16.wav,,1,1,300,6000,,,,,full_vol,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp see2,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+tank_burning_1p_loop,,SFX/Vehicles/Tanks/All_MP/tank_on_fire_heavy_1P.wav,,0.75,0.75,300,1750,,,,,vehicle_mp,,,,2500,,,0.99,1.01,,2d,,,looping,0.7,all_mp see2,,,,,,wpn_all
+tank_burning_3p_loop,,SFX/Vehicles/Tanks/All_MP/tank_on_fire_heavy_3P.wav,,0.75,0.75,300,1750,,,,,vehicle_mp,,,,2500,,,0.99,1.01,,3d,,,looping,0.7,all_mp see2,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+tank_track_destroyed,,SFX/Vehicles/Tanks/All_MP/track_dest_##,,0.84,0.84,500,6000,,,,,vehicle_mp,,,,2500,,,0.98,1.02,,3d,,,,0.7,all_mp see2,,,,,,
+tank_armor_dest,!wii,SFX/Vehicles/Tanks/All_MP/armor_dest_##,,0.75,0.75,500,4000,,,,,vehicle_mp,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp,,,,,,
+tank_body_hit,!wii,SFX/Vehicles/impact/imp_3p_tank_##,,0.75,0.75,500,4000,,,,,vehicle_mp,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+tank_damaged_loop_left,,SFX/Vehicles/Tanks/All_MP/tank_damagedL.wav,,0.75,0.75,300,1750,,,,,vehicle_mp,,,,2500,,,0.99,1.01,,3d,,,looping,0.7,all_mp see2,,,,,,
+tank_damaged_loop_right,!wii,SFX/Vehicles/Tanks/All_MP/tank_damagedR.wav,,0.75,0.75,300,1750,,,,,vehicle_mp,,,,2500,,,0.99,1.01,,3d,,,looping,0.7,all_mp see2,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+coax_overheat,,SFX/Vehicles/Tanks/All_MP/coax_overheat.wav,,0.75,0.75,300,600,,,,,vehicle_mp,,,,2500,,,0.98,1.02,,3d,,,,0.7,all_mp see2,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#WII ASSETS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+tank_engine_loop_noload,wii,SFX/Vehicles/Tanks/All_MP/engine_noload_3P_panzeriv_mp.wav,,1,1,35,3600,,,,,vehicle,,,,,,,1,1,,3d,,,looping,0.7,all_mp see2,,,,,,
+tank_engine_loop_noload_plyr,wii,SFX/Vehicles/Tanks/All_MP/engine_noload_1P_panzeriv_mp.wav,,1,1,35,3600,,,,,vehicle,,,,,,,1,1,,2d,,,looping,0.7,all_mp see2
+tank_engine_loop_load,wii,SFX/Vehicles/Tanks/All_MP/engine_noload_3P_panzeriv_mp.wav,,1,1,35,3600,,,,,vehicle,,,,,,,1,1,,3d,,,looping,0.7,all_mp see2
+tank_engine_loop_load_plyr,wii,SFX/Vehicles/Tanks/All_MP/engine_noload_1P_panzeriv_mp.wav,,1,1,35,3600,,,,,vehicle,,,,,,,1,1,,2d,,,looping,0.7,all_mp see2
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+tank_trackclack_soft_1,wii,SFX/Vehicles/Tanks/Tracks/Soft/track08.wav,,1,1,35,3600,,,,,vehicle,,,,,,,1,1,,3d,,,,0.7,all_mp see2
+tank_trackclack_soft_2,wii,SFX/Vehicles/Tanks/Tracks/Soft/track09.wav,,1,1,35,3600,,,,,vehicle,,,,,,,1,1,,3d,,,,0.7,all_mp see2
+tank_trackclack_soft_3,wii,SFX/Vehicles/Tanks/Tracks/Soft/track08.wav,,1,1,35,3600,,,,,vehicle,,,,,,,1,1,,3d,,,,0.7,all_mp see2
+tank_trackclack_soft_4,wii,SFX/Vehicles/Tanks/Tracks/Soft/track09.wav,,1,1,35,3600,,,,,vehicle,,,,,,,1,1,,3d,,,,0.7,all_mp see2
+tank_trackclack_soft_5,wii,SFX/Vehicles/Tanks/Tracks/Soft/track08.wav,,1,1,35,3600,,,,,vehicle,,,,,,,1,1,,3d,,,,0.7,all_mp see2
+tank_trackclack_soft_6,wii,SFX/Vehicles/Tanks/Tracks/Soft/track09.wav,,1,1,35,3600,,,,,vehicle,,,,,,,1,1,,3d,,,,0.7,all_mp see2
+tank_trackclack_soft_7,wii,SFX/Vehicles/Tanks/Tracks/Soft/track08.wav,,1,1,35,3600,,,,,vehicle,,,,,,,1,1,,3d,,,,0.7,all_mp see2
+tank_trackclack_soft_8,wii,SFX/Vehicles/Tanks/Tracks/Soft/track09.wav,,1,1,35,3600,,,,,vehicle,,,,,,,1,1,,3d,,,,0.7,all_mp see2
+tank_trackclack_soft_9,wii,SFX/Vehicles/Tanks/Tracks/Soft/track08.wav,,1,1,35,3600,,,,,vehicle,,,,,,,1,1,,3d,,,,0.7,all_mp see2
+tank_trackclack_soft_10,wii,SFX/Vehicles/Tanks/Tracks/Soft/track09.wav,,1,1,35,3600,,,,,vehicle,,,,,,,1,1,,3d,,,,0.7,all_mp see2
+tank_trackclack_soft_11,wii,SFX/Vehicles/Tanks/Tracks/Soft/track08.wav,,1,1,35,3600,,,,,vehicle,,,,,,,1,1,,3d,,,,0.7,all_mp see2
+tank_trackclack_soft_12,wii,SFX/Vehicles/Tanks/Tracks/Soft/track09.wav,,1,1,35,3600,,,,,vehicle,,,,,,,1,1,,3d,,,,0.7,all_mp see2
+tank_trackclack_soft_13,wii,SFX/Vehicles/Tanks/Tracks/Soft/track08.wav,,1,1,35,3600,,,,,vehicle,,,,,,,1,1,,3d,,,,0.7,all_mp see2
+tank_trackclack_soft_14,wii,SFX/Vehicles/Tanks/Tracks/Soft/track09.wav,,1,1,35,3600,,,,,vehicle,,,,,,,1,1,,3d,,,,0.7,all_mp see2
+tank_trackclack_soft_15,wii,SFX/Vehicles/Tanks/Tracks/Soft/track08.wav,,1,1,35,3600,,,,,vehicle,,,,,,,1,1,,3d,,,,0.7,all_mp see2
+tank_trackclack_soft_16,wii,SFX/Vehicles/Tanks/Tracks/Soft/track09.wav,,1,1,35,3600,,,,,vehicle,,,,,,,1,1,,3d,,,,0.7,all_mp see2
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+tank_trackclack_hard_1,wii,SFX/Vehicles/Tanks/Tracks/Hard/track10.wav,,1,1,35,3600,,,,,vehicle,,,,,,,1,1,,3d,,,,0.7,all_mp see2
+tank_trackclack_hard_2,wii,SFX/Vehicles/Tanks/Tracks/Hard/track11.wav,,1,1,35,3600,,,,,vehicle,,,,,,,1,1,,3d,,,,0.7,all_mp see2
+tank_trackclack_hard_3,wii,SFX/Vehicles/Tanks/Tracks/Hard/track10.wav,,1,1,35,3600,,,,,vehicle,,,,,,,1,1,,3d,,,,0.7,all_mp see2
+tank_trackclack_hard_4,wii,SFX/Vehicles/Tanks/Tracks/Hard/track11.wav,,1,1,35,3600,,,,,vehicle,,,,,,,1,1,,3d,,,,0.7,all_mp see2
+tank_trackclack_hard_5,wii,SFX/Vehicles/Tanks/Tracks/Hard/track10.wav,,1,1,35,3600,,,,,vehicle,,,,,,,1,1,,3d,,,,0.7,all_mp see2
+tank_trackclack_hard_6,wii,SFX/Vehicles/Tanks/Tracks/Hard/track11.wav,,1,1,35,3600,,,,,vehicle,,,,,,,1,1,,3d,,,,0.7,all_mp see2
+tank_trackclack_hard_7,wii,SFX/Vehicles/Tanks/Tracks/Hard/track10.wav,,1,1,35,3600,,,,,vehicle,,,,,,,1,1,,3d,,,,0.7,all_mp see2
+tank_trackclack_hard_8,wii,SFX/Vehicles/Tanks/Tracks/Hard/track11.wav,,1,1,35,3600,,,,,vehicle,,,,,,,1,1,,3d,,,,0.7,all_mp see2
+tank_trackclack_hard_9,wii,SFX/Vehicles/Tanks/Tracks/Hard/track10.wav,,1,1,35,3600,,,,,vehicle,,,,,,,1,1,,3d,,,,0.7,all_mp see2
+tank_trackclack_hard_10,wii,SFX/Vehicles/Tanks/Tracks/Hard/track11.wav,,1,1,35,3600,,,,,vehicle,,,,,,,1,1,,3d,,,,0.7,all_mp see2
+tank_trackclack_hard_11,wii,SFX/Vehicles/Tanks/Tracks/Hard/track10.wav,,1,1,35,3600,,,,,vehicle,,,,,,,1,1,,3d,,,,0.7,all_mp see2
+tank_trackclack_hard_12,wii,SFX/Vehicles/Tanks/Tracks/Hard/track11.wav,,1,1,35,3600,,,,,vehicle,,,,,,,1,1,,3d,,,,0.7,all_mp see2
+tank_trackclack_hard_13,wii,SFX/Vehicles/Tanks/Tracks/Hard/track10.wav,,1,1,35,3600,,,,,vehicle,,,,,,,1,1,,3d,,,,0.7,all_mp see2
+tank_trackclack_hard_14,wii,SFX/Vehicles/Tanks/Tracks/Hard/track11.wav,,1,1,35,3600,,,,,vehicle,,,,,,,1,1,,3d,,,,0.7,all_mp see2
+tank_trackclack_hard_15,wii,SFX/Vehicles/Tanks/Tracks/Hard/track10.wav,,1,1,35,3600,,,,,vehicle,,,,,,,1,1,,3d,,,,0.7,all_mp see2
+tank_trackclack_hard_16,wii,SFX/Vehicles/Tanks/Tracks/Hard/track11.wav,,1,1,35,3600,,,,,vehicle,,,,,,,1,1,,3d,,,,0.7,all_mp see2
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+tank_coax_turn_loop_3p,wii,SFX/Vehicles/Tanks/Turret/VH_Turret_Loop.wav,,0.75,0.75,35,1000,,,,,vehicle_mp,,,,2500,,,1,1,,3d,,,looping,0.7,all_mp see2
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+tank_tread_destroyed_right,wii,SFX/Vehicles/Tanks/All_MP/track_destructionL.wav,,0.75,0.75,35,6000,,,,,vehicle_mp,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp see2
+tank_damaged_loop_right,wii,SFX/Vehicles/Tanks/All_MP/tank_damagedL.wav,,0.75,0.75,35,1750,,,,,vehicle_mp,,,,2500,,,0.99,1.01,,3d,,,looping,0.7,all_mp see2
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#PanzerIV_mp,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#WII ASSETS,,,,,,,,,,,,,,,,,,,,,,,,,,,
+panzer_armor_dest_chains_mp,wii,SFX/Vehicles/Tanks/PanzerIV_MP/arm_dest_chains.wav,,0.75,0.75,35,4000,,,,,vehicle_mp,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp
+panzer_armor_dest_L1_mp,wii,SFX/Vehicles/Tanks/PanzerIV_MP/arm_dest_L6.wav,,0.75,0.75,35,4000,,,,,vehicle_mp,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp
+panzer_armor_dest_L2_mp,wii,SFX/Vehicles/Tanks/PanzerIV_MP/arm_dest_L6.wav,,0.75,0.75,35,4000,,,,,vehicle_mp,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp
+panzer_armor_dest_L3_mp,wii,SFX/Vehicles/Tanks/PanzerIV_MP/arm_dest_L6.wav,,0.75,0.75,35,4000,,,,,vehicle_mp,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp,,,,,,,,,,,,,,,,,,,,,
+panzer_armor_dest_L4_mp,wii,SFX/Vehicles/Tanks/PanzerIV_MP/arm_dest_L6.wav,,0.75,0.75,35,4000,,,,,vehicle_mp,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp,,,,,,,,,,,,,,,,,,,,,
+panzer_armor_dest_L5_mp,wii,SFX/Vehicles/Tanks/PanzerIV_MP/arm_dest_L6.wav,,0.75,0.75,35,4000,,,,,vehicle_mp,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp,,,,,,,,,,,,,,,,,,,,,
+panzer_armor_dest_L6_mp,wii,SFX/Vehicles/Tanks/PanzerIV_MP/arm_dest_L6.wav,,0.75,0.75,35,4000,,,,,vehicle_mp,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp,,,,,,,,,,,,,,,,,,,,,
+panzer_armor_dest_R1_mp,wii,SFX/Vehicles/Tanks/PanzerIV_MP/arm_dest_L6.wav,,0.75,0.75,35,4000,,,,,vehicle_mp,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp,,,,,,,,,,,,,,,,,,,,,
+panzer_armor_dest_R2_mp,wii,SFX/Vehicles/Tanks/PanzerIV_MP/arm_dest_L6.wav,,0.75,0.75,35,4000,,,,,vehicle_mp,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp,,,,,,,,,,,,,,,,,,,,,
+panzer_armor_dest_R3_mp,wii,SFX/Vehicles/Tanks/PanzerIV_MP/arm_dest_L6.wav,,0.75,0.75,35,4000,,,,,vehicle_mp,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp,,,,,,,,,,,,,,,,,,,,,
+panzer_armor_dest_R4_mp,wii,SFX/Vehicles/Tanks/PanzerIV_MP/arm_dest_L6.wav,,0.75,0.75,35,4000,,,,,vehicle_mp,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp,,,,,,,,,,,,,,,,,,,,,
+panzer_armor_dest_R5_mp,wii,SFX/Vehicles/Tanks/PanzerIV_MP/arm_dest_L6.wav,,0.75,0.75,35,4000,,,,,vehicle_mp,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp,,,,,,,,,,,,,,,,,,,,,
+panzer_armor_dest_R6_mp,wii,SFX/Vehicles/Tanks/PanzerIV_MP/arm_dest_L6.wav,,0.75,0.75,35,4000,,,,,vehicle_mp,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp,,,,,,,,,,,,,,,,,,,,,
+panzer_armor_dest_turretL_mp,wii,SFX/Vehicles/Tanks/PanzerIV_MP/arm_dest_L6.wav,,0.75,0.75,35,4000,,,,,vehicle_mp,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp,,,,,,,,,,,,,,,,,,,,,
+panzer_armor_dest_turretR_mp,wii,SFX/Vehicles/Tanks/PanzerIV_MP/arm_dest_L6.wav,,0.75,0.75,35,4000,,,,,vehicle_mp,,,,2500,,,0.99,1.01,,3d,,,,0.7,all_mp,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#T-34,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+t34_idle_low,,SFX/Vehicles/Tanks/Sherman/VH_Sherman_Idle_00.wav,,1,1,300,850,,,1,reject,vehicle,,curve2,,4000,,,0.95,1.05,pitch,3d,,,looping,0.7,,,,,,,,,,,,,,,,,,,100,100,0.25,1
+#t34_idle_high,,SFX/Vehicles/Tanks/Sherman/VH_Sherman_Idle_00.wav,,0.75,0.75,35,1000,,,,,vehicle,,,,,,,1,1,,3d,,,looping,0.7,,,,,,,,,,,,,,,,,,,,,,
+#t34_engine_low,,SFX/Vehicles/Tanks/Sherman/VH_Sherman_loop_00.wav,,0.75,0.75,35,1000,,,,,vehicle,,,,,,,1,1,,3d,,,looping,0.7,,,,,,,,,,,,,,,,,,,,,,
+t34_engine_high,,SFX/Vehicles/Tanks/Sherman/VH_Sherman_Move_00.wav,,0.9,0.9,500,2000,,,1,reject,vehicle,,curve2,,4000,,,0.95,1.05,pitch,3d,,,looping,0.7,,,,,,,,,,,,,,,,,,,100,100,0.25,1
+
+t34_turret_spin,,SFX/Vehicles/Tanks/Turret/VH_Turret_Loop.wav,,1,1,500,1500,,,,,vehicle,,,,1000,,,1,1,,3d,,,looping,0.7,,,,,,,,,,,,,,,,,,,20,80,0.25,1
+t34_turret_stop,,SFX/Vehicles/Tanks/Turret/VH_Turret_End.wav,,1,1,260,500,,,,,vehicle,,,,1000,,,1,1,,3d,,,,0.7,,,,,,,,,,,,,,,,,,,20,80,0.25,1
+
+#Panther,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+panther_idle_low,,SFX/Vehicles/Tanks/Sherman/VH_Sherman_Idle_00.wav,,0.9,0.9,50,500,,,,,vehicle,,,,,,,1,1,,3d,,,looping,0.7,,,,,,,,,,,,,,,,,,,,,,
+#panther_idle_high,,SFX/Vehicles/Tanks/Sherman/VH_Sherman_Idle_00.wav,,0.75,0.75,50,1000,,,,,vehicle,,,,,,,1,1,,3d,,,looping,0.7,,,,,,,,,,,,,,,,,,,,,,
+#panther_engine_low,,SFX/Vehicles/Tanks/Sherman/VH_Sherman_loop_00.wav,,0.75,0.75,50,1000,,,,,vehicle,,,,,,,1,1,,3d,,,looping,0.7,,,,,,,,,,,,,,,,,,,,,,
+panther_engine_high,,SFX/Vehicles/Tanks/Sherman/VH_Sherman_loop_00.wav,,0.75,0.75,50,1500,,,,,vehicle,,,,,,,1,1,,3d,,,looping,0.7,,,,,,,,,,,,,,,,,,,,,,
+
+panther_turret_spin,,SFX/Vehicles/Tanks/Turret/VH_Turret_Loop.wav,,1,1,150,4000,,,,,vehicle,,,,,,,1,1,,3d,,,looping,0.7,,,,,,,,,,,,,,,,,,,,,,
+panther_turret_stop,,SFX/Vehicles/Tanks/Turret/VH_Turret_End.wav,,1,1,150,4000,,,,,vehicle,,,,,,,1,1,,3d,,,,0.7,,,,,,,,,,,,,,,,,,,,,,
+
+#Tiger,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+tiger_idle_low,,SFX/Vehicles/Tanks/Sherman/VH_Sherman_Idle_00.wav,,0.9,0.9,50,500,,,,,vehicle,,,,,,,1,1,,3d,,,looping,0.7,
+#tiger_idle_high,,SFX/Vehicles/Tanks/Sherman/VH_Sherman_Idle_00.wav,,0.75,0.75,50,1000,,,,,vehicle,,,,,,,1,1,,3d,,,looping,0.7,
+#tiger_engine_low,,SFX/Vehicles/Tanks/Sherman/VH_Sherman_loop_00.wav,,0.75,0.75,50,1000,,,,,vehicle,,,,,,,1,1,,3d,,,looping,0.7,
+tiger_engine_high,,SFX/Vehicles/Tanks/Sherman/VH_Sherman_loop_00.wav,,0.75,0.75,50,1500,,,,,vehicle,,,,,,,1,1,,3d,,,looping,0.7,
+
+tiger_turret_spin,,SFX/Vehicles/Tanks/Turret/VH_Turret_Loop.wav,,1,1,150,2000,,,,,vehicle,,,,,,,0.95,1.05,pitch,3d,,,looping,0.7,
+tiger_turret_stop,,SFX/Vehicles/Tanks/Turret/VH_Turret_End.wav,,1,1,150,2000,,,,,vehicle,,,,,,,0.95,1.05,pitch,3d,,,,0.7,
+
+
+
+
+# Jeep,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Tiger,,,,,,,,,,,,,,,,,,,,,,,,,,,
+jeep_idle_low,,SFX\Vehicles\jeep\mp_jeep_engine_idle.wav,,0.9,0.9,50,500,,,,,vehicle,,,,,,,1,1,,3d,,,looping,0.7,!ber2
+#jeep_idle_high,,SFX\Vehicles\jeep\VH_jeep_Move_B.wav,,0.75,0.75,50,1000,,,,,vehicle,,,,,,,1,1,,3d,,,looping,0.7,!ber2
+#jeep_engine_low,,SFX\Vehicles\jeep\VH_jeep_Move_B.wav,,0.75,0.75,50,1000,,,,,vehicle,,,,,,,1,1,,3d,,,looping,0.7,!ber2
+jeep_engine_high,,SFX\Vehicles\jeep\VH_jeep_Move_B.wav,,0.75,0.75,50,1000,,,,,vehicle,,,,,,,1,1,,3d,,,looping,0.7,!ber2,,,,,,,,,,,,,,,,,,,,,
+
+# misc,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+#Pak43Ber3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+p43_idle_low,,SFX\Amb\rain\on_stuff\on_gun\rain_gun.wav,,0,0,100,500,,,,,vehicle,,curve2,,2500,,,,,,3d,,,looping,0.7,ber3,,,,,,,,,,,,,,,,,,100,100,0.25,1
+p43_engine_high,,SFX\Vehicles\pak43\pak43_roll_mn.wav,,1,1,100,500,,,,,vehicle,,curve2,,2500,,,,,,3d,,,looping,0.7,ber3,,,,,,,,,,,,,,,,,,100,100,0.25,1
+p43_turret_spin,,SFX\Vehicles\pak43\pak43_turn.wav,,1,1,100,500,,,,,vehicle,,curve2,,2500,,,,,,3d,,,looping,0.7,ber3,,,,,,,,,,,,,,,,,,20,80,0.25,1
+# Truck,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Katyusha truck,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+truck_idle_low,,SFX\Vehicles\jeep\mp_jeep_engine_idle.wav,,1,1,100,500,,,,,vehicle,,,,,,,1,1,,3d,,,looping,0.7,ber3 see1 see2 oki2,,,,,,,,,,,,,,,,,,,,,
+truck_engine_high,,SFX\Vehicles\jeep\VH_jeep_Move_B.wav,,0.75,0.75,100,1500,,,,,vehicle,,,,,,,1,1,,3d,,,looping,0.7,ber3 see1 see2 oki2,,,,,,,,,,,,,,,,,,,,,
+
+# MP tank guns load speced out of weapons email Kevin for questions,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+german_coax,,SFX/Weapon/MG/30calCoax/Fire/wpn_30calCoax_mn.wav,,0.8,1,500,1200,,,10,oldest,hvy_wpn,,curve2,,2500,,curve1,0.95,1.05,,3d,,,,0.7,all_mp,,,german_coax_dist,,,,,,,,,,,,,,,50,90,0.35,1
+german_coax_dist,,SFX/Weapon/dist/us/dist_us_mg.wav,,0.7,0.8,700,6000,10,priority,5,oldest,dist_wpn,rcurve3,curve2,0.8,12000,,rcurve3,0.85,1.05,variant pitch,3d,,,,0.7,all_mp,,,,,,,,,,,,,,,no,,,70,20,0.35,1
+russian_coax,,SFX/Weapon/Tank/Type97/Fire/wpn_type97_coax_mn.wav,,0.4,0.5,500,1200,,,5,oldest,hvy_wpn,,curve2,,2500,,curve1,0.95,1.05,pitch,3d,,,,0.7,all_mp,,,russian_coax_dist,,,,,,,,,,,,,,,50,90,0.35,1
+russian_coax_dist,,SFX/Weapon/dist/jap/dist_jap_mg.wav,,0.7,0.8,700,6000,10,priority,5,oldest,dist_wpn,rcurve3,curve2,0.8,12000,,rcurve3,0.85,1.05,pitch,3d,,,,0.7,all_mp,,,,,,,,,,,,,,,no,,,70,20,0.35,1

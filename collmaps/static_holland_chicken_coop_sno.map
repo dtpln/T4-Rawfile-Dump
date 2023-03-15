@@ -1,0 +1,23 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+  contents detail;
+ ( -37 -20 0 ) ( 36 -20 0 ) ( 36 20 0 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -37 20 80 ) ( 36 20 80 ) ( 36 -20 80 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -37 -20 0 ) ( -37 -20 80 ) ( 36 -20 80 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 37 20 0 ) ( 37 -20 0 ) ( 37 -20 80 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 20 0 ) ( 36 20 80 ) ( -37 20 80 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -37 20 80 ) ( -37 -20 80 ) ( -37 -20 0 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1
+{
+"origin" "0.0 0.0 0.0"
+"model" "static_holland_chicken_coop_sno"
+"classname" "misc_model"
+}

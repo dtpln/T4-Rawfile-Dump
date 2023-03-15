@@ -1,0 +1,55 @@
+name,sequence,file,vol_min,vol_max,pitch_min,pitch_max,dist_min,dist_max,limit_count,limit_type,entity_limit_count,entity_limit_type,bus,priority,spatialized,type,probability,loop,masterslave,loadspec,subtitle,compression,secondaryaliasname,chainaliasname,volumefalloffcurve,startdelay,speakermap,reverb,lfe percentage,center percentage,platform,envelop_min,envelop_max,envelop percentage,min_priority,max_priority,min_priority_threshold,max_priority_threshold
+#HARD IMPACTS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+impact_hard_hard,,SFX\physics\hard\hard_hard_##,0.8,1,0.9,1.1,50,900,,,1,reject,physics,0,3d,,,,,,,,,,curve2,,,,,,,,,,5,10,0.25,1
+impact_hard_glass,,SFX\physics\metal\metal_glass_##,0.8,1,0.9,1.1,50,900,,,1,reject,physics,0,3d,,,,,,,,,,curve2,,,,,,,,,,5,10,0.25,1
+impact_hard_foliage,,SFX\physics\metal\metal_foliage_##,0.8,1,0.9,1.1,50,900,,,1,reject,physics,0,3d,,,,,,,,,,curve2,,,,,,,,,,5,10,0.25,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+#SOFT IMPACTS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+impact_soft_soft,,SFX\physics\soft\soft_soft_##,0.8,1,0.9,1.1,50,900,,,1,reject,physics,0,3d,,,,,,,,,,curve2,,,,,,,,,,5,10,0.25,1
+impact_soft_hard,,SFX\physics\hard\hard_hard_##,0.8,1,0.9,1.1,50,900,,,1,reject,physics,0,3d,,,,,,,,,,curve2,,,,,,,,,,5,10,0.25,1
+impact_soft_glass,,SFX\physics\soft\soft_glass_##,0.8,1,0.9,1.1,50,900,,,1,reject,physics,0,3d,,,,,,,,,,curve2,,,,,,,,,,5,10,0.25,1
+impact_soft_foliage,,SFX\physics\metal\metal_foliage_##,0.8,1,0.9,1.1,50,900,,,1,reject,physics,0,3d,,,,,,,,,,curve2,,,,,,,,,,5,10,0.25,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+#METAL IMPACTS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+impact_metal_metal,,SFX\physics\metal\metal_hard_##,0.5,0.75,0.9,1.1,50,750,,,1,reject,physics,0,3d,,,,,,,,,,curve2,,,,,,,,,,5,10,0.25,1
+impact_metal_hard,,SFX\physics\metal\metal_hard_##,0.5,0.75,0.9,1.1,50,750,,,1,reject,physics,0,3d,,,,,,,,,,curve2,,,,,,,,,,5,10,0.25,1
+impact_metal_glass,,SFX\physics\metal\metal_glass_##,0.5,0.75,0.9,1.1,50,750,,,1,reject,physics,0,3d,,,,,,,,,,curve2,,,,,,,,,,5,10,0.25,1
+impact_metal_soft,,SFX\physics\metal\metal_soft_##,0.5,0.75,0.9,1.1,50,750,,,1,reject,physics,0,3d,,,,,,,,,,curve2,,,,,,,,,,5,10,0.25,1
+impact_metal_foliage,,SFX\physics\metal\metal_foliage_##,0.5,0.75,0.9,1.1,50,750,,,1,reject,physics,0,3d,,,,,,,,,,curve2,,,,,,,,,,5,10,0.25,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+#Glass IMPACTS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+impact_glass_glass,,SFX\physics\impacts\glass_##,0.8,1,0.9,1.1,50,750,,,1,reject,physics,0,3d,,,,,,,,,,curve2,,,,,,,,,,5,10,0.25,1
+impact_glass_foliage,,SFX\physics\wood\wood_foliage_##,0.8,1,0.9,1.1,50,750,,,1,reject,physics,0,3d,,,,,,,,,,curve2,,,,,,,,,,5,10,0.25,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+#wood IMPACTS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+impact_wood_wood,,SFX\physics\wood\wood_wood_##,0.5,0.75,0.9,1.1,50,750,,,1,reject,physics,0,3d,,,,,,,,,,curve2,,,,,,,,,,5,10,0.25,1
+impact_wood_hard,,SFX\physics\wood\wood_hard_##,0.5,0.75,0.9,1.1,50,750,,,1,reject,physics,0,3d,,,,,,,,,,curve2,,,,,,,,,,5,10,0.25,1
+impact_wood_metal,,SFX\physics\wood\wood_metal_##,0.5,0.75,0.9,1.1,50,750,,,1,reject,physics,0,3d,,,,,!see2,,,,,curve2,,,,,,,,,,5,10,0.25,1
+impact_wood_soft,,SFX\physics\wood\wood_soft_##,0.5,0.75,0.9,1.1,50,750,,,1,reject,physics,0,3d,,,,,,,,,,curve2,,,,,,,,,,5,10,0.25,1
+impact_wood_glass,,SFX\physics\wood\wood_glass_##,0.5,0.75,0.9,1.1,50,750,,,1,reject,physics,0,3d,,,,,,,,,,curve2,,,,,,,,,,5,10,0.25,1
+impact_wood_foliage,,SFX\physics\wood\wood_foliage_##,0.5,0.75,0.9,1.1,50,750,,,1,reject,physics,0,3d,,,,,,,,,,curve2,,,,,,,,,,5,10,0.25,1
+#see2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+impact_wood_metal,,SFX\Levels\see2\see2_physics_##,1,1,0.9,1.1,200,750,,,2,reject,explosion,0,3d,,,,,see2,,,,,curve2,,,,,,,,,,5,10,0.25,1
+
+#water IMPACTS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+impact_water_hard,,SFX\Weapon\gren\bounce\water_##,0.5,0.75,0.9,1.1,50,750,,,1,reject,physics,0,3d,,,,,,,,,,curve2,,,,,,,,,,5,10,0.25,1
+impact_water_metal,,SFX\Weapon\gren\bounce\water_##,0.5,0.75,0.9,1.1,50,750,,,1,reject,physics,0,3d,,,,,,,,,,curve2,,,,,,,,,,5,10,0.25,1
+impact_water_soft,,SFX\Weapon\gren\bounce\water_##,0.5,0.75,0.9,1.1,50,750,,,1,reject,physics,0,3d,,,,,,,,,,curve2,,,,,,,,,,5,10,0.25,1
+impact_water_glass,,SFX\Weapon\gren\bounce\water_##,0.5,0.75,0.9,1.1,50,750,,,1,reject,physics,0,3d,,,,,,,,,,curve2,,,,,,,,,,5,10,0.25,1
+impact_water_foliage,,SFX\Weapon\gren\bounce\water_##,0.5,0.75,0.9,1.1,50,750,,,1,reject,physics,0,3d,,,,,,,,,,curve2,,,,,,,,,,5,10,0.25,1
+impact_wood_water,,SFX\Weapon\gren\bounce\water_##,0.5,0.75,0.9,1.1,50,750,,,1,reject,physics,0,3d,,,,,,,,,,curve2,,,,,,,,,,5,10,0.25,1
+impact_flesh_water,,SFX\Weapon\gren\bounce\water_##,0.5,0.75,0.9,1.1,50,750,,,1,reject,physics,0,3d,,,,,,,,,,curve2,,,,,,,,,,5,10,0.25,1
+
+#Flesh IMPACTS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+impact_hard_flesh,,SFX\Character\Foley\BodyFalls\BodyFall_##,0.5,0.75,0.9,1.1,50,750,,,1,reject,physics,0,3d,,,,,,,,,,curve2,,,,,,,,,,5,10,0.25,1
+impact_soft_flesh,,SFX\Character\Foley\BodyFalls\BodyFall_##,0.5,0.75,0.9,1.1,50,750,,,1,reject,physics,0,3d,,,,,,,,,,curve2,,,,,,,,,,5,10,0.25,1
+impact_metal_flesh,,SFX\Character\Foley\BodyFalls\BodyFall_##,0.5,0.75,0.9,1.1,50,750,,,1,reject,physics,0,3d,,,,,,,,,,curve2,,,,,,,,,,5,10,0.25,1
+impact_glass_flesh,,SFX\Character\Foley\BodyFalls\BodyFall_##,0.5,0.75,0.9,1.1,50,750,,,1,reject,physics,0,3d,,,,,,,,,,curve2,,,,,,,,,,5,10,0.25,1
+impact_wood_flesh,,SFX\Character\Foley\BodyFalls\BodyFall_##,0.5,0.75,0.9,1.1,50,750,,,1,reject,physics,0,3d,,,,,,,,,,curve2,,,,,,,,,,5,10,0.25,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+impact_default,,SFX\physics\impacts\soft_##,0.5,0.75,0.9,1.1,50,750,,,1,reject,physics,0,3d,,,,,,,,,,curve2,,,,,,,,,,5,10,0.25,1

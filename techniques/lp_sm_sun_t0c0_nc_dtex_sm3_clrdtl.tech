@@ -1,0 +1,22 @@
+{
+
+	stateMap "default";
+
+	vertexShader 3.0 "lp_sm_sun_tc0_nc_dtex_sm3_clrdtl.hlsl"
+	{
+	}
+
+	pixelShader 3.0 "lp_sm_sun_t0c0_nc_sm3_clrdtl.hlsl"
+	{
+		colorMapSampler = material.colorMap;
+
+		colorDetailScale = material.colorDetailScale;
+		colorDetailMapSampler = material.colorDetailMap;
+
+	}
+
+	vertex.position = code.position;
+	vertex.normal = code.normal;
+	vertex.texcoord[0] = code.texcoord[0];
+
+}

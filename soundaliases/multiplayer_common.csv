@@ -1,0 +1,89 @@
+name,sequence,file,platform,vol_min,vol_max,pitch_min,pitch_max,dist_min,dist_max,dist_reverb_max,limit_count,limit_type,entity_limit_count,entity_limit_type,bus,spatialized,type,probability,loop,masterslave,loadspec,reverb_falloff_curve,subtitle,compression,randomize_type,secondaryaliasname,chainaliasname,volumefalloffcurve,startdelay,speakermap,reverb_send,lfe percentage,center percentage,platform,envelop_min,envelop_max,envelop percentage,occlusion_level,real_delay,distance_lpf,move_type,move_time,min_priority,max_priority,min_priority_threshold,max_priority_threshold,doppler
+# Interface,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MP_hit_alert,,sfx\mp\mp_hit_indication_3c.wav,,1,1,1,1,,,,3,oldest,,,voice,2d,,,,,all_mp,,,,,,,,100,wpn_fnt,0,,1,,,,,,,,,,100,100,0.25,1,
+mp_ingame_summary,,sfx\mp\progress_update_v5.wav,,0.35,0.35,1,1,,,,,,,,full_vol,2d,,,,,all_mp,,,,,,,,,wpn_fnt,0,,,,,,,,,,,,100,100,0.25,1,
+
+# Tabun Shock,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+tabun_shock_loop,,sfx/weapon/gren/tabun/tabun_shock_loop.wav,,0.65,0.65,1,1,10,2200,,,,,,voice,2d,,,looping,,all_mp,,,,,,,curve2,,,0.15,,,,,,,0.2,,,,,100,100,0.25,1,
+tabun_shock_loop_silent,,sfx/weapon/gren/tabun/tabun_shock_loop.wav,,0.65,0.65,1,1,10,2200,,,,,,voice,2d,,,looping,,all_mp,,,,,,,curve2,,,0.15,,,,,,,0.2,,,,,100,100,0.25,1,
+tabun_shock_end,,sfx/weapon/gren/tabun/tabun_shock_end.wav,,0.75,0.75,1,1,10,2200,,,,,,voice,2d,,,,,all_mp,,,,,,,curve2,,,0.25,,,,,,,0.2,,,,,100,100,0.25,1,
+tabun_cough,,sfx/character/cough_##,,0.65,1,0.95,1.05,,,,,,1,reject,voice,2d,,,,,all_mp,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# Flares,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+flare_launch,,SFX\Amb\flare\flashbang_toss_b.wav,!wii,1,1,0.8,1.1,200,1600,1800,,,,,full_vol,3d,,,,,all_mp,,,,,,,curve4,,,0.6,,,,,,,0.4,,no,,,100,100,0.25,1,
+flare_exp,,SFX\Amb\flare\flashbang_asplode_trail.wav,!wii,1,1,1,1,200,1800,2400,,,,,explosion,3d,,,,,all_mp,,,,,,,curve4,,,0.6,,,,,,,0.4,,no,,,100,100,0.25,1,
+#flashbang_tinnitus_loop,,sfx/character/tinnitus/flareshock_eq.wav,!wii,0.3,0.3,1,1,,,,,,,,full_vol,2d,,,looping,,all_mp,,,,,,,curve4,,,,,,,,,,,,,,,100,100,0.25,1,
+#flashbang_tinnitus_loop_silent,,sfx/character/tinnitus/flareshock_eq.wav,!wii,0,0,1,1,,,,,,,,full_vol,2d,,,looping,,all_mp,,,,,,,curve4,,,,,,,,,,,,,,,100,100,0.25,1,
+#flashbang_tinnitus_end,,sfx/character/tinnitus/flareshock_fade_eq.wav,!wii,0.3,0.3,1,1,100,5000,,,,,,full_vol,2d,,,,,all_mp,,,,,,,curve4,,,,,,,,,,,,,,,100,100,0.25,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# Suitcase Bomb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+exp_suitcase_bomb_main,,SFX\Levels\see1\barn\barn_L.wav,!wii,0.9,1,1,1,500,7000,15000,1,reject,,,full_vol,3d,,,,,all_mp,,,,,exp_suitcase_bomb_mainR,,,,,,0.1,,,,,,0.2,,,left_player,8,100,100,0.25,1
+exp_suitcase_bomb_mainR,,SFX\Levels\see1\barn\barn_R.wav,!wii,0.9,1,1,1,500,7000,15000,1,reject,,,full_vol,3d,,,,,all_mp,,,,,,,,,,,0.1,,,,,,0.2,,,right_player,8,100,100,0.25,1
+ui_mp_suitcasebomb_timer,,sfx/ui/timer_##,,1,1,,,,,,,,,,ui,2d,,,,,all_mp,,,,,,,,,,,,,,,,,,,,,,50,80,0.15,0.75
+ui_mp_timer_countdown,,sfx/ui/timer_##,,1,1,,,,,,,,,,ui,2d,,,,,all_mp,,,,,,,,,,,,,,,,,,,,,,50,80,0.15,0.75
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# S&D Bomb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+mp_bomb_insert,,SFX\mp\bomb\PinInsert_00.wav,,1,1,1,1,200,500,500,,,,,full_vol,2d,,,,,all_mp,,,,,,,,,,0.5,,,,,,,,,,,,100,100,0.25,1
+mp_bomb_twist,,SFX\mp\bomb\CapTurn_00.wav,,1,1,1,1,200,500,500,,,,,full_vol,2d,,,,,all_mp,,,,,,,,,,0.5,,,,,,,,,,,,100,100,0.25,1
+mp_bomb_pull,,SFX\mp\bomb\PullPin_00.wav,,1,1,1,1,200,500,500,,,,,full_vol,2d,,,,,all_mp,,,,,,,,,,0.5,,,,,,,,,,,,100,100,0.25,1
+mp_bomb_throw,,SFX\Weapon\Special\Satchel_charge\satchel_planta.wav,,1,1,1,1,200,500,500,,,,,full_vol,2d,,,,,all_mp,,,,,,,,,,0.5,,,,,,,,,,,,100,100,0.25,1
+#mp_bomb_defuse,,SFX/character/bomb_set/PullPin_00.wav,,1,1,1,1,200,500,500,,,,,character,2d,,,looping,,all_mp,,,,,,,,,,0.5,,,,,,,,,,,,100,100,0.25,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#WII ASSETS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+flare_launch,,SFX\Amb\flare\flashbang_toss_b.wav,wii,1,1,0.8,1.1,200,1600,2000,,,,,explosion,3d,,,,,all_mp,,,,,,,curve4,,,0.6,,,,,,,0.3,,no,,,100,100,0.25,1
+flare_exp,,SFX\Amb\flare\flashbang_asplode.wav,wii,1,1,1,1,200,1800,2600,,,,,explosion,3d,,,,,all_mp,,,,,flare_exp_trail,,curve4,,,0.6,,,,,,,0.3,,no,,,100,100,0.25,1
+flare_exp_trail,,SFX\Amb\flare\flashbang_asplode_trail.wav,wii,1,1,1,1,200,1800,2600,,,,,explosion,3d,,,,,all_mp,,,,,,,curve4,,,0.6,,,,,,,0.3,,no,,,100,100,0.25,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+exp_suitcase_bomb_main,,SFX\Levels\see1\barn\barn_L.wav,wii,0.9,1,1,1,500,7000,15000,1,reject,,,full_vol,3d,,,,,all_mp,,,,,,,,,,,0.1,,,,,,0.2,,,,,100,100,0.25,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# Killstreaks,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# Artillery Strike,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+artillery_launch,,SFX/Weapon/cannons/model3/fire_##,!wii,0.7,0.7,0.9,0.9,15000,30000,,,,,,hvy_wpn,3d,,,,,all_mp,,,,,artillery_launch_dist,,curve3,,,,,,,,,,0.2,,yes,,,100,100,0.25,1
+artillery_launch_dist,,SFX/Weapon/cannons/model3/dist_##,!wii,0.8,0.8,0.9,0.9,20000,35000,,,,,,hvy_wpn,3d,,,,,all_mp,,,,,,,curve3,,,,,,,,,,0.2,,no,,,100,100,0.25,1
+artillery_impact,1,SFX/Destruction/Explosion_Impact/explosion_impact_00.wav,!wii,0.9,1,0.9,1.08,800,6000,7500,,,,,explosion,3d,,,,,all_mp,,,,,rocket_main,,,,,,0.6,,,,,,0.2,,,,,50,80,0.15,0.75
+artillery_impact,2,SFX/Destruction/Explosion_Impact/explosion_impact_01.wav,!wii,0.9,1,0.9,1.08,800,6000,7500,,,,,explosion,3d,,,,,all_mp,,,,,rocket_main,,,,,,0.6,,,,,,0.2,,,,,50,80,0.15,0.75
+artillery_impact,3,SFX/Destruction/Explosion_Impact/explosion_impact_02.wav,!wii,0.9,1,0.9,1.08,800,6000,7500,,,,,explosion,3d,,,,,all_mp,,,,,rocket_main,,,,,,0.6,,,,,,0.2,,,,,50,80,0.15,0.75
+artillery_impact,4,SFX/Destruction/Explosion_Impact/explosion_impact_03.wav,!wii,0.9,1,0.9,1.08,800,6000,7500,,,,,explosion,3d,,,,,all_mp,,,,,rocket_main,,,,,,0.6,,,,,,0.2,,,,,50,80,0.15,0.75
+artillery_impact,5,SFX/Destruction/Explosion_Impact/explosion_impact_04.wav,!wii,0.9,1,0.9,1.08,800,6000,7500,,,,,explosion,3d,,,,,all_mp,,,,,rocket_main,,,,,,0.6,,,,,,0.2,,,,,50,80,0.15,0.75
+rocket_main,1,sfx/destruction/explosion_main/explosion_main_00.wav,!wii,0.7,0.9,0.9,1.08,500,4500,5500,,,,,explosion,3d,,,,,all_mp,,,,,rocket_expander,,,,,,0.6,,,,,,0.2,,,,,50,80,0.15,0.75,
+rocket_main,2,sfx/destruction/explosion_main/explosion_main_01.wav,!wii,0.7,0.9,0.9,1.08,500,4500,5500,,,,,explosion,3d,,,,,all_mp,,,,,rocket_expander,,,,,,0.6,,,,,,0.2,,,,,50,80,0.15,0.75,
+rocket_main,3,sfx/destruction/explosion_main/explosion_main_02.wav,!wii,0.7,0.9,0.9,1.08,500,4500,5500,,,,,explosion,3d,,,,,all_mp,,,,,rocket_expander,,,,,,0.6,,,,,,0.2,,,,,50,80,0.15,0.75,
+rocket_main,4,sfx/destruction/explosion_main/explosion_main_03.wav,!wii,0.7,0.9,0.9,1.08,500,4500,5500,,,,,explosion,3d,,,,,all_mp,,,,,rocket_expander,,,,,,0.6,,,,,,0.2,,,,,50,80,0.15,0.75,
+rocket_dirt,,SFX/Destruction/Explosion_Debris/dirt_##,!wii,0.5,0.7,0.9,1.08,35,2500,3500,,,,,explosion,3d,,,,,all_mp,,,,,,,,,,,0.5,,,,,,0.2,,,,,50,80,0.15,0.75,
+rocket_expander,1,SFX/Destruction/Explosion_Falloff/explosion_falloff_00.wav,!wii,0.6,0.8,0.9,1.1,250,15000,,,,,,explosion,3d,,,,,all_mp,,,,,,,,,,,0.2,,,,,,0.2,,,,,80,10,0.15,0.85,
+rocket_expander,2,SFX/Destruction/Explosion_Falloff/explosion_falloff_01.wav,!wii,0.6,0.8,0.9,1.1,250,15000,,,,,,explosion,3d,,,,,all_mp,,,,,,,,,,,0.2,,,,,,0.2,,,,,80,10,0.15,0.85,
+rocket_expander,3,SFX/Destruction/Explosion_Falloff/explosion_falloff_02.wav,!wii,0.6,0.8,0.9,1.1,250,15000,,,,,,explosion,3d,,,,,all_mp,,,,,,,,,,,0.2,,,,,,0.2,,,,,80,10,0.15,0.85,
+rocket_expander,4,SFX/Destruction/Explosion_Falloff/explosion_falloff_03.wav,!wii,0.6,0.8,0.9,1.1,250,15000,,,,,,explosion,3d,,,,,all_mp,,,,,,,,,,,0.2,,,,,,0.2,,,,,80,10,0.15,0.85,
+artillery_whistle,,SFX\Weapon\mp_artillery\whistle_##,!wii,0.5,0.5,1.5,1.95,1000,7500,8500,,,1,reject,full_vol,3d,,,looping,0.7,all_mp,curve3,,,,high_whistle,,,,,,,,,,,,0.4,,,,,90,90,0.25,1,yes
+high_whistle,,SFX\Weapon\mp_artillery\high_whistle\high_whistle.wav,!wii,0.55,0.55,1.2,1.5,1000,5000,6500,,,1,reject,full_vol,3d,,,looping,0.7,all_mp,curve3,,,,squeal,,,,,,,,,,,,0.4,,,,,90,90,0.25,1,yes
+squeal,,SFX\Weapon\mp_artillery\squeal2.wav,!wii,0.3,0.3,1.1,1.4,800,3500,4000,,,1,reject,full_vol,3d,,,looping,0.7,all_mp,curve3,,,,,,,,,,,,,,,,0.4,,,,,90,90,0.25,1,yes
+air_raid_a,1,SFX/Amb/air_raid/air_raid_mp.wav,,1,1,,,10000,20000,25000,,,,,ambience,3d,streamed,,,,all_mp,,,,,,,curve3,,,,,,,,,,0,,no,,,80,10,0.15,0.85,
+weap_c4detpack_trigger_plr,,sfx/pickups/pu_grenade.wav,,0.8,0.8,1,1,50,200,,,,,,ambience,2d,,,,,all_mp,,,,,,,,,,,,1,,,,,,,,,,80,10,0.15,0.85,
+weap_c4detpack_safetyoff_plr,,sfx/pickups/pu_grenade.wav,,0.8,0.8,1,1,50,200,,,,,,ambience,2d,,,,,all_mp,,,,,,,,,,,,1,,,,,,,,,,80,10,0.15,0.85,
+weap_c4detpack_safety_plr,,sfx/pickups/pu_grenade.wav,,0.8,0.8,1,1,50,200,,,,,,ambience,2d,,,,,all_mp,,,,,,,,,,,,1,,,,,,,,,,80,10,0.15,0.85,
+weap_c4detpack_safetyoff_npc,,sfx/pickups/pu_grenade.wav,,0.6,0.6,1,1,50,1000,1200,,,,,character,3d,,,,,all_mp,,,,,,,,,,,,,,,,,0.2,,,,,80,10,0.15,0.85
+weap_c4detpack_safety_npc,,sfx/pickups/pu_grenade.wav,,0.6,0.6,1,1,50,1000,1200,,,,,character,3d,,,,,all_mp,,,,,,,,,,,,,,,,,0.2,,,,,80,10,0.15,0.85
+weap_c4detpack_trigger_npc,,sfx/pickups/pu_grenade.wav,,0.6,0.6,1,1,50,1000,1200,,,,,character,3d,,,,,all_mp,,,,,,,,,,,,,,,,,0.2,,,,,80,10,0.15,0.85
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#flag_pickup_plr,,sfx\mp\flag\pickup.wav,!wii,0.9,0.9,,,,,,,,,,full_vol,2d,,,,,all_mp,,,,,,,,,wpn_fnt,,,,,,,,,,,,,50,70,0.15,0.85
+#flag_drop_plr,,sfx\mp\flag\drop.wav,!wii,0.9,0.9,,,,,,,,,,full_vol,2d,,,,,all_mp,,,,,,,,,wpn_fnt,,,,,,,,,,,,,50,70,0.15,0.85
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#WII ASSETS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+artillery_launch,,SFX/Weapon/cannons/model3/fire_##,wii,0.7,0.7,0.9,0.9,15000,30000,,,,,,hvy_wpn,3d,,,,,all_mp,,,,,artillery_launch_dist,,curve3,,,,,,,,,,0.2,,yes,,,100,100,0.25,1
+artillery_launch_dist,,SFX/Weapon/cannons/model3/dist_##,wii,0.8,0.8,0.9,0.9,20000,35000,,,,,,hvy_wpn,3d,,,,,all_mp,,,,,,,curve3,,,,,,,,,,0.2,,no,,,100,100,0.25,1
+artillery_impact,1,SFX/Destruction/Explosion_Impact/explosion_impact_00.wav,wii,0.8,0.9,0.9,1.08,500,4000,5000,,,,,explosion,3d,,,,,all_mp,,,,,rocket_main,,,,,,,,,,,,0.2,,,,,50,80,0.15,0.75
+artillery_impact,2,SFX/Destruction/Explosion_Impact/explosion_impact_02.wav,wii,0.8,0.9,0.9,1.08,500,4000,5000,,,,,explosion,3d,,,,,all_mp,,,,,rocket_main,,,,,,,,,,,,0.2,,,,,50,80,0.15,0.75
+rocket_main,1,sfx/destruction/explosion_main/explosion_main_01.wav,wii,0.7,0.9,0.9,1.08,500,3500,4000,,,,,explosion,3d,,,,,all_mp,,,,,rocket_expander,,,,,,,,,,,,0.2,,,,,50,80,0.15,0.75
+rocket_main,2,sfx/destruction/explosion_main/explosion_main_02.wav,wii,0.7,0.9,0.9,1.08,500,3500,4000,,,,,explosion,3d,,,,,all_mp,,,,,rocket_expander,,,,,,,,,,,,0.2,,,,,50,80,0.15,0.75
+rocket_dirt,,SFX/Destruction/Explosion_Debris/dirt/dirt_00.wav,wii,0.5,0.7,0.9,1.08,35,1500,2000,,,,,explosion,3d,,,,,all_mp,,,,,,,,,,,,,,,,,0.2,,,,,50,80,0.15,0.75
+rocket_expander,,SFX/Destruction/Explosion_Falloff/explosion_falloff_00.wav,wii,0.6,0.8,0.9,1.1,250,15000,,,,,,explosion,3d,,,,,all_mp,,,,,,,,,,,,,,,,,0.2,,,,,80,10,0.15,0.85
+#artillery_whistle,,SFX\Weapon\mp_artillery\whistle_##,wii,0.5,0.5,1.5,1.95,300,5000,6500,,,1,reject,full_vol,3d,,,looping,0.7,all_mp,curve3,,,,high_whistle,,,,,,,,,,,,0.4,,,,,90,90,0.25,1,yes
+#high_whistle,,SFX\Weapon\mp_artillery\high_whistle\high_whistle.wav,wii,0.6,0.6,1.2,1.5,300,9000,9500,,,1,reject,full_vol,3d,,,looping,0.7,all_mp,curve3,,,,squeal,,,,,,,,,,,,0.4,,,,,90,90,0.25,1,yes
+#squeal,,SFX\Weapon\mp_artillery\squeal.wav,wii,0.4,0.4,1.1,1.4,300,4000,4500,,,1,reject,full_vol,3d,,,looping,0.7,all_mp,curve3,,,,,,,,,,,,,,,,0.4,,,,,90,90,0.25,1,yes
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+fire_manager_0,,SFX/Destruction/fires/dynamic/dyn_fire_00.wav,,1,1,0.95,1.05,100,500,,,,,,ambience,3d,,,looping,,all_mp,,,,,,,,,,,,,,,,,,,,,,25,80,0.25,1,
+fire_manager_1,,SFX/Destruction/fires/dynamic/dyn_fire_01.wav,,1,1,0.95,1.05,100,500,,,,,,ambience,3d,,,looping,,all_mp,,,,,,,,,,,,,,,,,,,,,,25,80,0.25,1,
+fire_manager_2,,SFX/Destruction/fires/dynamic/dyn_fire_02.wav,,1,1,0.95,1.05,100,500,,,,,,ambience,3d,,,looping,,all_mp,,,,,,,,,,,,,,,,,,,,,,25,80,0.25,1,
+fire_manager_3,,SFX/Destruction/fires/dynamic/dyn_fire_03.wav,,1,1,0.95,1.05,100,500,,,,,,ambience,3d,,,looping,,all_mp,,,,,,,,,,,,,,,,,,,,,,25,80,0.25,1,

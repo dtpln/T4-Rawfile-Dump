@@ -1,0 +1,32 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+ ( 11 8 0 ) ( -8 8 0 ) ( -8 -8 0 ) physics_geometry 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -8 -8 9 ) ( -8 8 9 ) ( 11 8 9 ) physics_geometry 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -8 -8 9 ) ( 11 -8 9 ) ( 11 -8 0 ) physics_geometry 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 9 -8 9 ) ( 9 8 9 ) ( 9 8 0 ) physics_geometry 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 11 8 9 ) ( -8 8 9 ) ( -8 8 0 ) physics_geometry 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -8 8 9 ) ( -8 -8 9 ) ( -8 -8 0 ) physics_geometry 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 1
+{
+ ( 11 8 0 ) ( -8 8 0 ) ( -8 -8 0 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -8 -8 9 ) ( -8 8 9 ) ( 11 8 9 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -8 -8 9 ) ( 11 -8 9 ) ( 11 -8 0 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 9 -8 9 ) ( 9 8 9 ) ( 9 8 0 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 11 8 9 ) ( -8 8 9 ) ( -8 8 0 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -8 8 9 ) ( -8 -8 9 ) ( -8 -8 0 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1
+{
+"physpreset" "bucket_metal"
+"classname" "dyn_model"
+"model" "static_berlin_pot_large"
+"origin" "0.0 0.0 0.0"
+}

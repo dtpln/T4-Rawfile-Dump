@@ -1,0 +1,44 @@
+name,sequence,file,vol_min,vol_max,pitch_min,pitch_max,dist_min,dist_max,bus,priority,spatialized,type,probability,loop,masterslave,loadspec,subtitle,compression,secondaryaliasname,chainaliasname,volumefalloffcurve,startdelay,speakermap,reverb,lfe percentage,center percentage,platform,envelop_min,envelop_max,envelop percentage
+
+# Background Tracks,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+bgt_wind,,TEMP/BG_Wind_00.wav,0.35,,,,,,ambience,0,2d,streamed,,looping,,,,,,,,,music,,,,,,,
+bgt_wind_interior,,Stream/Level/Pel2/bunker/BG_Bunker.wav,0.55,,,,,,ambience,0,2d,streamed,,looping,,,,,,,,,music,,,,,,,
+
+# Music Tracks,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MX_Sbowl,,Stream/Music/Mission/L_Battlefield/MX_SBowl.wav,0,,,,,,music,0,2d,streamed,,looping,,,,,,,,500,music,,,,,,,
+MX_Cave_Stinger,,Stream/Music/Mission/L_Battlefield/cave_stinger.wav,0.85,,,,,,music,0,2d,streamed,,,,,,,,,,500,music,,,,,,,
+Miss_Annabelle,,SFX/Amb/Global/Phonograph/Miss_Annabelle_Lee_LOOP.wav,0.6,0.6,1,1,250,800,music,0,3d,,,looping,,,,,,,,,,,,,,250,500,0.2
+
+
+# Ambient SFX - Static,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ocean_left,,SFX/Amb/Pacific/ocean/ocean_left.wav,0.5,0.65,0.9,1.1,250,3000,ambience,0,3d,,,looping,,,,,,,,,,,,,,250,900,0.8
+ocean_right,,SFX/Amb/Pacific/ocean/ocean_right.wav,0.5,0.65,0.9,1.1,250,3000,ambience,0,3d,,,looping,,,,,,,,,,,,,,250,900,0.8
+
+mono_wind,,SFX/Levels/Peleliu_2/wind_bunker/wind_bunker_loop.wav,0.85,0.85,0.9,1.1,100,150,ambience,0,3d,,,looping,,,,,,,,,,,,,,100,250,0.35
+wind_gust_tree,,SFX/Amb/Wind/leaves_##,0.8,1,0.9,1.1,400,800,ambience,0,3d,,,,,,,,,,,,,,,,,250,500,0.25
+# Ambient SFX - Spawned,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# Day Package,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+amb_bugs_cicada,,SFX/Amb/animals/cicada_##,0.1,0.15,0.9,1.1,100,800,ambience,0,3d,,,,,,,,,,,,,,,,,,,
+amb_flies,,SFX/Amb/animals/flies_##,0.3,0.5,0.9,1.05,10,100,ambience,0,3d,,,,,,,,,,,,,,,,,,,
+amb_bugs_other,,SFX/Amb/animals/misc_bug_##,0.15,0.25,0.9,1.1,250,2500,ambience,0,3d,,,,,,,,,,,,,,,,,,,
+amb_rodents,,SFX/Amb/animals/Rodents_##,0.9,1,0.9,1.1,250,2500,ambience,0,3d,,,,,,,,,,,,,,,,,,,
+amb_raven,,SFX/Amb/animals/raven_##,0.5,0.8,0.9,1.1,10,1000,ambience,0,3d,,,,,,,,,,,,,,,,,,,
+amb_bird,1,SFX/Amb/animals/Old/Bird_Wren.wav,0.2,0.4,0.9,1.1,10,1000,ambience,0,3d,,,,,,,,,,,,,,,,,,,
+amb_bird,2,SFX/Amb/animals/Old/Bird_Finch.wav,0.2,0.4,0.9,1.1,10,1000,ambience,0,3d,,,,,,,,,,,,,,,,,,,
+amb_bird,3,SFX/Amb/animals/Old/Bird_Generic.wav,0.2,0.4,0.9,1.1,10,1000,ambience,0,3d,,,,,,,,,,,,,,,,,,,
+amb_bird,4,SFX/Amb/animals/Old/Bird_Sparrow.wav,0.2,0.4,0.9,1.1,10,1000,ambience,0,3d,,,,,,,,,,,,,,,,,,,
+amb_mosquito,,SFX/Amb/animals/mosquito_mn/mosquito_mn_00.wav,0.5,0.8,0.9,1.1,10,1000,ambience,0,3d,,,,,,,,,,,,,,,,,,,
+amb_seagull,,SFX/Amb/animals/seagull_##,0.5,0.8,0.9,1.1,10,1000,ambience,0,3d,,,,,,,,,,,,,,,,,,,
+amb_crickets,,SFX/Amb/animals/Crickets_##,0.1,0.25,0.9,1.1,10,500,ambience,0,3d,,,,,,,,,,,,,,,,,,,
+amb_odd_bug,,SFX/Amb/animals/Odd_Bug_##,0.1,0.2,0.9,1.1,10,700,ambience,0,3d,,,,,,,,,,,,,,,,,,,
+
+# Interior Package,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+amb_water_drips,,SFX/Amb/water_drips_##,0.1,0.2,0.9,1.25,10,575,ambience,0,3d,,,,,,,,,,,,,,,,,10,400,0.6
+amb_wood_creak,,SFX/Amb/wood_creak_##,0.4,0.8,0.9,1.1,10,150,ambience,0,3d,,,,,,,,,,,,,,,,,,,
+
+
+
+fire_manager_0,,SFX/Destruction/fires/dynamic/dyn_fire_00.wav,1,1,1,1,50,500,ambience,80,3d,,,looping,,,,,,,,,,,,,,,,
+fire_manager_1,,SFX/Destruction/fires/dynamic/dyn_fire_01.wav,1,1,1,1,50,500,ambience,80,3d,,,looping,,,,,,,,,,,,,,,,
+fire_manager_2,,SFX/Destruction/fires/dynamic/dyn_fire_02.wav,1,1,1,1,50,500,ambience,80,3d,,,looping,,,,,,,,,,,,,,,,
+fire_manager_3,,SFX/Destruction/fires/dynamic/dyn_fire_03.wav,1,1,1,1,50,500,ambience,80,3d,,,looping,,,,,,,,,,,,,,,,

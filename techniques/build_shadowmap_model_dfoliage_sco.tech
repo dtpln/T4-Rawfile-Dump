@@ -1,0 +1,15 @@
+{
+	stateMap "build_shadowmap_model";
+
+	vertexShader 1.1 "shadowmap_dfoliage_sco.hlsl"
+	{
+		dynamicFoliageFlexibility = material.dynamicFoliageFlexibility;
+	}
+
+	pixelShader 1.1 "null.hlsl"
+	{
+	}
+
+	vertex.position = code.position;
+
+}

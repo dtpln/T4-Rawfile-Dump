@@ -1,0 +1,29 @@
+{
+
+	stateMap "premulalpha";
+
+	vertexShader 3.0 "lp_sm_omni_tc0n0_nc_dtex_sm3_eyeball1.hlsl"
+	{
+	}
+
+	pixelShader 3.0 "lp_sm_spot_b0c0d0n0_nc_sm3_eyeball1.hlsl"
+	{
+		colorMapSampler = material.colorMap;
+		detailMapSampler = material.detailMap;
+		detailScale = material.detailScale;
+		normalMapSampler = material.normalMap;
+
+		eyeballGlossScale = material.eyeballGlossScale;
+		eyeballEyeScale = material.eyeballEyeScale;
+		eyeballEyeCenter = material.eyeballEyeCenter;
+
+		eyeballGlossMap_Sampler = material.eyeballGlossMap;
+		eyeballSphereMap_Sampler = material.eyeballSphereMap;
+	}
+
+	vertex.position = code.position;
+	vertex.normal = code.normal;
+	vertex.texcoord[0] = code.texcoord[0];
+	vertex.texcoord[2] = code.tangent;
+
+}

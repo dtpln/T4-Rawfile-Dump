@@ -1,0 +1,29 @@
+{
+	stateMap "blend";
+
+	vertexShader 3.0 "lm_omni_s_tc0_fade_sm3_sco_sls.hlsl"
+	{
+	}
+
+	pixelShader 3.0 "lm_spot_b0c0s0_fade_sm3_sco_sls.hlsl"
+	{
+		colorMapSampler = material.colorMap;
+		specularMapSampler = material.specularMap;
+		envMapParms = material.envMapParms;
+
+		subLayerMultiplySampler = material.subLayerMultiplyTexture;
+		subLayerBaseSampler = material.subLayerBaseTexture;
+
+		uvSubLayerMultiplyScroll = material.subLayerMultiplyScroll;
+		uvSubLayerBaseScroll = material.subLayerBaseScroll;
+
+	}
+
+	vertex.position = code.position;
+	vertex.normal = code.normal;
+	vertex.color[0] = code.color;
+	vertex.texcoord[0] = code.texcoord[0];
+
+	vertex.blendweight = code.blendweight;
+
+}

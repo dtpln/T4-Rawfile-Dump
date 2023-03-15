@@ -1,0 +1,23 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+ ( -2 -3 0 ) ( 3 -3 0 ) ( 3 3 0 ) clip 64 64 0.5 0 0 0 lightmap_gray 16384 16384 0.5 0 0 0
+ ( -2.5 3 6 ) ( 2.5 3 6 ) ( 2.5 -3 6 ) clip 64 64 0.5 0 0 0 lightmap_gray 16384 16384 0.5 0 0 0
+ ( -2.5 -1.5 -1 ) ( -2.5 -1.5 7 ) ( 2.5 -1.5 7 ) clip 64 64 0.5 0 0 0 lightmap_gray 16384 16384 0.5 0 0 0
+ ( 1.5 2.5 -1 ) ( 1.5 -3.5 -1 ) ( 1.5 -3.5 7 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1.5 1.5 6 ) ( -1.5 1.5 0 ) ( 1.5 1.5 0 ) clip 64 64 0.5 0 0 0 lightmap_gray 16384 16384 0.5 0 0 0
+ ( -1.5 1.5 0 ) ( -1.5 1.5 6 ) ( -1.5 -1.5 6 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1
+{
+"physpreset" "bucket_metal"
+"origin" "0.0 0.0 0.0"
+"model" "static_berlin_cans_single03"
+"classname" "dyn_model"
+}

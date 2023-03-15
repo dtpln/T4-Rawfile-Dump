@@ -1,0 +1,25 @@
+{
+	stateMap "premulalpha";
+
+	vertexShader 2.0 "cloud.hlsl"
+	{
+		cloudLightColor = material.cloudLightColor;
+		cloudDarkColor = material.cloudDarkColor;
+		cloudLiningSize = material.cloudLiningSize;
+		cloudLiningColor = material.cloudLiningColor;
+	}
+
+	pixelShader 2.0 "cloud.hlsl"
+	{
+		colorMapSampler = material.colorMap;
+		detailMapSampler = material.detailMap;
+		cloudLiningColor = material.cloudLiningColor;
+	}
+
+	vertex.position = code.position;
+	vertex.texcoord[0] = code.texcoord[0];
+	vertex.normal = code.normal;
+	vertex.texcoord[1] = code.tangent;
+	vertex.color[0] = code.color;
+
+}

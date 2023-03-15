@@ -1,0 +1,20 @@
+{
+	stateMap "default2d";
+
+	vertexShader 1.1 "flamethrowerfx_color_distort_overlay_bloom.hlsl"
+	{
+//$if USE_DISTORTION
+//		distortionScale = material.distortionScale;
+//$endif
+	}
+
+	pixelShader 3.0 "flamethrowerfx_color_distort_overlay_bloom.hlsl"
+	{
+		colorMapSampler = sampler.feedback;
+		normalMapSampler = material.detailMap;
+		colorMapSampler1 = material.colorMap;
+	}
+	vertex.position = code.position;
+	vertex.texcoord[0] = code.texcoord[0];
+
+}

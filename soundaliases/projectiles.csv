@@ -1,0 +1,408 @@
+name,platform,file,sequence,vol_min,vol_max,dist_min,dist_max,limit_count,limit_type,entity_limit_count,entity_limit_type,bus,volume_min_falloff_curve,volumefalloffcurve,reverb_send,dist_reverb_max,reverb_min_falloff_curve,reverb_falloff_curve,pitch_min,pitch_max,randomize_type,spatialized,type,probability,loop,masterslave,loadspec,subtitle,compression,secondaryaliasname,chainaliasname,startdelay,speakermap,lfe percentage,center percentage,envelop_min,envelop_max,envelop percentage,occlusion_level,occlusion_wet_dry,real_delay,distance_lpf,move_type,move_time,min_priority,max_priority,min_priority_threshold,max_priority_threshold
+# Bullet Small,,,,,,,,,,,,projectile,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#bullet_small_default,,,,0.43,0.57,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,,,,,,5,,,,,,,,,,no,,,10,85,0.35,0.8
+bullet_small_bark,,SFX/projectile/bullet/small/impacts/wood/near_##,,0.25,0.65,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_sp all_mp,,,bullet_small_wood_far,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_brick,,SFX/projectile/bullet/small/impacts/brick/near_##,,0.5,0.75,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_sp all_mp,,,stone_debris,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_carpet,,SFX\projectile\bullet\small\impacts\canvas_##,,0.53,0.68,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_sp all_mp,,,rico,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_cloth,,SFX\projectile\bullet\small\impacts\canvas_##,,0.53,0.68,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_concrete,,SFX/projectile/bullet/small/impacts/concrete/near_##,,0.5,0.85,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_sp all_mp,,,stone_debris,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+,,,,,,,,,,,,,,,0.55,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+bullet_small_dirt,,SFX/projectile/bullet/small/impacts/dirt/near_##,,0.75,1,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_sp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_grass,,SFX/projectile/bullet/small/impacts/dirt/near_##,,0.25,0.79,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_sp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_paper,,SFX/projectile/bullet/small/impacts/dirt/near_##,,0.25,0.95,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_sp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+,,,,,,,,,,,,,,,0.55,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+bullet_small_flesh,,SFX/projectile/bullet/small/impacts/flesh_##,,0.5,1,150,800,4,priority,,,full_vol,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.7,all_sp all_mp,,,,,50,,,0.5,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_foliage,,null.wav,,0.53,0.68,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_glass,,SFX\projectile\bullet\small\impacts\Glass_##,,0.43,0.57,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_gravel,,SFX/projectile/bullet/small/impacts/rock_##,,0.5,0.79,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_sp,,,stone_debris,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+#mp opt,,,,,,,,,,,,,,,0.55,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+bullet_small_gravel,,SFX/projectile/bullet/small/impacts/rock/rock_00.wav,1,0.5,0.79,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_mp,,,stone_debris,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_gravel,,SFX/projectile/bullet/small/impacts/rock/rock_01.wav,2,0.5,0.79,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_mp,,,stone_debris,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_gravel,,SFX/projectile/bullet/small/impacts/rock/rock_02.wav,3,0.5,0.79,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_mp,,,stone_debris,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_gravel,,SFX/projectile/bullet/small/impacts/rock/rock_03.wav,4,0.5,0.79,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_mp,,,stone_debris,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_gravel,,SFX/projectile/bullet/small/impacts/rock/rock_04.wav,5,0.5,0.79,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_mp,,,stone_debris,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+#bullet_small_ice,,SFX/projectile/bullet/small/impacts/ice_##,,0.63,0.79,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_sp all_mp,,,rico,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_metal,,SFX/projectile/bullet/small/impacts/Metal/near_##,,0.25,0.65,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_sp all_mp,,,bullet_small_metal_far,,,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_mud,,SFX/projectile/bullet/small/impacts/mud_##,,0.25,0.4,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_plaster,,SFX/projectile/bullet/small/impacts/rock_##,,0.25,0.95,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_rock,,SFX/projectile/bullet/small/impacts/rock/near_##,,0.5,0.85,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_sp all_mp,,,stone_debris,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_sand,,SFX\projectile\bullet\small\impacts\sand_##,,0.5,0.68,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_sandbag,,SFX\projectile\bullet\small\impacts\sand_##,,0.63,0.79,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_sp all_mp,,,bullet_small_cloth,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+#bullet_small_snow,,SFX/projectile/bullet/small/impacts/snow_##,,0.63,0.79,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_water,,SFX/projectile/bullet/small/impacts/water/near_##,,0.5,0.8,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,!pby_fly all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_wood,,SFX/projectile/bullet/small/impacts/wood/near_##,,0.25,0.5,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_sp all_mp,,,bullet_small_wood_far,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_canvas,,SFX\projectile\bullet\small\impacts\canvas_##,,0.43,0.57,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_asphault,,SFX/projectile/bullet/small/impacts/brick/near_##,,0.25,0.95,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_sp all_mp,,,stone_debris,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_asphalt,,SFX/projectile/bullet/small/impacts/brick/near_##,,0.25,0.95,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_sp all_mp,,,stone_debris,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_vase,,null.wav,,0.95,0.99,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_crate,,SFX/projectile/bullet/small/impacts/wood/near_##,,0.7,0.85,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_bottle,,SFX\projectile\bullet\small\impacts\Glass_##,,0.8,0.9,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.7,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_plate,,null.wav,,0.95,0.99,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.7,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_teddybear,,null.wav,,0.95,0.99,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.7,all_sp all_mp,,,,,20,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_piano,,null.wav,,0.8,0.85,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_ceramic,,SFX/projectile/bullet/small/impacts/rock_##,,0.63,0.79,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_sp all_mp,,,stone_debris,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_plastic,,null.wav,,0.63,0.79,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_rubber,,SFX/projectile/bullet/small/impacts/dirt/near_##,,0.95,0.99,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.7,all_sp all_mp,,,,,20,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_cushion,,null.wav,,0.43,0.57,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_fruit,,null.wav,,0.43,0.57,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_paintedmetal,,null.wav,,0.43,0.57,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_player,,SFX/projectile/bullet/small/impacts/flesh_##,,0.25,0.35,200,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,2d,,,,0.7,all_sp all_mp,,,player_pain_small,,50,wpn_all,,0.5,,,,0.1,,,no,,,10,85,0.35,0.8
+# MP optimization,,,,,,,,4,priority,,,projectile,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+bullet_small_dirt,,SFX/projectile/bullet/small/impacts/dirt/near/near_00.wav,1,0.75,1,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_dirt,,SFX/projectile/bullet/small/impacts/dirt/near/near_01.wav,2,0.75,1,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_dirt,,SFX/projectile/bullet/small/impacts/dirt/near/near_02.wav,3,0.75,1,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_dirt,,SFX/projectile/bullet/small/impacts/dirt/near/near_03.wav,4,0.75,1,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_grass,,SFX/projectile/bullet/small/impacts/dirt/near/near_00.wav,1,0.75,1,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_grass,,SFX/projectile/bullet/small/impacts/dirt/near/near_01.wav,2,0.75,1,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_grass,,SFX/projectile/bullet/small/impacts/dirt/near/near_02.wav,3,0.75,1,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_grass,,SFX/projectile/bullet/small/impacts/dirt/near/near_03.wav,4,0.75,1,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_paper,,SFX/projectile/bullet/small/impacts/dirt/near/near_00.wav,1,0.75,1,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_paper,,SFX/projectile/bullet/small/impacts/dirt/near/near_01.wav,2,0.75,1,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_paper,,SFX/projectile/bullet/small/impacts/dirt/near/near_02.wav,3,0.75,1,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_paper,,SFX/projectile/bullet/small/impacts/dirt/near/near_03.wav,4,0.75,1,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+bullet_large_dirt,,SFX/projectile/bullet/small/impacts/dirt/near/near_00.wav,1,0.75,1,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_dirt,,SFX/projectile/bullet/small/impacts/dirt/near/near_01.wav,2,0.75,1,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_dirt,,SFX/projectile/bullet/small/impacts/dirt/near/near_02.wav,3,0.75,1,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_dirt,,SFX/projectile/bullet/small/impacts/dirt/near/near_03.wav,4,0.75,1,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_grass,,SFX/projectile/bullet/small/impacts/dirt/near/near_00.wav,1,0.75,1,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_grass,,SFX/projectile/bullet/small/impacts/dirt/near/near_01.wav,2,0.75,1,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_grass,,SFX/projectile/bullet/small/impacts/dirt/near/near_02.wav,3,0.75,1,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_grass,,SFX/projectile/bullet/small/impacts/dirt/near/near_03.wav,4,0.75,1,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_paper,,SFX/projectile/bullet/small/impacts/dirt/near/near_00.wav,1,0.75,1,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_paper,,SFX/projectile/bullet/small/impacts/dirt/near/near_01.wav,2,0.75,1,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_paper,,SFX/projectile/bullet/small/impacts/dirt/near/near_02.wav,3,0.75,1,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_paper,,SFX/projectile/bullet/small/impacts/dirt/near/near_03.wav,4,0.75,1,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_water,,SFX/projectile/bullet/small/impacts/water/near/near_00.wav,1,0.5,0.8,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_water,,SFX/projectile/bullet/small/impacts/water/near/near_01.wav,2,0.5,0.8,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_water,,SFX/projectile/bullet/small/impacts/water/near/near_02.wav,3,0.5,0.8,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_small_water,,SFX/projectile/bullet/small/impacts/water/near/near_03.wav,4,0.5,0.8,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.5,all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+# Special PBY Settings,,,,,,,,4,priority,,,projectile,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+bullet_small_water,,SFX/projectile/bullet/small/impacts/water/near_##,,0.5,0.8,150,22000,4,priority,,,projectile,,log1,,,,,0.95,1.05,pitch,3d,,,,0.5,pby_fly,,,,,5,,,,,,,,,,,,,10,85,0.35,0.8
+# Bullet Small Distance Sounds,,,,,,,,4,priority,,,projectile,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+bullet_small_metal_far,,SFX/projectile/bullet/small/impacts/metal/far_##,,0.25,0.79,150,1000,4,priority,,,projectile,,log1,0.55,,,,0.9,0.9,,3d,,,,0.5,all_sp all_mp,,,,,,,,,,,,,,,,,,10,85,0.35,0.8
+bullet_small_wood_far,,SFX/projectile/bullet/small/impacts/wood/far_##,,0.25,0.79,150,1000,4,priority,,,projectile,,log1,0.55,,,,0.9,0.9,,3d,,,,0.5,all_sp all_mp,,,wood_debris,,,,,,,,,,,,,,,10,85,0.35,0.8
+bullet_small_rock_dist,,SFX/projectile/bullet/small/impacts/rock/far_##,,0.25,0.8,150,1000,4,priority,,,projectile,,log1,0.55,,,,0.9,0.9,,3d,,,,0.5,all_sp all_mp,,,,,100,,,,,,,,,,,,,10,85,0.35,0.8
+,,,,,,,,,,,,projectile,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# Bullet Small Debris,,,,,,,,,,,,projectile,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+wood_debris,,SFX/projectile/bullet/debris/wood_tiny_##,,0.4,0.8,150,300,,,,,projectile,,curve2,0.55,400,,,0.9,1.1,,3d,,,,,all_sp all_mp,,,,,,,,,,,,,,,,,,10,85,0.35,0.8
+stone_debris,,SFX/projectile/bullet/debris/rock_small_##,,0.5,0.8,250,800,,,,,projectile,,curve2,0.55,1000,,,0.9,1.1,,3d,,,,,all_sp all_mp,,,rico,,,,,,,,,,,,,,,10,85,0.35,0.8
+rico,,SFX\projectile\bullet\small\impacts\rico_##,,0.4,0.8,150,300,6,priority,,,projectile,,curve2,0.55,400,,,0.85,1,,3d,,0.2,,,all_sp all_mp,,,,,50,,,,,,,,,,,,,10,60,0.35,0.8
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Bullet Small Impact Exits Hmmmm.,,,,,,,,,,,,projectile,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+bullet_small_exit_default,,null.wav,,,,,,4,priority,,,projectile,,log1,,400,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_small_exit_bark,,null.wav,,,,,,4,priority,,,projectile,,log1,,400,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_small_exit_brick,,null.wav,,,,,,4,priority,,,projectile,,log1,,400,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_small_exit_carpet,,null.wav,,,,,,4,priority,,,projectile,,log1,,400,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_small_exit_cloth,,null.wav,,,,,,4,priority,,,projectile,,log1,,400,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_small_exit_concrete,,null.wav,,,,,,4,priority,,,projectile,,log1,,400,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_small_exit_dirt,,null.wav,,,,,,4,priority,,,projectile,,log1,,400,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_small_exit_flesh,,null.wav,,,,,,4,priority,,,projectile,,log1,,400,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_small_exit_foliage,,null.wav,,,,,,4,priority,,,projectile,,log1,,400,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_small_exit_glass,,null.wav,,,,,,4,priority,,,projectile,,log1,,400,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_small_exit_grass,,null.wav,,,,,,4,priority,,,projectile,,log1,,400,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_small_exit_gravel,,null.wav,,,,,,4,priority,,,projectile,,log1,,400,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_small_exit_ice,,null.wav,,,,,,4,priority,,,projectile,,log1,,400,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_small_exit_metal,,null.wav,,,,,,4,priority,,,projectile,,log1,,400,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_small_exit_mud,,null.wav,,,,,,4,priority,,,projectile,,log1,,400,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_small_exit_paper,,null.wav,,,,,,4,priority,,,projectile,,log1,,400,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_small_exit_plaster,,null.wav,,,,,,4,priority,,,projectile,,log1,,400,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_small_exit_rock,,null.wav,,,,,,4,priority,,,projectile,,log1,,400,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_small_exit_sand,,null.wav,,,,,,4,priority,,,projectile,,log1,,400,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_small_exit_snow,,null.wav,,,,,,4,priority,,,projectile,,log1,,400,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_small_exit_water,,null.wav,,,,,,4,priority,,,projectile,,log1,,400,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_small_exit_wood,,null.wav,,,,,,4,priority,,,projectile,,log1,,400,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_small_exit_asphalt,,null.wav,,,,,,4,priority,,,projectile,,log1,,400,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_small_exit_ceramic,,null.wav,,,,,,4,priority,,,projectile,,log1,,400,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_small_exit_plastic,,null.wav,,,,,,4,priority,,,projectile,,log1,,400,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_small_exit_rubber,,null.wav,,,,,,4,priority,,,projectile,,log1,,400,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_small_exit_cushion,,null.wav,,,,,,4,priority,,,projectile,,log1,,400,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_small_exit_fruit,,null.wav,,,,,,4,priority,,,projectile,,log1,,400,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_small_exit_paintedmetal,,null.wav,,,,,,4,priority,,,projectile,,log1,,400,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,no,,,,,,
+# Bullet Small Flesh Layer,,,,,,,,4,priority,,,projectile,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1,,,no,,,,,,
+#bullet_small_flesh_layer,,null.wav,,0.95,0.99,150,800,4,priority,,,projectile,,,,,,,na,1.5,,,0.33,,0.85,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+#bullet_small_flesh_layer,,null.wav,,0.95,0.99,150,800,4,priority,,,projectile,,,,,,,na,1.5,,,0.33,,0.85,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+#bullet_small_flesh_layer,,null.wav,,0.95,0.99,150,800,4,priority,,,projectile,,,,,,,na,1.5,,,0.33,,0.85,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+#bullet_small_flesh_layer,,null.wav,,0.95,0.99,150,800,4,priority,,,projectile,,,,,,,na,1.5,,,0.33,,0.85,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+#bullet_small_flesh_layer,,null.wav,,0.95,0.99,150,800,4,priority,,,projectile,,,,,,,na,1.5,,,0.33,,0.85,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+#bullet_small_flesh_layer,,null.wav,,0.95,0.99,150,800,4,priority,,,projectile,,,,,,,na,1.5,,,0.33,,0.85,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+#bullet_small_flesh_layer,,null.wav,,0.95,0.99,150,800,4,priority,,,projectile,,,,,,,na,1.5,,,0.33,,0.85,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+#bullet_small_flesh_layer,,null.wav,,0.95,0.99,150,800,4,priority,,,projectile,,,,,,,na,1.5,,,0.33,,0.85,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+#bullet_small_flesh_layer,,null.wav,,0.95,0.99,150,800,4,priority,,,projectile,,,,,,,na,1.5,,,0.33,,0.85,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+#bullet_small_flesh_layer,,null.wav,,0.95,0.99,150,800,4,priority,,,projectile,,,,,,,na,1.5,,,0.33,,0.85,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+#bullet_small_flesh_layer,,null.wav,,0.95,0.99,150,800,4,priority,,,projectile,,,,,,,na,1.5,,,0.33,,0.85,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+#bullet_small_flesh_layer,,null.wav,,0.95,0.99,150,800,4,priority,,,projectile,,,,,,,na,1.5,,,0.33,,0.85,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+#bullet_small_flesh_layer,,null.wav,,0.95,0.99,150,800,4,priority,,,projectile,,,,,,,na,1.5,,,0.33,,0.85,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+#bullet_small_flesh_layer,,null.wav,,0.95,0.99,150,800,4,priority,,,projectile,,,,,,,na,1.5,,,0.33,,0.85,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+#bullet_small_flesh_layer,,null.wav,,0.95,0.99,150,800,4,priority,,,projectile,,,,,,,na,1.5,,,0.33,,0.85,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+# Bullet Cow???,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,no,,,,,,
+Bullet_Cow,,null.wav,1,0.4,0.6,150,1000,,,,,projectile,,log1,,1100,,log2,1,1.5,,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+# Bullet Large,,,,,,,,,,,,projectile,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#bullet_large_default,,,,0.43,0.57,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,3,,0.5,,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_bark,,SFX/projectile/bullet/small/impacts/wood/near_##,,0.25,1,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,bullet_small_wood_far,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_brick,,SFX/projectile/bullet/small/impacts/brick/near_##,,0.35,0.75,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,stone_debris,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_carpet,,SFX\projectile\bullet\small\impacts\canvas_##,,0.53,0.68,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_cloth,,SFX\projectile\bullet\small\impacts\canvas_##,,0.53,0.68,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_concrete,,SFX/projectile/bullet/small/impacts/concrete/near_##,,0.25,0.85,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,stone_debris,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+bullet_large_dirt,,SFX/projectile/bullet/small/impacts/dirt/near_##,,0.75,1,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_grass,,SFX/projectile/bullet/small/impacts/dirt/near_##,,0.25,0.79,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_paper,,SFX/projectile/bullet/small/impacts/dirt/near_##,,0.25,0.95,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+bullet_large_flesh,,SFX/projectile/bullet/small/impacts//flesh_##,,0.9,1,250,1200,4,priority,,,full_vol,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.7,all_sp all_mp,,,,,50,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_foliage,,null.wav,,0.53,0.68,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_glass,,SFX\projectile\bullet\small\impacts\Glass_##,,0.43,0.57,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_gravel,,SFX/projectile/bullet/small/impacts/rock_##,,0.25,0.79,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp,,,stone_debris,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+#mp opt,,,,,,,,,,,,,,,0.55,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+bullet_large_gravel,,SFX/projectile/bullet/small/impacts/rock/rock_00.wav,1,0.25,0.79,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_mp,,,stone_debris,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_gravel,,SFX/projectile/bullet/small/impacts/rock/rock_01.wav,2,0.25,0.79,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_mp,,,stone_debris,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_gravel,,SFX/projectile/bullet/small/impacts/rock/rock_02.wav,3,0.25,0.79,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_mp,,,stone_debris,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_gravel,,SFX/projectile/bullet/small/impacts/rock/rock_03.wav,4,0.25,0.79,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_mp,,,stone_debris,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_gravel,,SFX/projectile/bullet/small/impacts/rock/rock_04.wav,5,0.25,0.79,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_mp,,,stone_debris,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+#bullet_large_ice,,SFX/projectile/bullet/small/impacts/ice_##,,0.63,0.79,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,rico,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_metal,,SFX/projectile/bullet/small/impacts/Metal/near_##,,0.25,1,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,bullet_small_metal_far,,,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_mud,,SFX/projectile/bullet/small/impacts/mud_##,,0.25,0.45,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_plaster,,SFX/projectile/bullet/small/impacts/plaster/near_##,,0.25,0.95,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_rock,,SFX/projectile/bullet/small/impacts/rock/near_##,,0.25,0.85,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,stone_debris,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_sand,,SFX\projectile\bullet\small\impacts\sand_##,,0.25,0.68,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_sandbag,,SFX\projectile\bullet\small\impacts\sand_##,,0.63,0.79,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+#bullet_large_snow,,SFX/projectile/bullet/small/impacts/snow_##,,0.63,0.79,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_water,,SFX/projectile/bullet/small/impacts/water/near_##,,0.8,1,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_wood,,SFX/projectile/bullet/small/impacts/wood/near_##,,0.2,0.4,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,bullet_small_wood_far,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_canvas,,SFX\projectile\bullet\small\impacts\canvas_##,,0.43,0.57,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_asphault,,SFX/projectile/bullet/small/impacts/brick/near_##,,0.25,0.95,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,stone_debris,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_asphalt,,SFX/projectile/bullet/small/impacts/brick/near_##,,0.25,0.95,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,stone_debris,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_vase,,null.wav,,0.95,0.99,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_crate,,SFX/projectile/bullet/small/impacts/wood/near_##,,0.7,0.85,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_bottle,,SFX\projectile\bullet\small\impacts\Glass_##,,0.8,0.9,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.7,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_plate,,null.wav,,0.95,0.99,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.7,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_teddybear,,null.wav,,0.95,0.99,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.7,all_sp all_mp,,,,,20,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_piano,,null.wav,,0.8,0.85,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_ceramic,,SFX/projectile/bullet/small/impacts/plaster/near_##,,0.63,0.79,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_plastic,,null.wav,,0.63,0.79,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_rubber,,SFX/projectile/bullet/small/impacts/dirt/near_##,,0.95,0.99,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.7,all_sp all_mp,,,,,20,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_cushion,,null.wav,,0.43,0.57,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_fruit,,null.wav,,0.43,0.57,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_paintedmetal,,null.wav,,0.43,0.57,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_player,,SFX/projectile/bullet/small/impacts//flesh_##,,0.35,0.45,250,1200,4,priority,,,projectile,,log1,0.55,1500,,,0.85,0.95,pitch,2d,,,,0.7,all_sp all_mp,,,player_pain_small,,50,wpn_all,,0.5,,,,0.1,,,no,,,10,85,0.35,0.8
+# Bullet Large Distance Sounds,,,,,,,,,,,,projectile,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,no,,,,,,
+bullet_large_metal_far,,SFX/projectile/bullet/small/impacts/metal/far_##,,0.25,0.79,150,750,4,priority,,,projectile,,curve2,0.55,,,log2,0.9,0.9,,3d,,,,0.5,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_wood_far,,SFX/projectile/bullet/small/impacts/wood/far_##,,0.25,0.79,150,750,4,priority,,,projectile,,curve2,0.55,,,log2,0.9,0.9,,3d,,,,0.5,all_sp all_mp,,,wood_debris,,,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_large_rock_dist,,SFX/projectile/bullet/small/impacts/rock/far_##,,0.75,1,150,750,4,priority,,,projectile,,curve2,0.55,,,log2,0.9,0.9,,3d,,,,0.5,all_sp all_mp,,,,,100,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+
+# Bullet AP Large,,,,,,,,,,,,projectile,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#bullet_ap_default,,,,0.43,0.57,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,3,,0.5,,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_ap_bark,,SFX/projectile/bullet/small/impacts/wood/near_##,,0.25,1,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,bullet_small_wood_far,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_ap_brick,,SFX/projectile/bullet/small/impacts/brick/near_##,,0.35,0.75,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,stone_debris,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_ap_carpet,,SFX\projectile\bullet\small\impacts\canvas_##,,0.53,0.68,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_ap_cloth,,SFX\projectile\bullet\small\impacts\canvas_##,,0.53,0.68,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_ap_concrete,,SFX/projectile/bullet/small/impacts/concrete/near_##,,0.25,0.85,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,stone_debris,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+bullet_ap_dirt,,SFX/projectile/bullet/small/impacts/dirt/near_##,,0.75,1,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_ap_grass,,SFX/projectile/bullet/small/impacts/dirt/near_##,,0.25,0.79,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_ap_paper,,SFX/projectile/bullet/small/impacts/dirt/near_##,,0.25,0.95,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+bullet_ap_flesh,,SFX/projectile/bullet/small/impacts//flesh_##,,0.9,1,250,1200,4,priority,,,full_vol,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.7,all_sp all_mp,,,,,50,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_ap_foliage,,null.wav,,0.53,0.68,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_ap_glass,,SFX\projectile\bullet\small\impacts\Glass_##,,0.43,0.57,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_ap_gravel,,SFX/projectile/bullet/small/impacts/rock_##,,0.25,0.79,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp,,,stone_debris,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+#mp opt,,,,,,,,,,,,,,,0.55,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+bullet_ap_gravel,,SFX/projectile/bullet/small/impacts/rock/rock_00.wav,1,0.25,0.79,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_mp,,,stone_debris,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_ap_gravel,,SFX/projectile/bullet/small/impacts/rock/rock_01.wav,2,0.25,0.79,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_mp,,,stone_debris,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_ap_gravel,,SFX/projectile/bullet/small/impacts/rock/rock_02.wav,3,0.25,0.79,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_mp,,,stone_debris,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_ap_gravel,,SFX/projectile/bullet/small/impacts/rock/rock_03.wav,4,0.25,0.79,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_mp,,,stone_debris,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_ap_gravel,,SFX/projectile/bullet/small/impacts/rock/rock_04.wav,5,0.25,0.79,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_mp,,,stone_debris,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+#bullet_ap_ice,,SFX/projectile/bullet/small/impacts/ice_##,,0.63,0.79,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,rico,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_ap_metal,,SFX/projectile/bullet/small/impacts/Metal/near_##,,0.25,1,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,bullet_small_metal_far,,,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_ap_mud,,SFX/projectile/bullet/small/impacts/mud_##,,0.25,0.45,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_ap_plaster,,SFX/projectile/bullet/small/impacts/plaster/near_##,,0.25,0.95,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_ap_rock,,SFX/projectile/bullet/small/impacts/rock/near_##,,0.25,0.85,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,stone_debris,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_ap_sand,,SFX\projectile\bullet\small\impacts\sand_##,,0.25,0.68,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_ap_sandbag,,SFX\projectile\bullet\small\impacts\sand_##,,0.63,0.79,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+#bullet_ap_snow,,SFX/projectile/bullet/small/impacts/snow_##,,0.63,0.79,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_ap_water,,SFX/projectile/bullet/small/impacts/water/near_##,,0.8,1,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_ap_wood,,SFX/projectile/bullet/small/impacts/wood/near_##,,0.5,0.8,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,bullet_small_wood_far,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_ap_canvas,,SFX\projectile\bullet\small\impacts\canvas_##,,0.43,0.57,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_ap_asphault,,SFX/projectile/bullet/small/impacts/brick/near_##,,0.25,0.95,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,stone_debris,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_ap_asphalt,,SFX/projectile/bullet/small/impacts/brick/near_##,,0.25,0.95,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,stone_debris,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_ap_vase,,null.wav,,0.95,0.99,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_ap_crate,,SFX/projectile/bullet/small/impacts/wood/near_##,,0.7,0.85,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_ap_bottle,,SFX\projectile\bullet\small\impacts\Glass_##,,0.8,0.9,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.7,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_ap_plate,,null.wav,,0.95,0.99,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.7,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_ap_teddybear,,null.wav,,0.95,0.99,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.7,all_sp all_mp,,,,,20,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_ap_piano,,null.wav,,0.8,0.85,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_ap_ceramic,,SFX/projectile/bullet/small/impacts/plaster/near_##,,0.63,0.79,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_ap_plastic,,null.wav,,0.63,0.79,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_ap_rubber,,SFX/projectile/bullet/small/impacts/dirt/near_##,,0.95,0.99,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.7,all_sp all_mp,,,,,20,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_ap_cushion,,null.wav,,0.43,0.57,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_ap_fruit,,null.wav,,0.43,0.57,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_ap_paintedmetal,,null.wav,,0.43,0.57,250,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.85,0.95,pitch,3d,,,,0.5,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_ap_player,,SFX/projectile/bullet/small/impacts//flesh_##,,0.35,0.45,250,1200,4,priority,,,projectile,,log1,0.55,1500,,,0.85,0.95,pitch,2d,,,,0.7,all_sp all_mp,,,player_pain_small,,50,wpn_all,,0.5,,,,0.1,,,no,,,10,85,0.35,0.8
+# Bullet AP Large Distance Sounds,,,,,,,,,,,,projectile,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,no,,,,,,
+bullet_ap_metal_far,,SFX/projectile/bullet/small/impacts/metal/far_##,,0.25,0.79,150,750,4,priority,,,projectile,,curve2,0.55,,,log2,0.9,0.9,,3d,,,,0.5,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_ap_wood_far,,SFX/projectile/bullet/small/impacts/wood/far_##,,0.25,0.79,150,750,4,priority,,,projectile,,curve2,0.55,,,log2,0.9,0.9,,3d,,,,0.5,all_sp all_mp,,,wood_debris,,,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bullet_ap_rock_dist,,SFX/projectile/bullet/small/impacts/rock/far_##,,0.75,1,150,750,4,priority,,,projectile,,curve2,0.55,,,log2,0.9,0.9,,3d,,,,0.5,all_sp all_mp,,,,,100,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+#Bullet Large Impact Exits,,,,,,,,,,,,projectile,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+bullet_large_exit_default,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_large_exit_bark,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_large_exit_brick,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_large_exit_carpet,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_large_exit_cloth,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_large_exit_concrete,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_large_exit_dirt,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_large_exit_flesh,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_large_exit_foliage,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_large_exit_glass,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_large_exit_grass,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_large_exit_gravel,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_large_exit_ice,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_large_exit_metal,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_large_exit_mud,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_large_exit_paper,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_large_exit_plaster,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_large_exit_rock,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_large_exit_sand,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_large_exit_snow,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_large_exit_water,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_large_exit_wood,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_large_exit_asphalt,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_large_exit_ceramic,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_large_exit_plastic,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_large_exit_rubber,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_large_exit_cushion,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_large_exit_fruit,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+bullet_large_exit_paintedmetal,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,0,0,0.15,1
+
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,WARNING!!! LOADSPEC NEEDS TO MATCH SHOTGUN!!!!,,,,,,,,,,,,,,,,,,,,,
+#Bullet Spray  Small (shotgun) Impacts,,,,,,,,,,,,projectile,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+bulletspray_small_default,,SFX\projectile\buckshot\buckshot_def_##,,0.95,0.99,150,800,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_small_bark,,SFX\projectile\buckshot\buckshot_wood_##,,0.95,0.99,150,800,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_small_brick,,SFX\projectile\buckshot\buckshot_def_##,,0.95,0.99,150,800,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_small_carpet,,SFX\projectile\buckshot\buckshot_wood_##,,0.95,0.99,150,800,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_small_cloth,,null.wav,,0.95,0.99,150,800,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_small_concrete,,SFX\projectile\buckshot\buckshot_def_##,,0.95,0.99,150,800,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_small_dirt,,SFX\projectile\buckshot\buckshot_def_##,,0.95,0.99,150,800,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_small_flesh,,SFX\projectile\buckshot\buckshot_def_##,,0.95,0.99,150,800,4,priority,,,full_vol,,log1,0.55,1500,,log2,1.3,1.8,,3d,,,,0.7,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_small_foliage,,null.wav,,0.95,0.99,150,800,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_small_gravel,,SFX\projectile\buckshot\buckshot_def_##,,0.95,0.99,150,800,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_small_ice,,SFX\projectile\buckshot\buckshot_def_##,,0.95,0.99,150,800,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_small_metal,,SFX\projectile\buckshot\buckshot_mtl_##,,0.95,0.99,150,800,4,priority,,,projectile,,log1,0.55,1500,,log2,0.87,1.02,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_small_mud,,null.wav,,0.95,0.99,150,800,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_small_paper,,null.wav,,0.95,0.99,150,800,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_small_plaster,,SFX\projectile\buckshot\buckshot_wood_##,,0.95,0.99,150,800,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_small_rock,,SFX\projectile\buckshot\buckshot_def_##,,0.95,0.99,150,800,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_small_sand,,SFX\projectile\buckshot\buckshot_def_##,,0.95,0.99,150,800,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_small_sandbag,,SFX\projectile\buckshot\buckshot_def_##,,0.95,0.99,150,800,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_small_snow,,null.wav,,0.95,0.99,150,800,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_small_water,,SFX/projectile/bullet/small/impacts/water/near_##,,0.95,0.99,150,800,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_small_wood,,SFX\projectile\buckshot\buckshot_wood_##,,0.95,0.99,150,800,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_small_canvas,,null.wav,,0.95,0.99,150,800,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_small_asphault,,SFX\projectile\buckshot\buckshot_def_##,,0.95,0.99,150,800,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_small_asphalt,,SFX\projectile\buckshot\buckshot_def_##,,0.95,0.99,150,800,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_small_vase,,null.wav,,0.95,0.99,150,800,4,priority,,,projectile,,log1,0.55,1500,,log2,0.8,1.2,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_small_crate,,SFX\projectile\buckshot\buckshot_wood_##,,0.95,0.99,150,800,4,priority,,,projectile,,log1,0.55,1500,,log2,0.8,1.2,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_small_bottle,,null.wav,,0.95,0.99,150,800,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.7,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_small_plate,,null.wav,,0.95,0.99,150,800,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.7,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_small_teddybear,,null.wav,,0.95,0.99,150,800,4,priority,,,projectile,,log1,0.55,1500,,log2,1.2,1.4,,3d,,,,0.7,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,20,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_small_piano,,null.wav,,0.95,0.99,150,800,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_small_ceramic,,null.wav,,0.95,0.99,150,800,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_small_plastic,,null.wav,,0.95,0.99,150,800,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_small_rubber,,null.wav,,0.95,0.99,150,800,4,priority,,,projectile,,log1,0.55,1500,,log2,1.2,1.4,,3d,,,,0.7,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,20,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_small_cushion,,null.wav,,0.95,0.99,150,800,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_small_fruit,,null.wav,,0.95,0.99,150,800,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_small_paintedmetal,,SFX\projectile\buckshot\buckshot_mtl_##,,0.95,0.99,150,800,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+#Bullet Spray  Large(shotgun) Impacts,,,,,,,,,,,,projectile,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+bulletspray_large_default,,SFX\projectile\buckshot\buckshot_def_##,,0.95,0.99,150,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_large_bark,,SFX\projectile\buckshot\buckshot_wood_##,,0.95,0.99,150,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_large_brick,,SFX\projectile\buckshot\buckshot_def_##,,0.95,0.99,150,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_large_carpet,,SFX\projectile\buckshot\buckshot_wood_##,,0.95,0.99,150,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_large_cloth,,null.wav,,0.95,0.99,150,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_large_concrete,,SFX\projectile\buckshot\buckshot_def_##,,0.95,0.99,150,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_large_dirt,,SFX\projectile\buckshot\buckshot_def_##,,0.95,0.99,150,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_large_flesh,,SFX\projectile\buckshot\buckshot_def_##,,0.95,0.99,150,1200,4,priority,,,full_vol,,log1,0.55,1500,,log2,1.3,1.8,,3d,,,,0.7,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_large_foliage,,null.wav,,0.95,0.99,150,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_large_gravel,,SFX\projectile\buckshot\buckshot_def_##,,0.95,0.99,150,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_large_ice,,SFX\projectile\buckshot\buckshot_def_##,,0.95,0.99,150,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_large_metal,,SFX\projectile\buckshot\buckshot_mtl_##,,0.95,0.99,150,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.87,1.02,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_large_mud,,null.wav,,0.95,0.99,150,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_large_paper,,null.wav,,0.95,0.99,150,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_large_plaster,,SFX\projectile\buckshot\buckshot_wood_##,,0.95,0.99,150,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_large_rock,,SFX\projectile\buckshot\buckshot_def_##,,0.95,0.99,150,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_large_sand,,SFX\projectile\buckshot\buckshot_def_##,,0.95,0.99,150,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_large_sandbag,,SFX\projectile\buckshot\buckshot_def_##,,0.95,0.99,150,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_large_snow,,null.wav,,0.95,0.99,150,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_large_water,,SFX/projectile/bullet/small/impacts/water/near_##,,0.95,0.99,150,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_large_wood,,SFX\projectile\buckshot\buckshot_wood_##,,0.95,0.99,150,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_large_canvas,,null.wav,,0.95,0.99,150,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_large_asphault,,SFX\projectile\buckshot\buckshot_def_##,,0.95,0.99,150,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_large_asphalt,,SFX\projectile\buckshot\buckshot_def_##,,0.95,0.99,150,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_large_vase,,null.wav,,0.95,0.99,150,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.8,1.2,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_large_crate,,SFX\projectile\buckshot\buckshot_wood_##,,0.95,0.99,150,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.8,1.2,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_large_bottle,,null.wav,,0.95,0.99,150,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.7,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_large_plate,,null.wav,,0.95,0.99,150,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.7,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_large_teddybear,,null.wav,,0.95,0.99,150,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,1.2,1.4,,3d,,,,0.7,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,20,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_large_piano,,null.wav,,0.95,0.99,150,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_large_ceramic,,null.wav,,0.95,0.99,150,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_large_plastic,,null.wav,,0.95,0.99,150,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_large_rubber,,null.wav,,0.95,0.99,150,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,1.2,1.4,,3d,,,,0.7,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,20,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_large_cushion,,null.wav,,0.95,0.99,150,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_large_fruit,,null.wav,,0.95,0.99,150,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+bulletspray_large_paintedmetal,,SFX\projectile\buckshot\buckshot_mtl_##,,0.95,0.99,150,1200,4,priority,,,projectile,,log1,0.55,1500,,log2,0.9,0.9,,3d,,,,0.5,mak hol1 hol2 hol3 audio_test_tuey living_battlefield all_mp ber1 ber2 pel1a pel1b pel1,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+#Bullet Shotgun Impact Exits,,,,,,,,,,,,projectile,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+bulletspray_small_exit_default,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,20,0.15,1
+bulletspray_small_exit_bark,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,20,0.15,1
+bulletspray_small_exit_brick,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,20,0.15,1
+bulletspray_small_exit_carpet,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,20,0.15,1
+bulletspray_small_exit_cloth,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,20,0.15,1
+bulletspray_small_exit_concrete,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,20,0.15,1
+bulletspray_small_exit_dirt,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,20,0.15,1
+bulletspray_small_exit_flesh,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,20,0.15,1
+bulletspray_small_exit_foliage,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,20,0.15,1
+bulletspray_small_exit_glass,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,20,0.15,1
+bulletspray_small_exit_grass,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,20,0.15,1
+bulletspray_small_exit_gravel,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,20,0.15,1
+bulletspray_small_exit_ice,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,20,0.15,1
+bulletspray_small_exit_metal,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,20,0.15,1
+bulletspray_small_exit_mud,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,20,0.15,1
+bulletspray_small_exit_paper,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,20,0.15,1
+bulletspray_small_exit_plaster,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,20,0.15,1
+bulletspray_small_exit_rock,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,20,0.15,1
+bulletspray_small_exit_sand,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,20,0.15,1
+bulletspray_small_exit_snow,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,20,0.15,1
+bulletspray_small_exit_water,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,20,0.15,1
+bulletspray_small_exit_wood,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,20,0.15,1
+bulletspray_small_exit_asphalt,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,20,0.15,1
+bulletspray_small_exit_ceramic,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,20,0.15,1
+bulletspray_small_exit_plastic,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,20,0.15,1
+bulletspray_small_exit_rubber,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,20,0.15,1
+bulletspray_small_exit_cushion,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,20,0.15,1
+bulletspray_small_exit_fruit,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,20,0.15,1
+bulletspray_small_exit_paintedmetal,,null.wav,,,,,,4,priority,,,projectile,,log1,,,,log2,,,,,,,,,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,10,20,0.15,1
+#Bullet Impact Headshot,,,,,,,,,,,,projectile,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,no,,,,,,
+bullet_impact_headshot,,SFX\projectile\bullet\headshot\head_##,,0.8,1,150,1000,4,priority,,,full_vol,,log1,0.55,2000,,log2,0.9,1.1,,3d,,,,0.8,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,40,80,0.35,0.8
+bullet_impact_headshot_helmet,,SFX\projectile\bullet\headshot\helmet_##,,0.8,1,150,1000,4,priority,,,full_vol,,log1,0.55,2000,,log2,0.9,1.1,,3d,,,,0.8,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,40,80,0.35,0.8
+bullet_impact_headshot_helmet_nodie,,SFX\projectile\bullet\headshot\helmet_ND_##,,0.8,1,150,1000,4,priority,,,full_vol,,log1,0.55,2000,,log2,0.9,1.1,,3d,,,,0.8,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,40,80,0.35,0.8
+bullet_impact_headshot_2,,SFX\projectile\bullet\headshot\helmet_##,,1,1,150,1000,4,priority,,,full_vol,,log1,0.55,2000,,log2,0.9,1.1,,2d,,,,0.8,all_sp all_mp,,,,,,,,,,,,0.1,,,no,,,100,100,0.25,1,,
+
+
+#whizby's,,,,,,,,,,,,projectile,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+whizby,,SFX/projectile/whizby_##,,0.8,1,140,145,4,reject,,,full_vol,,,,,,,0.9,1.75,pitch,3d,,0.5,,0.5,all_sp all_mp,,,,,5,,,,,,,0,,,,,,10,20,0.45,0.75
+uw_whizby,,SFX\projectile\whizby\uw_by_##,,0.8,1,140,145,4,reject,,,full_vol,,,,,,,0.9,1.75,pitch,3d,,0.5,,0.5,all_sp all_mp,,,,,5,,,,,,,0,,,,,,10,20,0.45,0.75
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#super_sonic_crack,,,,,,,,,,,,projectile,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+crack,,SFX\projectile\sonic_##,,0.7,1,2000,3000,5,priority,,,projectile,,,,2000,,,0.9,1.1,pitch,3d,,,,0.5,all_sp,,,,,,,,,,,,0.6,,,,,,50,80,0.45,0.75
+crack,,SFX\projectile\sonic_##,,0.7,1,2000,3000,5,priority,,,projectile,,,,2000,,,0.9,1.1,pitch,3d,,,,0.5,all_mp,,,,,,,,,,,,0.6,,,,,,50,80,0.45,0.75
+
+
+
+
+RPG_crouch_reload,,null.wav,,0.95,0.99,150,800,4,priority,,,projectile,,log1,0.55,1000,,log2,0.95,1.05,pitch,3d,,,,0.7,all_sp all_mp,,,,,5,,,,,,,0.1,,,no,,,10,85,0.35,0.8
+,,
+,,
+,,
+,,
+,,
+,,
+,,

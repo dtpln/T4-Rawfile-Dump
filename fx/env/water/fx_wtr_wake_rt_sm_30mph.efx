@@ -1,0 +1,194 @@
+iwfx 2
+
+{
+	name "wake_ripple_right";
+	editorFlags useRandAlpha useRandSize0 useRandSize1 useRandRotDelta useRandVel1 useBackCompatVel;
+	flags spawnOffsetNone runRelToEffect nonUniformScale;
+	spawnRange 0 20000;
+	fadeInRange 12000 8000;
+	fadeOutRange 0 0;
+	spawnFrustumCullRadius 0;
+	spawnLooping 200 0;
+	spawnOneShot 1 0;
+	spawnDelayMsec 0 0;
+	lifeSpanMsec 2500 300;
+	spawnOrgX 0 0;
+	spawnOrgY 0 0;
+	spawnOrgZ 0 0;
+	spawnOffsetRadius 0 1;
+	spawnOffsetHeight 0 1;
+	spawnAnglePitch 90 0;
+	spawnAngleYaw 0 0;
+	spawnAngleRoll 0 0;
+	angleVelPitch 0 0;
+	angleVelYaw 0 0;
+	angleVelRoll 0 0;
+	initialRot 180 0;
+	gravity 0 0;
+	elasticity 0 0;
+	windinfluence 0;
+	atlasBehavior startRandom;
+	atlasIndex 2;
+	atlasFps 0;
+	atlasLoopCount 0;
+	atlasColIndexBits 0;
+	atlasRowIndexBits 0;
+	atlasEntryCount 0;
+	velGraph0X 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph0Y -300
+	{
+		{
+			0 0.5
+			1 0.00717705
+		}
+		{
+			0 0.5
+			1 0.174641
+		}
+	};
+	velGraph0Z -500
+	{
+		{
+			0 -0.5
+			1 -0.12201
+		}
+		{
+			0 -0.5
+			1 -0.126794
+		}
+	};
+	velGraph1X 0
+	{
+		{
+			0 0
+			1 0.5
+		}
+		{
+			0 0
+			1 -0.5
+		}
+	};
+	velGraph1Y 0
+	{
+		{
+			0 0
+			1 0.5
+		}
+		{
+			0 0
+			1 0.212919
+		}
+	};
+	velGraph1Z 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	rotGraph 30
+	{
+		{
+			0 0.5
+			1 0.152778
+		}
+		{
+			0 0.407407
+			1 0
+		}
+	};
+	sizeGraph0 300
+	{
+		{
+			0 0.324675
+			1 0.701299
+		}
+		{
+			0 0.357143
+			1 1
+		}
+	};
+	sizeGraph1 800
+	{
+		{
+			0 0.597403
+			1 1
+		}
+		{
+			0 0.344156
+			1 0.727273
+		}
+	};
+	scaleGraph 0
+	{
+		{
+			0 1
+			1 0
+		}
+		{
+			0 1
+			1 0
+		}
+	};
+	colorGraph 1
+	{
+		{
+			0 0.639216 0.721569 0.701961
+			1 0.54902 0.615686 0.615686
+		}
+		{
+			0 0.666667 0.654902 0.694118
+			1 0.294118 0.294118 0.313726
+		}
+	};
+	alphaGraph 1
+	{
+		{
+			0 0
+			0.0290698 0.736842
+			0.223837 1
+			0.395349 0.555024
+			0.68314 0.215311
+			1 0
+		}
+		{
+			0 0
+			0.0552326 0.373206
+			0.209302 0.669856
+			0.372093 0.354067
+			0.68314 0.114833
+			1 0
+		}
+	};
+	lightingFrac 0;
+	collOffset 0 0 0;
+	collRadius 0;
+	fxOnImpact "";
+	fxOnDeath "";
+	sortOrder 2;
+	efPriority 116;
+	emission "";
+	emitDist 0 0;
+	emitDistVariance 0 0;
+	trailSplitDist 0;
+	trailScrollTime 0;
+	trailRepeatDist 0;
+	orientedSprite
+	{
+		"gfx_fxt_env_water_wake"
+	};
+}

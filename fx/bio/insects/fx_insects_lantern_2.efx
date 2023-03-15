@@ -1,0 +1,411 @@
+iwfx 2
+
+{
+	name "dark_mosquitos";
+	editorFlags looping useRandAlpha useRandSize0 useRandSize1 useRandVel0 useRandVel1 useBackCompatVel absVel1;
+	flags spawnRelative spawnFrustumCull spawnOffsetCylinder runRelToOffset nonUniformScale;
+	spawnRange 0 400;
+	fadeInRange 0 0;
+	fadeOutRange 0 12;
+	spawnFrustumCullRadius 220;
+	spawnLooping 200 0;
+	spawnOneShot 0 2;
+	spawnDelayMsec 1 0;
+	lifeSpanMsec 1200 300;
+	spawnOrgX 0 0;
+	spawnOrgY 0 0;
+	spawnOrgZ 0 0;
+	spawnOffsetRadius 0 60;
+	spawnOffsetHeight 0 30;
+	spawnAnglePitch 0 0;
+	spawnAngleYaw 0 0;
+	spawnAngleRoll 0 0;
+	angleVelPitch 0 0;
+	angleVelYaw 0 0;
+	angleVelRoll 0 0;
+	initialRot 0 0;
+	gravity 0 0;
+	elasticity 1 0;
+	windinfluence 0;
+	atlasBehavior startRandom;
+	atlasIndex 0;
+	atlasFps 24;
+	atlasLoopCount 0;
+	atlasColIndexBits 0;
+	atlasRowIndexBits 0;
+	atlasEntryCount 0;
+	velGraph0X 150
+	{
+		{
+			0 0.5
+			0.4943 -0.5
+			1 0.5
+		}
+		{
+			0 -0.5
+			0.517442 0.141148
+			1 -0.255981
+		}
+	};
+	velGraph0Y 150
+	{
+		{
+			0 -0.5
+			0.19186 0.179426
+			0.776163 -0.404306
+			1 0.5
+		}
+		{
+			0 -0.5
+			0.5029 0.5
+			1 -0.5
+		}
+	};
+	velGraph0Z 150
+	{
+		{
+			0 0.0167464
+			0.354651 -0.289474
+			0.723837 0.5
+			1 -0.5
+		}
+		{
+			0 -0.00717703
+			0.252907 0.5
+			0.4885 -0.5
+			0.703488 0.313397
+			1 -0.251196
+		}
+	};
+	velGraph1X 10
+	{
+		{
+			0 0
+			0.313953 0.5
+			0.659884 -0.452153
+			1 0
+		}
+		{
+			0 -0.5
+			1 0.5
+		}
+	};
+	velGraph1Y 10
+	{
+		{
+			0 0
+			0.302326 -0.5
+			0.712209 0.303828
+			1 0.00239235
+		}
+		{
+			0 -0.5
+			1 0.5
+		}
+	};
+	velGraph1Z 10
+	{
+		{
+			0 0.5
+			1 -0.141148
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	rotGraph 10
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	sizeGraph0 1.5
+	{
+		{
+			0 0.5
+			1 0.493506
+		}
+		{
+			0 1
+			1 1
+		}
+	};
+	sizeGraph1 2
+	{
+		{
+			0 0.422078
+			0.479412 1
+			1 0.409091
+		}
+		{
+			0 0.0974026
+			0.494118 0.584416
+			1 0.103896
+		}
+	};
+	scaleGraph 1
+	{
+		{
+			0 1
+			1 0
+		}
+		{
+			0 1
+			1 0
+		}
+	};
+	colorGraph 1
+	{
+		{
+			0 0.682353 0.654902 0.317647
+			1 0.647059 0.654902 0.239216
+		}
+		{
+			0 1 1 1
+			1 0 0 0
+		}
+	};
+	alphaGraph 1
+	{
+		{
+			0 0
+			0.127907 0.598086
+			0.505814 0.114833
+			0.837209 0.555024
+			1 0
+		}
+		{
+			0 0
+			0.156977 0.822967
+			0.497093 0.368421
+			0.840116 0.746412
+			1 0
+		}
+	};
+	lightingFrac 0;
+	collOffset 0 0 0;
+	collRadius 0;
+	fxOnImpact "";
+	fxOnDeath "";
+	sortOrder 5;
+	efPriority 40;
+	emission "";
+	emitDist 1 0;
+	emitDistVariance 0 0;
+	trailSplitDist 0;
+	trailScrollTime 0;
+	trailRepeatDist 0;
+	tail
+	{
+		"gfx_fxt_bio_fly"
+	};
+}
+{
+	name "light_mosquitos";
+	editorFlags looping useRandAlpha useRandSize0 useRandSize1 useRandVel0 useRandVel1 useBackCompatVel absVel1;
+	flags spawnRelative spawnFrustumCull spawnOffsetCylinder runRelToOffset nonUniformScale;
+	spawnRange 0 400;
+	fadeInRange 0 0;
+	fadeOutRange 0 12;
+	spawnFrustumCullRadius 200;
+	spawnLooping 200 0;
+	spawnOneShot 0 2;
+	spawnDelayMsec 10 120;
+	lifeSpanMsec 1200 300;
+	spawnOrgX 0 0;
+	spawnOrgY 0 0;
+	spawnOrgZ 0 0;
+	spawnOffsetRadius 0 30;
+	spawnOffsetHeight 0 20;
+	spawnAnglePitch 0 0;
+	spawnAngleYaw 0 0;
+	spawnAngleRoll 0 0;
+	angleVelPitch 0 0;
+	angleVelYaw 0 0;
+	angleVelRoll 0 0;
+	initialRot 0 0;
+	gravity 0 0;
+	elasticity 1 0;
+	windinfluence 0;
+	atlasBehavior startFixed;
+	atlasIndex 0;
+	atlasFps 0;
+	atlasLoopCount 0;
+	atlasColIndexBits 0;
+	atlasRowIndexBits 0;
+	atlasEntryCount 0;
+	velGraph0X 150
+	{
+		{
+			0 -0.5
+			0.5 0.5
+			1 -0.5
+		}
+		{
+			0 0.131579
+			0.502907 -0.260766
+			1 0.0789474
+		}
+	};
+	velGraph0Y 150
+	{
+		{
+			0 -0.5
+			0.19186 0.179426
+			0.776163 -0.404306
+			1 0.5
+		}
+		{
+			0 -0.5
+			0.5029 0.5
+			1 -0.5
+		}
+	};
+	velGraph0Z 150
+	{
+		{
+			0 0.0167464
+			0.348837 0.19378
+			0.69186 -0.5
+			1 0.131579
+		}
+		{
+			0 -0.00717703
+			0.264535 -0.5
+			0.299419 0.413876
+			1 -0.251196
+		}
+	};
+	velGraph1X 10
+	{
+		{
+			0 0
+			0.313953 0.5
+			0.659884 -0.452153
+			1 0
+		}
+		{
+			0 -0.5
+			1 0.5
+		}
+	};
+	velGraph1Y 10
+	{
+		{
+			0 0
+			0.302326 -0.5
+			0.712209 0.303828
+			1 0.00239235
+		}
+		{
+			0 -0.5
+			1 0.5
+		}
+	};
+	velGraph1Z 10
+	{
+		{
+			0 0.5
+			1 -0.141148
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	rotGraph 10
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	sizeGraph0 2
+	{
+		{
+			0 0.5
+			1 0.493506
+		}
+		{
+			0 1
+			1 1
+		}
+	};
+	sizeGraph1 4
+	{
+		{
+			0 0.422078
+			0.479412 1
+			1 0.409091
+		}
+		{
+			0 0.0974026
+			0.494118 0.584416
+			1 0.103896
+		}
+	};
+	scaleGraph 1
+	{
+		{
+			0 1
+			1 0
+		}
+		{
+			0 1
+			1 0
+		}
+	};
+	colorGraph 1
+	{
+		{
+			0 0.54902 0.466667 0.141176
+			1 0.482353 0.47451 0.141176
+		}
+		{
+			0 1 1 1
+			1 0 0 0
+		}
+	};
+	alphaGraph 1
+	{
+		{
+			0 0
+			0.156977 1
+			0.848837 1
+			1 0
+		}
+		{
+			0 0
+			0.162791 0.626794
+			0.866279 0.636364
+			1 0
+		}
+	};
+	lightingFrac 0;
+	collOffset 0 0 0;
+	collRadius 0;
+	fxOnImpact "";
+	fxOnDeath "";
+	sortOrder 5;
+	efPriority 40;
+	emission "";
+	emitDist 1 0;
+	emitDistVariance 0 0;
+	trailSplitDist 0;
+	trailScrollTime 0;
+	trailRepeatDist 0;
+	tail
+	{
+		"gfx_fxt_fx_spark_omni"
+	};
+}

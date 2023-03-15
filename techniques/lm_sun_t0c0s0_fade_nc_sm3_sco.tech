@@ -1,0 +1,22 @@
+{
+	stateMap "blend";
+
+	vertexShader 3.0 "lm_sun_s_tc0_fade_nc_sm3_sco.hlsl"
+	{
+	}
+
+	pixelShader 3.0 "lm_sun_t0c0s0_fade_nc_sm3_sco.hlsl"
+	{
+		colorMapSampler = material.colorMap;
+		specularMapSampler = material.specularMap;
+		envMapParms = material.envMapParms;
+
+	}
+
+	vertex.position = code.position;
+	vertex.normal = code.normal;
+	vertex.texcoord[0] = code.texcoord[0];
+
+	vertex.blendweight = code.blendweight;
+
+}

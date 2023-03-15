@@ -1,0 +1,193 @@
+iwfx 2
+
+{
+	name "cloud_plane 3";
+	editorFlags useRandColor useRandAlpha useRandSize0 useRandSize1 useRandScale useRandRotDelta useRandVel0;
+	flags spawnRelative spawnOffsetCylinder runRelToSpawn;
+	spawnRange 0 100000;
+	fadeInRange 0 0;
+	fadeOutRange 0 0;
+	spawnFrustumCullRadius 0;
+	spawnLooping 1500 0;
+	spawnOneShot 2 1;
+	spawnDelayMsec 0 0;
+	lifeSpanMsec 999000 0;
+	spawnOrgX 0 0;
+	spawnOrgY 0 0;
+	spawnOrgZ 0 0;
+	spawnOffsetRadius 10000 20000;
+	spawnOffsetHeight 0 0;
+	spawnAnglePitch 90 0;
+	spawnAngleYaw 0 0;
+	spawnAngleRoll 0 0;
+	angleVelPitch 0 0;
+	angleVelYaw 0 0;
+	angleVelRoll 0 0;
+	initialRot 0 0;
+	gravity -0.01 0.01;
+	elasticity 0 0;
+	windinfluence -1;
+	atlasBehavior startFixed;
+	atlasIndex 0;
+	atlasFps 0;
+	atlasLoopCount 0;
+	atlasColIndexBits 0;
+	atlasRowIndexBits 0;
+	atlasEntryCount 0;
+	velGraph0X 1
+	{
+		{
+			0 0.5
+			1 0.5
+		}
+		{
+			0 -0.0119617
+			1 0.5
+		}
+	};
+	velGraph0Y 10
+	{
+		{
+			0 0.5
+			1 0.5
+		}
+		{
+			0 -0.5
+			1 -0.5
+		}
+	};
+	velGraph0Z -10
+	{
+		{
+			0 0.5
+			1 0.5
+		}
+		{
+			0 -0.5
+			1 -0.5
+		}
+	};
+	velGraph1X 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph1Y 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph1Z 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	rotGraph 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	sizeGraph0 10000
+	{
+		{
+			0 0.993506
+			1 1
+		}
+		{
+			0 0.590909
+			1 0.636364
+		}
+	};
+	sizeGraph1 12000
+	{
+		{
+			0 1
+			1 1
+		}
+		{
+			0 0.493506
+			1 0.5
+		}
+	};
+	scaleGraph 3
+	{
+		{
+			0 0.5
+			1 0.948052
+		}
+		{
+			0 1
+			1 1
+		}
+	};
+	colorGraph 1
+	{
+		{
+			0 0.709804 0.72549 0.72549
+			1 0.752941 0.776471 0.780392
+		}
+		{
+			0 0.458824 0.458824 0.458824
+			1 0.372549 0.376471 0.380392
+		}
+	};
+	alphaGraph 1
+	{
+		{
+			0 0
+			0.223837 0.923445
+			0.813953 0.909091
+			1 0
+		}
+		{
+			0 0
+			0.206395 0.708134
+			0.840116 0.712919
+			1 0
+		}
+	};
+	lightingFrac 0;
+	collOffset 0 0 0;
+	collRadius 0;
+	fxOnImpact "";
+	fxOnDeath "";
+	sortOrder 0;
+	efPriority 0;
+	emission "";
+	emitDist 0 0;
+	emitDistVariance 0 0;
+	trailSplitDist 100;
+	trailScrollTime 0;
+	trailRepeatDist 10;
+	runner
+	{
+		"env/weather/fx_cloud3d_cmls_lg1"
+		"env/weather/fx_cloud3d_cmls_lg2"
+		"env/weather/fx_cloud3d_cmls_lg3"
+		"env/weather/fx_cloud3d_cmls_lg4"
+	};
+}

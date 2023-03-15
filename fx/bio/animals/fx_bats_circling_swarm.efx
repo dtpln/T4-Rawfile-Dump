@@ -1,0 +1,208 @@
+iwfx 2
+
+{
+	name "dark_mosquitos";
+	editorFlags useRandAlpha useRandSize0 useRandSize1 useRandVel0 useRandVel1 useBackCompatVel;
+	flags spawnRelative spawnOffsetNone runRelToEffect;
+	spawnRange 0 4000;
+	fadeInRange 3700 300;
+	fadeOutRange 0 0;
+	spawnFrustumCullRadius 520;
+	spawnLooping 200 0;
+	spawnOneShot 30 20;
+	spawnDelayMsec 0 0;
+	lifeSpanMsec 6200 1500;
+	spawnOrgX 0 0;
+	spawnOrgY 0 0;
+	spawnOrgZ 0 0;
+	spawnOffsetRadius 0 520;
+	spawnOffsetHeight 0 300;
+	spawnAnglePitch 0 0;
+	spawnAngleYaw 0 0;
+	spawnAngleRoll 0 0;
+	angleVelPitch 0 0;
+	angleVelYaw 0 0;
+	angleVelRoll 0 0;
+	initialRot 0 0;
+	gravity 0 0;
+	elasticity 1 0;
+	windinfluence 0;
+	atlasBehavior startRandom;
+	atlasIndex 0;
+	atlasFps 16;
+	atlasLoopCount 0;
+	atlasColIndexBits 0;
+	atlasRowIndexBits 0;
+	atlasEntryCount 0;
+	velGraph0X 150
+	{
+		{
+			0 0.5
+			0.287791 0.0885168
+			0.601744 0.485646
+			1 0.107656
+		}
+		{
+			0 0.150718
+			1 0.217703
+		}
+	};
+	velGraph0Y 1650
+	{
+		{
+			0 -0.5
+			0.212209 0.495215
+			0.47093 -0.5
+			0.723837 0.5
+			1 -0.00717703
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph0Z 1650
+	{
+		{
+			0 0.5
+			0.206395 -0.5
+			0.476744 0.5
+			0.735465 -0.5
+			1 0.155502
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph1X 300
+	{
+		{
+			0 0.0406699
+			0.319767 0.284689
+			0.69186 0.069378
+			1 0.227273
+		}
+		{
+			0 -0.246411
+			0.0436046 0.0837321
+			0.18314 -0.141148
+			1 0.169856
+		}
+	};
+	velGraph1Y 100
+	{
+		{
+			0 0.5
+			0.34593 -0.5
+			0.651163 0.5
+			1 -0.5
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph1Z 100
+	{
+		{
+			0 0.5
+			0.255814 -0.5
+			0.642442 0.5
+			1 -0.5
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	rotGraph 10
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	sizeGraph0 20
+	{
+		{
+			0 0.62987
+			1 0.62987
+		}
+		{
+			0 1
+			1 1
+		}
+	};
+	sizeGraph1 2.8
+	{
+		{
+			0 0.422078
+			0.479412 1
+			1 0.409091
+		}
+		{
+			0 0.0974026
+			0.494118 0.584416
+			1 0.103896
+		}
+	};
+	scaleGraph 1
+	{
+		{
+			0 1
+			1 0
+		}
+		{
+			0 1
+			1 0
+		}
+	};
+	colorGraph 1
+	{
+		{
+			0 1 1 1
+			1 1 1 1
+		}
+		{
+			0 1 1 1
+			1 0 0 0
+		}
+	};
+	alphaGraph 1
+	{
+		{
+			0 0
+			0.145349 1
+			0.811047 1
+			1 0
+		}
+		{
+			0 0
+			0.15407 1
+			0.831395 1
+			1 0
+		}
+	};
+	lightingFrac 0;
+	collOffset 0 0 0;
+	collRadius 0;
+	fxOnImpact "";
+	fxOnDeath "";
+	sortOrder 5;
+	efPriority 70;
+	emission "";
+	emitDist 1 0;
+	emitDistVariance 0 0;
+	trailSplitDist 0;
+	trailScrollTime 0;
+	trailRepeatDist 0;
+	tail
+	{
+		"gfx_fxt_bio_bats_2x2"
+	};
+}

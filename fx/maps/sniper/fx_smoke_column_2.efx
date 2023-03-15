@@ -1,0 +1,206 @@
+iwfx 2
+
+{
+	name "smoke_column1";
+	editorFlags looping useRandColor useRandAlpha useRandSize0 useRandRotDelta useRandVel0 useBackCompatVel absVel1;
+	flags spawnRelative spawnOffsetNone runRelToWorld;
+	spawnRange 0 15000;
+	fadeInRange 14000 1000;
+	fadeOutRange 0 0;
+	spawnFrustumCullRadius 2000;
+	spawnLooping 1000 0;
+	spawnOneShot 100 0;
+	spawnDelayMsec 0 87;
+	lifeSpanMsec 20000 1000;
+	spawnOrgX -5 15;
+	spawnOrgY -7 14;
+	spawnOrgZ -7 14;
+	spawnOffsetRadius 13 -13;
+	spawnOffsetHeight 0 0;
+	spawnAnglePitch 0 0;
+	spawnAngleYaw 0 0;
+	spawnAngleRoll 0 0;
+	angleVelPitch 0 0;
+	angleVelYaw 0 0;
+	angleVelRoll 0 0;
+	initialRot 180 -360;
+	gravity 0 0;
+	elasticity 0 0;
+	windinfluence 1;
+	atlasBehavior startRandom;
+	atlasIndex 16;
+	atlasFps 0;
+	atlasLoopCount 0;
+	atlasColIndexBits 0;
+	atlasRowIndexBits 0;
+	atlasEntryCount 0;
+	velGraph0X 200
+	{
+		{
+			0 0.332536
+			1 0.332536
+		}
+		{
+			0 0.5
+			1 0.5
+		}
+	};
+	velGraph0Y 250
+	{
+		{
+			0 0.308612
+			1 0.169856
+		}
+		{
+			0 0.5
+			1 0.5
+		}
+	};
+	velGraph0Z 380
+	{
+		{
+			0 0.375598
+			0.107558 0.26555
+			0.313953 0.155502
+			0.593023 0.0980861
+			1 0.0789474
+		}
+		{
+			0 0.270335
+			0.273256 0.208134
+			0.630814 0.217703
+			1 0.34689
+		}
+	};
+	velGraph1X 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph1Y 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph1Z 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	rotGraph 50
+	{
+		{
+			0 0.5
+			0.22093 0.319444
+			0.491279 0.240741
+			1 0.203704
+		}
+		{
+			0 -0.5
+			0.226744 -0.328704
+			0.569767 -0.231481
+			1 -0.189815
+		}
+	};
+	sizeGraph0 1520
+	{
+		{
+			0 0.396104
+			0.267647 0.753247
+			1 1
+		}
+		{
+			0 0.292208
+			0.247059 0.538961
+			0.626471 0.584416
+			1 0.688312
+		}
+	};
+	sizeGraph1 0
+	{
+		{
+			0 1
+			1 0
+		}
+		{
+			0 1
+			1 0
+		}
+	};
+	scaleGraph 0
+	{
+		{
+			0 1
+			1 0
+		}
+		{
+			0 1
+			1 0
+		}
+	};
+	colorGraph 1
+	{
+		{
+			0 0.0470588 0.0470588 0.0470588
+			0.494186 0.0862745 0.0862745 0.0862745
+			1 0.294118 0.294118 0.278431
+		}
+		{
+			0 0.180392 0.180392 0.180392
+			0.485465 0.247059 0.254902 0.254902
+			1 0.470588 0.470588 0.470588
+		}
+	};
+	alphaGraph 1
+	{
+		{
+			0 0
+			0.0697674 0.569378
+			0.215116 0.770335
+			0.773256 0.545455
+			1 0
+		}
+		{
+			0 0
+			0.0697674 0.741627
+			0.238372 0.995215
+			0.77907 0.708134
+			1 0
+		}
+	};
+	lightingFrac 0;
+	collOffset 0 0 0;
+	collRadius 0;
+	fxOnImpact "";
+	fxOnDeath "";
+	sortOrder 3;
+	efPriority 30;
+	emission "";
+	emitDist 0 0;
+	emitDistVariance 0 0;
+	trailSplitDist 0;
+	trailScrollTime 0;
+	trailRepeatDist 0;
+	billboardSprite
+	{
+		"gfx_fxt_smk_gen"
+	};
+}

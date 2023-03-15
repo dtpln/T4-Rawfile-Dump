@@ -1,0 +1,45 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+ ( -119 36 10 ) ( -119 -34 10 ) ( -89 -34 14 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -122 -34 13 ) ( -122 36 13 ) ( -91 36 17 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -123 -34 13 ) ( -89 -34 13 ) ( -89 -34 11 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -89 36 14 ) ( -89 -34 14 ) ( -91 -34 17 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -89 36 13 ) ( -123 36 13 ) ( -123 36 11 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -119 -34 10 ) ( -119 36 10 ) ( -122 36 13 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 1
+{
+ ( -122 -34 6 ) ( -122 36 6 ) ( -124 36 8 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 -1 0 0 0
+ ( -122 -34 13 ) ( -122 36 13 ) ( -119 36 10 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 -1 0 0 0
+ ( -124 -34 13 ) ( -123 -34 13 ) ( -123 -34 11 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 -1 0 0 0
+ ( -122 36 6 ) ( -122 -34 6 ) ( -119 -34 10 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -123 36 13 ) ( -124 36 13 ) ( -124 36 11 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 -1 0 0 0
+ ( -124 -34 8 ) ( -124 36 8 ) ( -122 36 13 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 2
+{
+ ( -124 36 -1 ) ( -124 -34 -1 ) ( -122 -34 -2 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -122 36 6 ) ( -122 -34 6 ) ( -124 -34 8 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -124 -34 8 ) ( -122 -34 8 ) ( -122 -34 -2 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -122 -34 6 ) ( -122 36 6 ) ( -122 36 -2 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -122 36 8 ) ( -124 36 8 ) ( -124 36 -2 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -124 -34 -1 ) ( -124 36 -1 ) ( -124 36 8 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1
+{
+"classname" "script_vehicle"
+"spawnflags" "1"
+"health" "10000"
+"vehicletype" "sherman_mp"
+"model" "veh_usa_shermanm4a3_mp_dpm_ARM_LT_BOD_BK"
+"angles" "0 0 0"
+"targetname" "sherman"
+"origin" "0.0 0.0 0.0"
+}

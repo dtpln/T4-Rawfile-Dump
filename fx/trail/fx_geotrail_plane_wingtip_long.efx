@@ -1,0 +1,215 @@
+iwfx 2
+
+{
+	name "smoke_trail";
+	editorFlags looping useRandColor useRandAlpha useRandSize0 useRandVel0 useBackCompatVel absVel0;
+	flags spawnFrustumCull spawnOffsetNone runRelToWorld;
+	spawnRange 0 30000;
+	fadeInRange 0 0;
+	fadeOutRange 0 0;
+	spawnFrustumCullRadius 2000;
+	spawnLooping 2000 0;
+	spawnOneShot 1 0;
+	spawnDelayMsec 0 0;
+	lifeSpanMsec 2000 0;
+	spawnOrgX 0 0;
+	spawnOrgY 0 0;
+	spawnOrgZ 0 0;
+	spawnOffsetRadius 60 0;
+	spawnOffsetHeight 1 0;
+	spawnAnglePitch 0 0;
+	spawnAngleYaw 0 0;
+	spawnAngleRoll 0 0;
+	angleVelPitch 0 0;
+	angleVelYaw 0 0;
+	angleVelRoll 0 0;
+	initialRot 0 0;
+	gravity 0 0;
+	elasticity 1 0;
+	windinfluence 0;
+	atlasBehavior startRandom;
+	atlasIndex 0;
+	atlasFps 0;
+	atlasLoopCount 0;
+	atlasColIndexBits 0;
+	atlasRowIndexBits 0;
+	atlasEntryCount 0;
+	velGraph0X 200
+	{
+		{
+			0 0.0215311
+			1 0.5
+		}
+		{
+			0 0.0119617
+			1 -0.5
+		}
+	};
+	velGraph0Y 200
+	{
+		{
+			0 0
+			1 0.5
+		}
+		{
+			0 0
+			1 -0.5
+		}
+	};
+	velGraph0Z 200
+	{
+		{
+			0 0
+			1 0.5
+		}
+		{
+			0 0
+			1 0.342105
+		}
+	};
+	velGraph1X 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph1Y 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph1Z 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	rotGraph 0
+	{
+		{
+			0 -0.5
+			1 -0.5
+		}
+		{
+			0 0.5
+			1 0.5
+		}
+	};
+	sizeGraph0 40
+	{
+		{
+			0 1
+			0.185294 0.915584
+			0.402941 0.519481
+			0.726471 0.149351
+			1 0
+		}
+		{
+			0 0.714286
+			0.167647 0.461039
+			0.470588 0.201299
+			0.826471 0.0324675
+			1 0
+		}
+	};
+	sizeGraph1 2
+	{
+		{
+			0 1
+			1 0
+		}
+		{
+			0 1
+			1 0
+		}
+	};
+	scaleGraph 1
+	{
+		{
+			0 1
+			1 0
+		}
+		{
+			0 1
+			1 0
+		}
+	};
+	colorGraph 1
+	{
+		{
+			0 1 1 1
+			1 0.752941 0.752941 0.752941
+		}
+		{
+			0 0.937255 0.937255 0.937255
+			1 0.894118 0.894118 0.894118
+		}
+	};
+	alphaGraph 1
+	{
+		{
+			0 0
+			0.0290698 0.827751
+			0.212209 0.454545
+			0.546512 0.100478
+			1 0
+		}
+		{
+			0 1
+			0.305233 0.430622
+			0.732558 0.076555
+			1 0
+		}
+	};
+	lightingFrac 0;
+	collOffset 0 0 0;
+	collRadius 0;
+	fxOnImpact "";
+	fxOnDeath "";
+	sortOrder 0;
+	efPriority 50;
+	emission "";
+	emitDist 1 0;
+	emitDistVariance 0 0;
+	trailSplitDist 300;
+	trailScrollTime -200;
+	trailRepeatDist 512;
+	trailDef
+	{
+		0.96875 0.96875 0
+		-0.96875 -0.96875 1
+		0.96875 0.96875 0
+		0.96875 -0.96875 0
+		-1 0.96875 1
+		0.96875 -0.96875 0
+	} {
+		0
+		1
+		1
+		2
+		3
+		4
+		4
+		5
+	};
+	trail
+	{
+		"gfx_fxt_smk_trail"
+	};
+}
